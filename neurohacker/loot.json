@@ -1,0 +1,1352 @@
+[
+	{
+		"trait":"skin",
+		"type":"texture",
+		"collection":[
+			{
+				"id":"original",
+				"name":"Skin Original",
+				"directory":[
+					"skin/original-body.png",
+					"skin/original-face.png"],
+				"thumbnail":"skin/original-body.png"
+			},
+			{
+				"id":"tone1",
+				"name":"Skin Tone 1",
+				"directory":[
+					"skin/tone1-body.png",
+					"skin/tone1-face.png"],
+				"thumbnail":"skin/tone1-body.png"
+			},
+			{
+				"id":"tone2",
+				"name":"Skin Tone 2",
+				"directory":[
+					"skin/tone2-body.png",
+					"skin/tone2-face.png"],
+				"thumbnail":"skin/tone2-body.png"
+			},
+			{
+				"id":"tone3",
+				"name":"Skin Tone 3",
+				"directory":[
+					"skin/tone3-body.png",
+					"skin/tone3-face.png"],
+				"thumbnail":"skin/tone3-body.png"
+			},
+			{
+				"id":"tone4",
+				"name":"Skin Tone 4",
+				"directory":[
+					"skin/tone4-body.png",
+					"skin/tone4-face.png"],
+				"thumbnail":"skin/tone4-body.png"
+			}
+		]
+	},
+	{
+		"trait":"eyes",
+		"type":"texture",
+		"collection":[
+			{
+				"id":"eyes",
+				"name":"Orange Eyes",
+				"directory":"eyeColor/eye1.png",
+				"thumbnail":"eyeColor/eye1-icon.png"
+			},
+			{
+				"id":"redEyes",
+				"name":"Red Eyes",
+				"directory":"eyeColor/eye3.png",
+				"thumbnail":"eyeColor/eye3-icon.png"
+			},
+			{
+				"id":"greenEyes",
+				"name":"Green Eyes",
+				"directory":"eyeColor/eye2.png",
+				"thumbnail":"eyeColor/eye2-icon.png"
+			}
+		]
+	},
+	{
+		"trait":"accessories",
+		"type":"mesh",
+		"collection":[
+			{
+				"id":"bandolier",
+				"name":"Bandolier",
+				"directory":"accessories/bandolier.vrm",
+				"thumbnail":"accessories/bandolier.png",
+				"cullingDistance": [0.03,0.03],
+				"textureCollection":"outfit_2",
+				"thumbnailOverrides": [
+					"accessories/bandolier/Bandolier-icon0.png"
+					,"accessories/bandolier/Bandolier-icon1.png"
+					,"accessories/bandolier/Bandolier-icon2.png"
+					,"accessories/bandolier/Bandolier-icon3.png"
+					,"accessories/bandolier/Bandolier-icon4.png"
+					,"accessories/bandolier/Bandolier-icon5.png"
+					,"accessories/bandolier/Bandolier-icon6.png"
+				]
+			},
+			{
+				"id":"beltandbag",
+				"name":"Beltandbag",
+				"directory":"accessories/beltandbag.vrm",
+				"thumbnail":"accessories/beltandbag.png",
+				"cullingDistance": [0.03,0.03],
+				"textureCollection":"outfit_3",
+				"thumbnailOverrides": [
+					"accessories/beltandbag/Beltandbag-icon0.png"
+					,"accessories/beltandbag/Beltandbag-icon1.png"
+					,"accessories/beltandbag/Beltandbag-icon2.png"
+					,"accessories/beltandbag/Beltandbag-icon3.png"
+					,"accessories/beltandbag/Beltandbag-icon4.png"
+					,"accessories/beltandbag/Beltandbag-icon5.png"
+					,"accessories/beltandbag/Beltandbag-icon6.png"
+				]
+			},
+			{
+				"id":"chestrig",
+				"name":"Chestrig",
+				"directory":"accessories/chestrig.vrm",
+				"thumbnail":"accessories/chestrig.png",
+				"cullingDistance": [0.03,0.03],
+				"textureCollection":"outfit_7",
+				"thumbnailOverrides": [
+					"accessories/chestrig/Chestrig-icon0.png"
+					,"accessories/chestrig/Chestrig-icon1.png"
+					,"accessories/chestrig/Chestrig-icon2.png"
+					,"accessories/chestrig/Chestrig-icon3.png"
+					,"accessories/chestrig/Chestrig-icon4.png"
+					,"accessories/chestrig/Chestrig-icon5.png"
+					,"accessories/chestrig/Chestrig-icon6.png"
+				]
+			},
+			{
+				"id":"combatgloves",
+				"name":"Combat Gloves",
+				"directory":"accessories/combatgloves.vrm",
+				"thumbnail":"accessories/combatgloves.png",
+				"cullingDistance": [0.03,0.03],
+				"textureCollection":"outfit_3",
+				"thumbnailOverrides": [
+					"accessories/combatgloves/Combat Gloves-icon0.png"
+					,"accessories/combatgloves/Combat Gloves-icon1.png"
+					,"accessories/combatgloves/Combat Gloves-icon2.png"
+					,"accessories/combatgloves/Combat Gloves-icon3.png"
+					,"accessories/combatgloves/Combat Gloves-icon4.png"
+					,"accessories/combatgloves/Combat Gloves-icon5.png"
+					,"accessories/combatgloves/Combat Gloves-icon6.png"
+				]
+			},
+			{
+				"id":"fingergloves",
+				"name":"Fingergloves",
+				"directory":"accessories/fingergloves.vrm",
+				"thumbnail":"accessories/fingergloves.png",
+				"cullingDistance": [0.03,0.03],
+				"textureCollection":"outfit_10",
+				"thumbnailOverrides": [
+					"accessories/fingergloves/Fingergloves-icon0.png"
+					,"accessories/fingergloves/Fingergloves-icon1.png"
+					,"accessories/fingergloves/Fingergloves-icon2.png"
+					,"accessories/fingergloves/Fingergloves-icon3.png"
+					,"accessories/fingergloves/Fingergloves-icon4.png"
+					,"accessories/fingergloves/Fingergloves-icon5.png"
+					,"accessories/fingergloves/Fingergloves-icon6.png"
+				]
+			},
+			{
+				"id":"legbandages",
+				"name":"Legbandages",
+				"directory":"accessories/legbandages.vrm",
+				"thumbnail":"accessories/legbandages.png",
+				"cullingDistance": [0.03,0.03],
+				"textureCollection":"outfit_1",
+				"thumbnailOverrides": [
+					"accessories/legbandages/Legbandages-icon0.png"
+					,"accessories/legbandages/Legbandages-icon1.png"
+					,"accessories/legbandages/Legbandages-icon2.png"
+					,"accessories/legbandages/Legbandages-icon3.png"
+					,"accessories/legbandages/Legbandages-icon4.png"
+					,"accessories/legbandages/Legbandages-icon5.png"
+					,"accessories/legbandages/Legbandages-icon6.png"
+				]
+			},
+			{
+				"id":"ninjagloves",
+				"name":"Ninjagloves",
+				"directory":"accessories/ninjagloves.vrm",
+				"thumbnail":"accessories/ninjagloves.png",
+				"cullingLayer":2,
+				"cullingDistance": [0.03,0.03],
+				"textureCollection":"outfit_8",
+				"thumbnailOverrides": [
+					"accessories/ninjagloves/Ninjagloves-icon0.png"
+					,"accessories/ninjagloves/Ninjagloves-icon1.png"
+					,"accessories/ninjagloves/Ninjagloves-icon2.png"
+					,"accessories/ninjagloves/Ninjagloves-icon3.png"
+					,"accessories/ninjagloves/Ninjagloves-icon4.png"
+					,"accessories/ninjagloves/Ninjagloves-icon5.png"
+					,"accessories/ninjagloves/Ninjagloves-icon6.png"
+				]
+			}
+		]
+	},
+	{
+		"trait":"chest",
+		"type":"mesh",
+		"collection":[
+			{
+				"id":"combatvest",
+				"name":"Combat Vest",
+				"directory":"chest/combatvest.vrm",
+				"thumbnail":"chest/combatvest.png",
+				"cullingLayer":2,
+				"cullingDistance": [0.03,0.03],
+				"textureCollection":"outfit_3",
+				"thumbnailOverrides": [
+					"chest/combatvest/Combat Vest-icon0.png"
+					,"chest/combatvest/Combat Vest-icon1.png"
+					,"chest/combatvest/Combat Vest-icon2.png"
+					,"chest/combatvest/Combat Vest-icon3.png"
+					,"chest/combatvest/Combat Vest-icon4.png"
+					,"chest/combatvest/Combat Vest-icon5.png"
+					,"chest/combatvest/Combat Vest-icon6.png"
+				]
+			},
+			{
+				"id":"logotee",
+				"name":"Logo Tee",
+				"directory":"chest/logotee.vrm",
+				"thumbnail":"chest/logotee.png",
+				"cullingLayer":2,
+				"cullingDistance": [0.03,0.03],
+				"textureCollection":"outfit_4",
+				"thumbnailOverrides": [
+					"chest/logotee/Logo Tee-icon0.png"
+					,"chest/logotee/Logo Tee-icon1.png"
+					,"chest/logotee/Logo Tee-icon2.png"
+					,"chest/logotee/Logo Tee-icon3.png"
+					,"chest/logotee/Logo Tee-icon4.png"
+					,"chest/logotee/Logo Tee-icon5.png"
+					,"chest/logotee/Logo Tee-icon6.png"
+				]
+			},
+			{
+				"id":"simpleshirt",
+				"name":"Simple Shirt",
+				"directory":"chest/simpleshirt.vrm",
+				"thumbnail":"chest/simpleshirt.png",
+				"cullingLayer":1,
+				"cullingDistance": [0.03,0.03],
+				"textureCollection":"outfit_7",
+				"thumbnailOverrides": [
+					"chest/simpleshirt/Simple Shirt-icon0.png"
+					,"chest/simpleshirt/Simple Shirt-icon1.png"
+					,"chest/simpleshirt/Simple Shirt-icon2.png"
+					,"chest/simpleshirt/Simple Shirt-icon3.png"
+					,"chest/simpleshirt/Simple Shirt-icon4.png"
+					,"chest/simpleshirt/Simple Shirt-icon5.png"
+					,"chest/simpleshirt/Simple Shirt-icon6.png"
+				]
+			},
+			{
+				"id":"slottedshirt",
+				"name":"Slottedshirt",
+				"directory":"chest/slottedshirt.vrm",
+				"thumbnail":"chest/slottedshirt.png",
+				"cullingLayer":2,
+				"cullingDistance": [0.03,0.03],
+				"textureCollection":"outfit_2",
+				"thumbnailOverrides": [
+					"chest/slottedshirt/Slottedshirt-icon0.png"
+					,"chest/slottedshirt/Slottedshirt-icon1.png"
+					,"chest/slottedshirt/Slottedshirt-icon2.png"
+					,"chest/slottedshirt/Slottedshirt-icon3.png"
+					,"chest/slottedshirt/Slottedshirt-icon4.png"
+					,"chest/slottedshirt/Slottedshirt-icon5.png"
+					,"chest/slottedshirt/Slottedshirt-icon6.png"
+				]
+			},
+			{
+				"id":"sweater",
+				"name":"Sweater",
+				"directory":"chest/sweater.vrm",
+				"thumbnail":"chest/sweater.png",
+				"cullingLayer":1,
+				"cullingDistance": [0.03,0.03],
+				"textureCollection":"outfit_5",
+				"thumbnailOverrides": [
+					"chest/sweater/Sweater-icon0.png"
+					,"chest/sweater/Sweater-icon1.png"
+					,"chest/sweater/Sweater-icon2.png"
+					,"chest/sweater/Sweater-icon3.png"
+					,"chest/sweater/Sweater-icon4.png"
+					,"chest/sweater/Sweater-icon5.png"
+					,"chest/sweater/Sweater-icon6.png"
+				]
+			},
+			{
+				"id":"dressjacket",
+				"name":"Dressjacket",
+				"directory":"chest/dressjacket.vrm",
+				"thumbnail":"chest/dressjacket.png",
+				"cullingLayer":1,
+				"type": ["solo"],
+				"cullingDistance": [0.03,0.03],
+				"textureCollection":"outfit_8",
+				"thumbnailOverrides": [
+					"chest/dressjacket/Dressjacket-icon0.png"
+					,"chest/dressjacket/Dressjacket-icon1.png"
+					,"chest/dressjacket/Dressjacket-icon2.png"
+					,"chest/dressjacket/Dressjacket-icon3.png"
+					,"chest/dressjacket/Dressjacket-icon4.png"
+					,"chest/dressjacket/Dressjacket-icon5.png"
+					,"chest/dressjacket/Dressjacket-icon6.png"
+				]
+			},
+			{
+				"id":"dressrobe",
+				"name":"Dressrobe",
+				"directory":"chest/dressrobe.vrm",
+				"thumbnail":"chest/dressrobe.png",
+				"cullingLayer":3,
+				"type": ["solo"],
+				"cullingDistance": [0.03,0.03],
+				"textureCollection":"outfit_10",
+				"thumbnailOverrides": [
+					"chest/dressrobe/Dressrobe-icon0.png"
+					,"chest/dressrobe/Dressrobe-icon1.png"
+					,"chest/dressrobe/Dressrobe-icon2.png"
+					,"chest/dressrobe/Dressrobe-icon3.png"
+					,"chest/dressrobe/Dressrobe-icon4.png"
+					,"chest/dressrobe/Dressrobe-icon5.png"
+					,"chest/dressrobe/Dressrobe-icon6.png"
+				]
+			},
+			{
+				"id":"fancysuit",
+				"name":"Fancy Suit",
+				"directory":"chest/fancysuit.vrm",
+				"thumbnail":"chest/fancysuit.png",
+				"cullingLayer":3,
+				"type": ["solo"],
+				"cullingDistance": [0.03,0.03],
+				"textureCollection":"outfit_6",
+				"thumbnailOverrides": [
+					"chest/fancysuit/Fancy Suit-icon0.png"
+					,"chest/fancysuit/Fancy Suit-icon1.png"
+					,"chest/fancysuit/Fancy Suit-icon2.png"
+					,"chest/fancysuit/Fancy Suit-icon3.png"
+					,"chest/fancysuit/Fancy Suit-icon4.png"
+					,"chest/fancysuit/Fancy Suit-icon5.png"
+					,"chest/fancysuit/Fancy Suit-icon6.png"
+				]
+			},
+			{
+				"id":"fulljacket",
+				"name":"Fulljacket",
+				"directory":"chest/fulljacket.vrm",
+				"thumbnail":"chest/fulljacket.png",
+				"cullingLayer":3,
+				"type": ["solo"],
+				"cullingDistance": [0.03,0.03],
+				"textureCollection":"outfit_1",
+				"thumbnailOverrides": [
+					"chest/fulljacket/Fulljacket-icon0.png"
+					,"chest/fulljacket/Fulljacket-icon1.png"
+					,"chest/fulljacket/Fulljacket-icon2.png"
+					,"chest/fulljacket/Fulljacket-icon3.png"
+					,"chest/fulljacket/Fulljacket-icon4.png"
+					,"chest/fulljacket/Fulljacket-icon5.png"
+					,"chest/fulljacket/Fulljacket-icon6.png"
+				]
+			},
+			{
+				"id":"streetware",
+				"name":"Streetware",
+				"directory":"chest/streetware.vrm",
+				"thumbnail":"chest/streetware.png",
+				"cullingLayer":3,
+				"type": ["solo"],
+				"cullingDistance": [0.03,0.03],
+				"textureCollection":"outfit_9",
+				"thumbnailOverrides": [
+					"chest/streetware/Streetware-icon0.png"
+					,"chest/streetware/Streetware-icon1.png"
+					,"chest/streetware/Streetware-icon2.png"
+					,"chest/streetware/Streetware-icon3.png"
+					,"chest/streetware/Streetware-icon4.png"
+					,"chest/streetware/Streetware-icon5.png"
+					,"chest/streetware/Streetware-icon6.png"
+				]
+			}
+		]
+	},
+	{
+		"trait":"feet",
+		"type":"mesh",
+		"collection":[
+			{
+				"id":"boots",
+				"name":"Boots",
+				"directory":"foot/boots.vrm",
+				"thumbnail":"foot/boots.png",
+				"cullingLayer":1,
+				"cullingDistance": [0.03,0.03],
+				"textureCollection":"outfit_8",
+				"thumbnailOverrides": [
+					"foot/boots/Boots-icon0.png"
+					,"foot/boots/Boots-icon1.png"
+					,"foot/boots/Boots-icon2.png"
+					,"foot/boots/Boots-icon3.png"
+					,"foot/boots/Boots-icon4.png"
+					,"foot/boots/Boots-icon5.png"
+					,"foot/boots/Boots-icon6.png"
+				]
+			},
+			{
+				"id":"dressshoes",
+				"name":"Dressshoes",
+				"directory":"foot/dressshoes.vrm",
+				"thumbnail":"foot/dressshoes.png",
+				"cullingLayer":1,
+				"cullingDistance": [0.03,0.03],
+				"textureCollection":"outfit_6",
+				"thumbnailOverrides": [
+					"foot/dressshoes/Dressshoes-icon0.png"
+					,"foot/dressshoes/Dressshoes-icon1.png"
+					,"foot/dressshoes/Dressshoes-icon2.png"
+					,"foot/dressshoes/Dressshoes-icon3.png"
+					,"foot/dressshoes/Dressshoes-icon4.png"
+					,"foot/dressshoes/Dressshoes-icon5.png"
+					,"foot/dressshoes/Dressshoes-icon6.png"
+				]
+			},
+			{
+				"id":"fantasyboots",
+				"name":"Fantasyboots",
+				"directory":"foot/fantasyboots.vrm",
+				"thumbnail":"foot/fantasyboots.png",
+				"cullingLayer":1,
+				"cullingDistance": [0.03,0.03],
+				"textureCollection":"outfit_9",
+				"thumbnailOverrides": [
+					"foot/fantasyboots/Fantasyboots-icon0.png"
+					,"foot/fantasyboots/Fantasyboots-icon1.png"
+					,"foot/fantasyboots/Fantasyboots-icon2.png"
+					,"foot/fantasyboots/Fantasyboots-icon3.png"
+					,"foot/fantasyboots/Fantasyboots-icon4.png"
+					,"foot/fantasyboots/Fantasyboots-icon5.png"
+					,"foot/fantasyboots/Fantasyboots-icon6.png"
+				]
+			},
+			{
+				"id":"hikingboots",
+				"name":"Hikingboots",
+				"directory":"foot/hikingboots.vrm",
+				"thumbnail":"foot/hikingboots.png",
+				"cullingLayer":1,
+				"cullingDistance": [0.03,0.03],
+				"textureCollection":"outfit_5",
+				"thumbnailOverrides": [
+					"foot/hikingboots/Hikingboots-icon0.png"
+					,"foot/hikingboots/Hikingboots-icon1.png"
+					,"foot/hikingboots/Hikingboots-icon2.png"
+					,"foot/hikingboots/Hikingboots-icon3.png"
+					,"foot/hikingboots/Hikingboots-icon4.png"
+					,"foot/hikingboots/Hikingboots-icon5.png"
+					,"foot/hikingboots/Hikingboots-icon6.png"
+				]
+			},
+			{
+				"id":"runningshoes",
+				"name":"Runningshoes",
+				"directory":"foot/runningshoes.vrm",
+				"thumbnail":"foot/runningshoes.png",
+				"cullingLayer":1,
+				"cullingDistance": [0.03,0.03],
+				"textureCollection":"outfit_7",
+				"thumbnailOverrides": [
+					"foot/runningshoes/Runningshoes-icon0.png"
+					,"foot/runningshoes/Runningshoes-icon1.png"
+					,"foot/runningshoes/Runningshoes-icon2.png"
+					,"foot/runningshoes/Runningshoes-icon3.png"
+					,"foot/runningshoes/Runningshoes-icon4.png"
+					,"foot/runningshoes/Runningshoes-icon5.png"
+					,"foot/runningshoes/Runningshoes-icon6.png"
+				]
+			},
+			{
+				"id":"shroudedboots",
+				"name":"Shroudedboots",
+				"directory":"foot/shroudedboots.vrm",
+				"thumbnail":"foot/shroudedboots.png",
+				"cullingLayer":1,
+				"cullingDistance": [0.03,0.03],
+				"textureCollection":"outfit_3",
+				"thumbnailOverrides": [
+					"foot/shroudedboots/Shroudedboots-icon0.png"
+					,"foot/shroudedboots/Shroudedboots-icon1.png"
+					,"foot/shroudedboots/Shroudedboots-icon2.png"
+					,"foot/shroudedboots/Shroudedboots-icon3.png"
+					,"foot/shroudedboots/Shroudedboots-icon4.png"
+					,"foot/shroudedboots/Shroudedboots-icon5.png"
+					,"foot/shroudedboots/Shroudedboots-icon6.png"
+				]
+			},
+			{
+				"id":"simpleshoes",
+				"name":"Simple Shoes",
+				"directory":"foot/simpleshoes.vrm",
+				"thumbnail":"foot/simpleshoes.png",
+				"cullingLayer":1,
+				"cullingDistance": [0.03,0.03],
+				"textureCollection":"outfit_1",
+				"thumbnailOverrides": [
+					"foot/simpleshoes/Simple Shoes-icon0.png"
+					,"foot/simpleshoes/Simple Shoes-icon1.png"
+					,"foot/simpleshoes/Simple Shoes-icon2.png"
+					,"foot/simpleshoes/Simple Shoes-icon3.png"
+					,"foot/simpleshoes/Simple Shoes-icon4.png"
+					,"foot/simpleshoes/Simple Shoes-icon5.png"
+					,"foot/simpleshoes/Simple Shoes-icon6.png"
+				]
+			},
+			{
+				"id":"sinchboots",
+				"name":"Sinch Boots",
+				"directory":"foot/sinchboots.vrm",
+				"thumbnail":"foot/sinchboots.png",
+				"cullingLayer":1,
+				"cullingDistance": [0.03,0.03],
+				"textureCollection":"outfit_4",
+				"thumbnailOverrides": [
+					"foot/sinchboots/Sinch Boots-icon0.png"
+					,"foot/sinchboots/Sinch Boots-icon1.png"
+					,"foot/sinchboots/Sinch Boots-icon2.png"
+					,"foot/sinchboots/Sinch Boots-icon3.png"
+					,"foot/sinchboots/Sinch Boots-icon4.png"
+					,"foot/sinchboots/Sinch Boots-icon5.png"
+					,"foot/sinchboots/Sinch Boots-icon6.png"
+				]
+			},
+			{
+				"id":"strapedboots",
+				"name":"Straped Boots",
+				"directory":"foot/strapedboots.vrm",
+				"thumbnail":"foot/strapedboots.png",
+				"cullingLayer":1,
+				"cullingDistance": [0.03,0.03],
+				"textureCollection":"outfit_2",
+				"thumbnailOverrides": [
+					"foot/strapedboots/Straped Boots-icon0.png"
+					,"foot/strapedboots/Straped Boots-icon1.png"
+					,"foot/strapedboots/Straped Boots-icon2.png"
+					,"foot/strapedboots/Straped Boots-icon3.png"
+					,"foot/strapedboots/Straped Boots-icon4.png"
+					,"foot/strapedboots/Straped Boots-icon5.png"
+					,"foot/strapedboots/Straped Boots-icon6.png"
+				]
+			},
+			{
+				"id":"tallboots",
+				"name":"Tallboots",
+				"directory":"foot/tallboots.vrm",
+				"thumbnail":"foot/tallboots.png",
+				"cullingLayer":1,
+				"cullingDistance": [0.03,0.03],
+				"textureCollection":"outfit_10",
+				"thumbnailOverrides": [
+					"foot/tallboots/Tallboots-icon0.png"
+					,"foot/tallboots/Tallboots-icon1.png"
+					,"foot/tallboots/Tallboots-icon2.png"
+					,"foot/tallboots/Tallboots-icon3.png"
+					,"foot/tallboots/Tallboots-icon4.png"
+					,"foot/tallboots/Tallboots-icon5.png"
+					,"foot/tallboots/Tallboots-icon6.png"
+				]
+			}
+		]
+	},
+	{
+		"trait":"head",
+		"type":"mesh",
+		"collection":[
+			{
+				"id":"hair1",
+				"name":"Hair 1",
+				"directory":"head/hair1.vrm",
+				"thumbnail":"head/hair1.png",
+				"cullingLayer":1,
+				"cullingDistance": [0.03,0.03]
+			},
+			{
+				"id":"hair2",
+				"name":"Hair 2",
+				"directory":"head/hair2.vrm",
+				"thumbnail":"head/hair2.png",
+				"cullingLayer":1,
+				"cullingDistance": [0.03,0.03]
+			},
+			{
+				"id":"hair3",
+				"name":"Hair 3",
+				"directory":"head/hair3.vrm",
+				"thumbnail":"head/hair3.png",
+				"cullingLayer":1,
+				"cullingDistance": [0.03,0.03]
+			},
+			{
+				"id":"hair4",
+				"name":"Hair 4",
+				"directory":"head/hair4.vrm",
+				"thumbnail":"head/hair4.png",
+				"cullingLayer":1,
+				"cullingDistance": [0.03,0.03]
+			},
+			{
+				"id":"hair5",
+				"name":"Hair 5",
+				"directory":"head/hair5.vrm",
+				"thumbnail":"head/hair5.png",
+				"cullingLayer":1,
+				"cullingDistance": [0.03,0.03]
+			},
+			{
+				"id":"braided",
+				"name":"Braided",
+				"directory":"head/braided.vrm",
+				"thumbnail":"head/braided.png",
+				"cullingLayer":1,
+				"cullingDistance": [0.03,0.03]
+			},
+			{
+				"id":"short",
+				"name":"Short",
+				"directory":"head/short.vrm",
+				"thumbnail":"head/short.png",
+				"cullingLayer":1,
+				"cullingDistance": [0.03,0.03]
+			},
+			{
+				"id":"hairshort",
+				"name":"Hair Short",
+				"directory":"head/hairshort.vrm",
+				"thumbnail":"head/hairshort.png",
+				"cullingLayer":1,
+				"type": ["short"],
+				"cullingDistance": [0.03,0.03]
+			},
+			{
+				"id":"straight",
+				"name":"Straight",
+				"directory":"head/straight.vrm",
+				"thumbnail":"head/straight.png",
+				"cullingLayer":1,
+				"cullingDistance": [0.03,0.03]
+			},
+			{
+				"id":"straightdown",
+				"name":"Straightdown",
+				"directory":"head/straightdown.vrm",
+				"thumbnail":"head/straightdown.png",
+				"cullingLayer":1,
+				"cullingDistance": [0.03,0.03]
+			}
+		]
+	},
+	{
+		"trait":"legs",
+		"type":"mesh",
+		"collection":[
+			{
+				"id":"cargopants",
+				"name":"Cargo Pants",
+				"directory":"legs/cargopants.vrm",
+				"thumbnail":"legs/cargopants.png",
+				"cullingLayer":1,
+				"cullingDistance": [0.03,0.03],
+				"textureCollection":"outfit_2",
+				"thumbnailOverrides": [
+					"legs/cargopants/Cargo Pants-icon0.png"
+					,"legs/cargopants/Cargo Pants-icon1.png"
+					,"legs/cargopants/Cargo Pants-icon2.png"
+					,"legs/cargopants/Cargo Pants-icon3.png"
+					,"legs/cargopants/Cargo Pants-icon4.png"
+					,"legs/cargopants/Cargo Pants-icon5.png"
+					,"legs/cargopants/Cargo Pants-icon6.png"
+				]
+			},
+			{
+				"id":"cargoshorts",
+				"name":"Cargoshorts",
+				"directory":"legs/cargoshorts.vrm",
+				"thumbnail":"legs/cargoshorts.png",
+				"cullingLayer":1,
+				"cullingDistance": [0.03,0.03],
+				"textureCollection":"outfit_3",
+				"thumbnailOverrides": [
+					"legs/cargoshorts/Cargoshorts-icon0.png"
+					,"legs/cargoshorts/Cargoshorts-icon1.png"
+					,"legs/cargoshorts/Cargoshorts-icon2.png"
+					,"legs/cargoshorts/Cargoshorts-icon3.png"
+					,"legs/cargoshorts/Cargoshorts-icon4.png"
+					,"legs/cargoshorts/Cargoshorts-icon5.png"
+					,"legs/cargoshorts/Cargoshorts-icon6.png"
+				]
+			},
+			{
+				"id":"rolleduppants",
+				"name":"Rolleduppants",
+				"directory":"legs/rolleduppants.vrm",
+				"thumbnail":"legs/rolleduppants.png",
+				"cullingLayer":1,
+				"cullingDistance": [0.03,0.03],
+				"textureCollection":"outfit_1",
+				"thumbnailOverrides": [
+					"legs/rolleduppants/Rolleduppants-icon0.png"
+					,"legs/rolleduppants/Rolleduppants-icon1.png"
+					,"legs/rolleduppants/Rolleduppants-icon2.png"
+					,"legs/rolleduppants/Rolleduppants-icon3.png"
+					,"legs/rolleduppants/Rolleduppants-icon4.png"
+					,"legs/rolleduppants/Rolleduppants-icon5.png"
+					,"legs/rolleduppants/Rolleduppants-icon6.png"
+				]
+			},
+			{
+				"id":"shorts",
+				"name":"Shorts",
+				"directory":"legs/shorts.vrm",
+				"thumbnail":"legs/shorts.png",
+				"cullingLayer":1,
+				"cullingDistance": [0.03,0.03],
+				"textureCollection":"outfit_5",
+				"thumbnailOverrides": [
+					"legs/shorts/Shorts-icon0.png"
+					,"legs/shorts/Shorts-icon1.png"
+					,"legs/shorts/Shorts-icon2.png"
+					,"legs/shorts/Shorts-icon3.png"
+					,"legs/shorts/Shorts-icon4.png"
+					,"legs/shorts/Shorts-icon5.png"
+					,"legs/shorts/Shorts-icon6.png"
+				]
+			},
+			{
+				"id":"shortsandsweats",
+				"name":"Shortsandsweats",
+				"directory":"legs/shortsandsweats.vrm",
+				"thumbnail":"legs/shortsandsweats.png",
+				"cullingLayer":1,
+				"cullingDistance": [0.03,0.03],
+				"textureCollection":"outfit_8",
+				"thumbnailOverrides": [
+					"legs/shortsandsweats/Shortsandsweats-icon0.png"
+					,"legs/shortsandsweats/Shortsandsweats-icon1.png"
+					,"legs/shortsandsweats/Shortsandsweats-icon2.png"
+					,"legs/shortsandsweats/Shortsandsweats-icon3.png"
+					,"legs/shortsandsweats/Shortsandsweats-icon4.png"
+					,"legs/shortsandsweats/Shortsandsweats-icon5.png"
+					,"legs/shortsandsweats/Shortsandsweats-icon6.png"
+				]
+			},
+			{
+				"id":"streetpants",
+				"name":"Streetpants",
+				"directory":"legs/streetpants.vrm",
+				"thumbnail":"legs/streetpants.png",
+				"cullingLayer":1,
+				"cullingDistance": [0.03,0.03],
+				"textureCollection":"outfit_9",
+				"thumbnailOverrides": [
+					"legs/streetpants/Streetpants-icon0.png"
+					,"legs/streetpants/Streetpants-icon1.png"
+					,"legs/streetpants/Streetpants-icon2.png"
+					,"legs/streetpants/Streetpants-icon3.png"
+					,"legs/streetpants/Streetpants-icon4.png"
+					,"legs/streetpants/Streetpants-icon5.png"
+					,"legs/streetpants/Streetpants-icon6.png"
+				]
+			},
+			{
+				"id":"suitpants",
+				"name":"Suitpants",
+				"directory":"legs/suitpants.vrm",
+				"thumbnail":"legs/suitpants.png",
+				"cullingLayer":1,
+				"cullingDistance": [0.03,0.03],
+				"textureCollection":"outfit_6",
+				"thumbnailOverrides": [
+					"legs/suitpants/Suitpants-icon0.png"
+					,"legs/suitpants/Suitpants-icon1.png"
+					,"legs/suitpants/Suitpants-icon2.png"
+					,"legs/suitpants/Suitpants-icon3.png"
+					,"legs/suitpants/Suitpants-icon4.png"
+					,"legs/suitpants/Suitpants-icon5.png"
+					,"legs/suitpants/Suitpants-icon6.png"
+				]
+			},
+			{
+				"id":"tightjeans",
+				"name":"Tightjeans",
+				"directory":"legs/tightjeans.vrm",
+				"thumbnail":"legs/tightjeans.png",
+				"cullingLayer":1,
+				"cullingDistance": [0.03,0.03],
+				"textureCollection":"outfit_4",
+				"thumbnailOverrides": [
+					"legs/tightjeans/Tightjeans-icon0.png"
+					,"legs/tightjeans/Tightjeans-icon1.png"
+					,"legs/tightjeans/Tightjeans-icon2.png"
+					,"legs/tightjeans/Tightjeans-icon3.png"
+					,"legs/tightjeans/Tightjeans-icon4.png"
+					,"legs/tightjeans/Tightjeans-icon5.png"
+					,"legs/tightjeans/Tightjeans-icon6.png"
+				]
+			},
+			{
+				"id":"workingpants",
+				"name":"Working Pants",
+				"directory":"legs/workingpants.vrm",
+				"thumbnail":"legs/workingpants.png",
+				"cullingLayer":1,
+				"cullingDistance": [0.03,0.03],
+				"textureCollection":"outfit_7",
+				"thumbnailOverrides": [
+					"legs/workingpants/Working Pants-icon0.png"
+					,"legs/workingpants/Working Pants-icon1.png"
+					,"legs/workingpants/Working Pants-icon2.png"
+					,"legs/workingpants/Working Pants-icon3.png"
+					,"legs/workingpants/Working Pants-icon4.png"
+					,"legs/workingpants/Working Pants-icon5.png"
+					,"legs/workingpants/Working Pants-icon6.png"
+				]
+			}
+		]
+	},
+	{
+		"trait":"outer",
+		"type":"mesh",
+		"collection":[
+			{
+				"id":"longjacket",
+				"name":"Longjacket",
+				"directory":"outer/longjacket.vrm",
+				"thumbnail":"outer/longjacket.png",
+				"cullingLayer":2,
+				"cullingDistance": [0.03,0.03],
+				"textureCollection":"outfit_4",
+				"thumbnailOverrides": [
+					"outer/longjacket/Longjacket-icon0.png"
+					,"outer/longjacket/Longjacket-icon1.png"
+					,"outer/longjacket/Longjacket-icon2.png"
+					,"outer/longjacket/Longjacket-icon3.png"
+					,"outer/longjacket/Longjacket-icon4.png"
+					,"outer/longjacket/Longjacket-icon5.png"
+					,"outer/longjacket/Longjacket-icon6.png"
+				]
+			},
+			{
+				"id":"robe",
+				"name":"Robe",
+				"directory":"outer/robe.vrm",
+				"thumbnail":"outer/robe.png",
+				"cullingLayer":2,
+				"cullingDistance": [0.03,0.03],
+				"textureCollection":"outfit_5",
+				"thumbnailOverrides": [
+					"outer/robe/Robe-icon0.png"
+					,"outer/robe/Robe-icon1.png"
+					,"outer/robe/Robe-icon2.png"
+					,"outer/robe/Robe-icon3.png"
+					,"outer/robe/Robe-icon4.png"
+					,"outer/robe/Robe-icon5.png"
+					,"outer/robe/Robe-icon6.png"
+				]
+			}
+		]
+	},
+	{
+		"trait":"outfit_2",
+		"type":"texture",
+		"collection":[
+			{
+				"id":"outfit_2_0",
+				"name":"outfit_2_0",
+				"directory":"outfit_2/outfit_2_0.png",
+				"thumbnail":"outfit_2/outfit_2_0.png"
+			},
+			{
+				"id":"outfit_2_1",
+				"name":"outfit_2_1",
+				"directory":"outfit_2/outfit_2_1.png",
+				"thumbnail":"outfit_2/outfit_2_1.png"
+			},
+			{
+				"id":"outfit_2_2",
+				"name":"outfit_2_2",
+				"directory":"outfit_2/outfit_2_2.png",
+				"thumbnail":"outfit_2/outfit_2_2.png"
+			},
+			{
+				"id":"outfit_2_3",
+				"name":"outfit_2_3",
+				"directory":"outfit_2/outfit_2_3.png",
+				"thumbnail":"outfit_2/outfit_2_3.png"
+			},
+			{
+				"id":"outfit_2_4",
+				"name":"outfit_2_4",
+				"directory":"outfit_2/outfit_2_4.png",
+				"thumbnail":"outfit_2/outfit_2_4.png"
+			},
+			{
+				"id":"outfit_2_5",
+				"name":"outfit_2_5",
+				"directory":"outfit_2/outfit_2_5.png",
+				"thumbnail":"outfit_2/outfit_2_5.png"
+			},
+			{
+				"id":"outfit_2_6",
+				"name":"outfit_2_6",
+				"directory":"outfit_2/outfit_2_6.png",
+				"thumbnail":"outfit_2/outfit_2_6.png"
+			}
+		]
+	},
+	{
+		"trait":"outfit_3",
+		"type":"texture",
+		"collection":[
+			{
+				"id":"outfit_3_0",
+				"name":"outfit_3_0",
+				"directory":"outfit_3/outfit_3_0.png",
+				"thumbnail":"outfit_3/outfit_3_0.png"
+			},
+			{
+				"id":"outfit_3_1",
+				"name":"outfit_3_1",
+				"directory":"outfit_3/outfit_3_1.png",
+				"thumbnail":"outfit_3/outfit_3_1.png"
+			},
+			{
+				"id":"outfit_3_2",
+				"name":"outfit_3_2",
+				"directory":"outfit_3/outfit_3_2.png",
+				"thumbnail":"outfit_3/outfit_3_2.png"
+			},
+			{
+				"id":"outfit_3_3",
+				"name":"outfit_3_3",
+				"directory":"outfit_3/outfit_3_3.png",
+				"thumbnail":"outfit_3/outfit_3_3.png"
+			},
+			{
+				"id":"outfit_3_4",
+				"name":"outfit_3_4",
+				"directory":"outfit_3/outfit_3_4.png",
+				"thumbnail":"outfit_3/outfit_3_4.png"
+			},
+			{
+				"id":"outfit_3_5",
+				"name":"outfit_3_5",
+				"directory":"outfit_3/outfit_3_5.png",
+				"thumbnail":"outfit_3/outfit_3_5.png"
+			},
+			{
+				"id":"outfit_3_6",
+				"name":"outfit_3_6",
+				"directory":"outfit_3/outfit_3_6.png",
+				"thumbnail":"outfit_3/outfit_3_6.png"
+			}
+		]
+	},
+	{
+		"trait":"outfit_7",
+		"type":"texture",
+		"collection":[
+			{
+				"id":"outfit_7_0",
+				"name":"outfit_7_0",
+				"directory":"outfit_7/outfit_7_0.png",
+				"thumbnail":"outfit_7/outfit_7_0.png"
+			},
+			{
+				"id":"outfit_7_1",
+				"name":"outfit_7_1",
+				"directory":"outfit_7/outfit_7_1.png",
+				"thumbnail":"outfit_7/outfit_7_1.png"
+			},
+			{
+				"id":"outfit_7_2",
+				"name":"outfit_7_2",
+				"directory":"outfit_7/outfit_7_2.png",
+				"thumbnail":"outfit_7/outfit_7_2.png"
+			},
+			{
+				"id":"outfit_7_3",
+				"name":"outfit_7_3",
+				"directory":"outfit_7/outfit_7_3.png",
+				"thumbnail":"outfit_7/outfit_7_3.png"
+			},
+			{
+				"id":"outfit_7_4",
+				"name":"outfit_7_4",
+				"directory":"outfit_7/outfit_7_4.png",
+				"thumbnail":"outfit_7/outfit_7_4.png"
+			},
+			{
+				"id":"outfit_7_5",
+				"name":"outfit_7_5",
+				"directory":"outfit_7/outfit_7_5.png",
+				"thumbnail":"outfit_7/outfit_7_5.png"
+			},
+			{
+				"id":"outfit_7_6",
+				"name":"outfit_7_6",
+				"directory":"outfit_7/outfit_7_6.png",
+				"thumbnail":"outfit_7/outfit_7_6.png"
+			}
+		]
+	},
+	{
+		"trait":"outfit_10",
+		"type":"texture",
+		"collection":[
+			{
+				"id":"outfit_10_0",
+				"name":"outfit_10_0",
+				"directory":"outfit_10/outfit_10_0.png",
+				"thumbnail":"outfit_10/outfit_10_0.png"
+			},
+			{
+				"id":"outfit_10_1",
+				"name":"outfit_10_1",
+				"directory":"outfit_10/outfit_10_1.png",
+				"thumbnail":"outfit_10/outfit_10_1.png"
+			},
+			{
+				"id":"outfit_10_2",
+				"name":"outfit_10_2",
+				"directory":"outfit_10/outfit_10_2.png",
+				"thumbnail":"outfit_10/outfit_10_2.png"
+			},
+			{
+				"id":"outfit_10_3",
+				"name":"outfit_10_3",
+				"directory":"outfit_10/outfit_10_3.png",
+				"thumbnail":"outfit_10/outfit_10_3.png"
+			},
+			{
+				"id":"outfit_10_4",
+				"name":"outfit_10_4",
+				"directory":"outfit_10/outfit_10_4.png",
+				"thumbnail":"outfit_10/outfit_10_4.png"
+			},
+			{
+				"id":"outfit_10_5",
+				"name":"outfit_10_5",
+				"directory":"outfit_10/outfit_10_5.png",
+				"thumbnail":"outfit_10/outfit_10_5.png"
+			},
+			{
+				"id":"outfit_10_6",
+				"name":"outfit_10_6",
+				"directory":"outfit_10/outfit_10_6.png",
+				"thumbnail":"outfit_10/outfit_10_6.png"
+			}
+		]
+	},
+	{
+		"trait":"outfit_1",
+		"type":"texture",
+		"collection":[
+			{
+				"id":"outfit_1_0",
+				"name":"outfit_1_0",
+				"directory":"outfit_1/outfit_1_0.png",
+				"thumbnail":"outfit_1/outfit_1_0.png"
+			},
+			{
+				"id":"outfit_1_1",
+				"name":"outfit_1_1",
+				"directory":"outfit_1/outfit_1_1.png",
+				"thumbnail":"outfit_1/outfit_1_1.png"
+			},
+			{
+				"id":"outfit_1_2",
+				"name":"outfit_1_2",
+				"directory":"outfit_1/outfit_1_2.png",
+				"thumbnail":"outfit_1/outfit_1_2.png"
+			},
+			{
+				"id":"outfit_1_3",
+				"name":"outfit_1_3",
+				"directory":"outfit_1/outfit_1_3.png",
+				"thumbnail":"outfit_1/outfit_1_3.png"
+			},
+			{
+				"id":"outfit_1_4",
+				"name":"outfit_1_4",
+				"directory":"outfit_1/outfit_1_4.png",
+				"thumbnail":"outfit_1/outfit_1_4.png"
+			},
+			{
+				"id":"outfit_1_5",
+				"name":"outfit_1_5",
+				"directory":"outfit_1/outfit_1_5.png",
+				"thumbnail":"outfit_1/outfit_1_5.png"
+			},
+			{
+				"id":"outfit_1_6",
+				"name":"outfit_1_6",
+				"directory":"outfit_1/outfit_1_6.png",
+				"thumbnail":"outfit_1/outfit_1_6.png"
+			}
+		]
+	},
+	{
+		"trait":"outfit_8",
+		"type":"texture",
+		"collection":[
+			{
+				"id":"outfit_8_0",
+				"name":"outfit_8_0",
+				"directory":"outfit_8/outfit_8_0.png",
+				"thumbnail":"outfit_8/outfit_8_0.png"
+			},
+			{
+				"id":"outfit_8_1",
+				"name":"outfit_8_1",
+				"directory":"outfit_8/outfit_8_1.png",
+				"thumbnail":"outfit_8/outfit_8_1.png"
+			},
+			{
+				"id":"outfit_8_2",
+				"name":"outfit_8_2",
+				"directory":"outfit_8/outfit_8_2.png",
+				"thumbnail":"outfit_8/outfit_8_2.png"
+			},
+			{
+				"id":"outfit_8_3",
+				"name":"outfit_8_3",
+				"directory":"outfit_8/outfit_8_3.png",
+				"thumbnail":"outfit_8/outfit_8_3.png"
+			},
+			{
+				"id":"outfit_8_4",
+				"name":"outfit_8_4",
+				"directory":"outfit_8/outfit_8_4.png",
+				"thumbnail":"outfit_8/outfit_8_4.png"
+			},
+			{
+				"id":"outfit_8_5",
+				"name":"outfit_8_5",
+				"directory":"outfit_8/outfit_8_5.png",
+				"thumbnail":"outfit_8/outfit_8_5.png"
+			},
+			{
+				"id":"outfit_8_6",
+				"name":"outfit_8_6",
+				"directory":"outfit_8/outfit_8_6.png",
+				"thumbnail":"outfit_8/outfit_8_6.png"
+			}
+		]
+	},
+	{
+		"trait":"outfit_4",
+		"type":"texture",
+		"collection":[
+			{
+				"id":"outfit_4_0",
+				"name":"outfit_4_0",
+				"directory":"outfit_4/outfit_4_0.png",
+				"thumbnail":"outfit_4/outfit_4_0.png"
+			},
+			{
+				"id":"outfit_4_1",
+				"name":"outfit_4_1",
+				"directory":"outfit_4/outfit_4_1.png",
+				"thumbnail":"outfit_4/outfit_4_1.png"
+			},
+			{
+				"id":"outfit_4_2",
+				"name":"outfit_4_2",
+				"directory":"outfit_4/outfit_4_2.png",
+				"thumbnail":"outfit_4/outfit_4_2.png"
+			},
+			{
+				"id":"outfit_4_3",
+				"name":"outfit_4_3",
+				"directory":"outfit_4/outfit_4_3.png",
+				"thumbnail":"outfit_4/outfit_4_3.png"
+			},
+			{
+				"id":"outfit_4_4",
+				"name":"outfit_4_4",
+				"directory":"outfit_4/outfit_4_4.png",
+				"thumbnail":"outfit_4/outfit_4_4.png"
+			},
+			{
+				"id":"outfit_4_5",
+				"name":"outfit_4_5",
+				"directory":"outfit_4/outfit_4_5.png",
+				"thumbnail":"outfit_4/outfit_4_5.png"
+			},
+			{
+				"id":"outfit_4_6",
+				"name":"outfit_4_6",
+				"directory":"outfit_4/outfit_4_6.png",
+				"thumbnail":"outfit_4/outfit_4_6.png"
+			}
+		]
+	},
+	{
+		"trait":"outfit_5",
+		"type":"texture",
+		"collection":[
+			{
+				"id":"outfit_5_0",
+				"name":"outfit_5_0",
+				"directory":"outfit_5/outfit_5_0.png",
+				"thumbnail":"outfit_5/outfit_5_0.png"
+			},
+			{
+				"id":"outfit_5_1",
+				"name":"outfit_5_1",
+				"directory":"outfit_5/outfit_5_1.png",
+				"thumbnail":"outfit_5/outfit_5_1.png"
+			},
+			{
+				"id":"outfit_5_2",
+				"name":"outfit_5_2",
+				"directory":"outfit_5/outfit_5_2.png",
+				"thumbnail":"outfit_5/outfit_5_2.png"
+			},
+			{
+				"id":"outfit_5_3",
+				"name":"outfit_5_3",
+				"directory":"outfit_5/outfit_5_3.png",
+				"thumbnail":"outfit_5/outfit_5_3.png"
+			},
+			{
+				"id":"outfit_5_4",
+				"name":"outfit_5_4",
+				"directory":"outfit_5/outfit_5_4.png",
+				"thumbnail":"outfit_5/outfit_5_4.png"
+			},
+			{
+				"id":"outfit_5_5",
+				"name":"outfit_5_5",
+				"directory":"outfit_5/outfit_5_5.png",
+				"thumbnail":"outfit_5/outfit_5_5.png"
+			},
+			{
+				"id":"outfit_5_6",
+				"name":"outfit_5_6",
+				"directory":"outfit_5/outfit_5_6.png",
+				"thumbnail":"outfit_5/outfit_5_6.png"
+			}
+		]
+	},
+	{
+		"trait":"outfit_6",
+		"type":"texture",
+		"collection":[
+			{
+				"id":"outfit_6_0",
+				"name":"outfit_6_0",
+				"directory":"outfit_6/outfit_6_0.png",
+				"thumbnail":"outfit_6/outfit_6_0.png"
+			},
+			{
+				"id":"outfit_6_1",
+				"name":"outfit_6_1",
+				"directory":"outfit_6/outfit_6_1.png",
+				"thumbnail":"outfit_6/outfit_6_1.png"
+			},
+			{
+				"id":"outfit_6_2",
+				"name":"outfit_6_2",
+				"directory":"outfit_6/outfit_6_2.png",
+				"thumbnail":"outfit_6/outfit_6_2.png"
+			},
+			{
+				"id":"outfit_6_3",
+				"name":"outfit_6_3",
+				"directory":"outfit_6/outfit_6_3.png",
+				"thumbnail":"outfit_6/outfit_6_3.png"
+			},
+			{
+				"id":"outfit_6_4",
+				"name":"outfit_6_4",
+				"directory":"outfit_6/outfit_6_4.png",
+				"thumbnail":"outfit_6/outfit_6_4.png"
+			},
+			{
+				"id":"outfit_6_5",
+				"name":"outfit_6_5",
+				"directory":"outfit_6/outfit_6_5.png",
+				"thumbnail":"outfit_6/outfit_6_5.png"
+			},
+			{
+				"id":"outfit_6_6",
+				"name":"outfit_6_6",
+				"directory":"outfit_6/outfit_6_6.png",
+				"thumbnail":"outfit_6/outfit_6_6.png"
+			}
+		]
+	},
+	{
+		"trait":"outfit_9",
+		"type":"texture",
+		"collection":[
+			{
+				"id":"outfit_9_0",
+				"name":"outfit_9_0",
+				"directory":"outfit_9/outfit_9_0.png",
+				"thumbnail":"outfit_9/outfit_9_0.png"
+			},
+			{
+				"id":"outfit_9_1",
+				"name":"outfit_9_1",
+				"directory":"outfit_9/outfit_9_1.png",
+				"thumbnail":"outfit_9/outfit_9_1.png"
+			},
+			{
+				"id":"outfit_9_2",
+				"name":"outfit_9_2",
+				"directory":"outfit_9/outfit_9_2.png",
+				"thumbnail":"outfit_9/outfit_9_2.png"
+			},
+			{
+				"id":"outfit_9_3",
+				"name":"outfit_9_3",
+				"directory":"outfit_9/outfit_9_3.png",
+				"thumbnail":"outfit_9/outfit_9_3.png"
+			},
+			{
+				"id":"outfit_9_4",
+				"name":"outfit_9_4",
+				"directory":"outfit_9/outfit_9_4.png",
+				"thumbnail":"outfit_9/outfit_9_4.png"
+			},
+			{
+				"id":"outfit_9_5",
+				"name":"outfit_9_5",
+				"directory":"outfit_9/outfit_9_5.png",
+				"thumbnail":"outfit_9/outfit_9_5.png"
+			},
+			{
+				"id":"outfit_9_6",
+				"name":"outfit_9_6",
+				"directory":"outfit_9/outfit_9_6.png",
+				"thumbnail":"outfit_9/outfit_9_6.png"
+			}
+		]
+	}
+]

@@ -1,0 +1,24 @@
+{
+  "name": "@webaverse-studios/character-assets",
+  "version": "1.0.0",
+  "description": "3D assets of Loot (for Adventurers)",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "create-json": "node _utilities/create-json.js",
+    "rename-images": "node _utilities/rename-images.js"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webaverse-studios/character-assets.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/webaverse-studios/character-assets/issues"
+  },
+  "homepage": "https://github.com/webaverse-studios/character-assets#readme",
+  "dependencies": {
+  }
+}
