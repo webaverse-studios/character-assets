@@ -130,6 +130,7 @@
 				"directory":"accessories/combatgloves.vrm",
 				"thumbnail":"accessories/combatgloves.png",
 				"cullingDistance": [0.03,0.03],
+				"cullingLayer":1,
 				"textureCollection":"outfit_3",
 				"thumbnailOverrides": [
 					"accessories/combatgloves/Combat Gloves-icon0.png"
@@ -180,7 +181,7 @@
 				"name":"Ninjagloves",
 				"directory":"accessories/ninjagloves.vrm",
 				"thumbnail":"accessories/ninjagloves.png",
-				"cullingLayer":2,
+				"cullingLayer":1,
 				"cullingDistance": [0.03,0.03],
 				"textureCollection":"outfit_8",
 				"thumbnailOverrides": [
