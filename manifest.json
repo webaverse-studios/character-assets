@@ -32,82 +32,6 @@
     },
     "traits": [
       {
-        "name": "skin",
-        "icon": "skin-color.png",
-        "type": "texture",
-        "target": [
-          "body_geo",
-          "head_geobaked(copy)_1"
-        ],
-        "icon-gradient": "color-gradient.svg",
-        "cameraTarget": {
-          "distance": 3.4,
-          "height": 0.8
-        },
-        "trait": "skin",
-        "collection": [
-          {
-            "id": "defaultSkin",
-            "name": "Default Skin",
-            "directory": [
-              "skin/skin.png",
-              "skin/skinFace.png"
-            ],
-            "thumbnail": "skin/skinIcon.png"
-          },
-          {
-            "id": "brightSkin",
-            "name": "Bright Skin",
-            "directory": [
-              "skin/brightSkin.png",
-              "skin/brightSkinFace.png"
-            ],
-            "thumbnail": "skin/brightSkinIcon.png"
-          },
-          {
-            "id": "darkSkin",
-            "name": "Dark Skin",
-            "directory": [
-              "skin/darkSkin.png",
-              "skin/darkSkinFace.png"
-            ],
-            "thumbnail": "skin/darkSkinIcon.png"
-          }
-        ]
-      },
-      {
-        "trait": "eyes",
-        "name": "eyes",
-        "type": "texture",
-        "icon": "eye.png",
-        "target": "head_geobaked(copy)",
-        "icon-gradient": "eye.svg",
-        "cameraTarget": {
-          "distance": 0.75,
-          "height": 1.35
-        },
-        "collection": [
-          {
-            "id": "eyes",
-            "name": "Blue Eyes",
-            "directory": "eyeColor/eyes.png",
-            "thumbnail": "eyeColor/eyesIcon.jpg"
-          },
-          {
-            "id": "redEyes",
-            "name": "Red Eyes",
-            "directory": "eyeColor/redEyes.png",
-            "thumbnail": "eyeColor/redEyesIcon.png"
-          },
-          {
-            "id": "greenEyes",
-            "name": "Green Eyes",
-            "directory": "eyeColor/greenEyes.png",
-            "thumbnail": "eyeColor/greenEyesIcon.png"
-          }
-        ]
-      },
-      {
         "trait": "accessories",
         "name": "accessories",
         "icon": "accessories.png",
@@ -2678,100 +2602,6 @@
     "traitIconsDirectory": "./3d/icons/",
     "traits": [
       {
-        "trait": "skin",
-        "type": "texture",
-        "name": "skin",
-        "icon": "skin-color.png",
-        "target": [
-          "Body",
-          "Headbaked(copy)"
-        ],
-        "icon-gradient": "color-gradient.svg",
-        "cameraTarget": {
-          "distance": 3.4,
-          "height": 0.8
-        },
-        "collection": [
-          {
-            "id": "original",
-            "name": "Skin Original",
-            "directory": [
-              "skin/original-body.png",
-              "skin/original-face.png"
-            ],
-            "thumbnail": "skin/original-body.png"
-          },
-          {
-            "id": "tone1",
-            "name": "Skin Tone 1",
-            "directory": [
-              "skin/tone1-body.png",
-              "skin/tone1-face.png"
-            ],
-            "thumbnail": "skin/tone1-body.png"
-          },
-          {
-            "id": "tone2",
-            "name": "Skin Tone 2",
-            "directory": [
-              "skin/tone2-body.png",
-              "skin/tone2-face.png"
-            ],
-            "thumbnail": "skin/tone2-body.png"
-          },
-          {
-            "id": "tone3",
-            "name": "Skin Tone 3",
-            "directory": [
-              "skin/tone3-body.png",
-              "skin/tone3-face.png"
-            ],
-            "thumbnail": "skin/tone3-body.png"
-          },
-          {
-            "id": "tone4",
-            "name": "Skin Tone 4",
-            "directory": [
-              "skin/tone4-body.png",
-              "skin/tone4-face.png"
-            ],
-            "thumbnail": "skin/tone4-body.png"
-          }
-        ]
-      },
-      {
-        "trait": "eyes",
-        "type": "texture",
-        "name": "eyes",
-        "icon": "eye.png",
-        "target": "Headbaked(copy)_1",
-        "icon-gradient": "eye.svg",
-        "cameraTarget": {
-          "distance": 1.2,
-          "height": 1.35
-        },
-        "collection": [
-          {
-            "id": "eyes",
-            "name": "Orange Eyes",
-            "directory": "eyeColor/eye1.png",
-            "thumbnail": "eyeColor/eye1-icon.png"
-          },
-          {
-            "id": "redEyes",
-            "name": "Red Eyes",
-            "directory": "eyeColor/eye3.png",
-            "thumbnail": "eyeColor/eye3-icon.png"
-          },
-          {
-            "id": "greenEyes",
-            "name": "Green Eyes",
-            "directory": "eyeColor/eye2.png",
-            "thumbnail": "eyeColor/eye2-icon.png"
-          }
-        ]
-      },
-      {
         "trait": "accessories",
         "type": "mesh",
         "name": "accessories",
@@ -4046,7 +3876,7 @@
           {
             "id": "outfit_8_5",
             "name": "outfit_8_5",
-            "directory": "outfit_8/outfit_8_5.png",
+            "directory": "outfit_8/outfit_8_5.png", 
             "thumbnail": "outfit_8/outfit_8_5.png"
           },
           {
