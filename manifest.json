@@ -5,17 +5,17 @@
     "file": "./3d/models/drophunter.vrm",
     "thumbnail": "./3d/icons/female-body-1.png",
     "format": "vrm",
-    "offset": [
-      0,
-      -0.18,
-      0
-    ],
     "bodyTargets": [
       "Body",
       "Headbaked"
     ],
     "cullingModel": [
       "body_geo"
+    ],
+    "offset": [
+      0,
+      -0.18,
+      0
     ],
     "EyeTargets": [
       "Headbaked_2",
@@ -31,6 +31,54 @@
       ]
     },
     "traits": [
+      { 
+        "trait": "body",
+        "name": "body",
+        "icon": "skin-color.png",
+        "type": "mesh",
+        "icon-gradient": "accessories-gradient.svg",
+        "cameraTarget": {
+          "distance": 3.4,
+          "height": 0.8
+        },
+        "collection": [
+          {
+          "id": "0",
+          "name": "Fitness body",
+          "directory": "body/drophunter.vrm",
+          "thumbnail": "body/drophunter.png",
+          "cullingLayer":0,
+          "textureTargets":["Body", "Headbaked"],
+          "textureCollection": "skin color",
+          "thumbnailOverrides": [
+            "body/skin/original.png",
+            "body/skin/original.png",
+            "body/skin/original.png",
+            "body/skin/original.png",
+
+            "body/skin/skin1.png",
+            "body/skin/skin1.png",
+            "body/skin/skin1.png",
+            "body/skin/skin1.png",
+
+            "body/skin/skin2.png",
+            "body/skin/skin2.png",
+            "body/skin/skin2.png",
+            "body/skin/skin2.png",
+
+            "body/skin/skin3.png",
+            "body/skin/skin3.png",
+            "body/skin/skin3.png",
+            "body/skin/skin3.png",
+
+            "body/skin/skin4.png",
+            "body/skin/skin4.png",
+            "body/skin/skin4.png",
+            "body/skin/skin4.png"
+            ]
+          }  
+        ]
+      },
       {
         "trait": "accessories",
         "name": "accessories",
@@ -986,1593 +1034,1704 @@
               "outer/shortjacket/Short Jacket-icon5.png",
               "outer/shortjacket/Short Jacket-icon6.png"
             ]
-          },
-          {
-            "trait": "Belt Outfit 3",
-            "type": "texture",
-            "collection": [
-              {
-                "id": "belt_0",
-                "name": "belt_0",
-                "directory": "Belt Outfit 3/belt_0.png",
-                "thumbnail": "Belt Outfit 3/belt_0.png"
-              },
-              {
-                "id": "belt_1",
-                "name": "belt_1",
-                "directory": "Belt Outfit 3/belt_1.png",
-                "thumbnail": "Belt Outfit 3/belt_1.png"
-              },
-              {
-                "id": "belt_2",
-                "name": "belt_2",
-                "directory": "Belt Outfit 3/belt_2.png",
-                "thumbnail": "Belt Outfit 3/belt_2.png"
-              },
-              {
-                "id": "belt_3",
-                "name": "belt_3",
-                "directory": "Belt Outfit 3/belt_3.png",
-                "thumbnail": "Belt Outfit 3/belt_3.png"
-              },
-              {
-                "id": "belt_4",
-                "name": "belt_4",
-                "directory": "Belt Outfit 3/belt_4.png",
-                "thumbnail": "Belt Outfit 3/belt_4.png"
-              },
-              {
-                "id": "belt_5",
-                "name": "belt_5",
-                "directory": "Belt Outfit 3/belt_5.png",
-                "thumbnail": "Belt Outfit 3/belt_5.png"
-              },
-              {
-                "id": "belt_6",
-                "name": "belt_6",
-                "directory": "Belt Outfit 3/belt_6.png",
-                "thumbnail": "Belt Outfit 3/belt_6.png"
-              }
-            ]
-          },
-          {
-            "trait": "Leg Outfit 1",
-            "type": "texture",
-            "collection": [
-              {
-                "id": "leg_0",
-                "name": "leg_0",
-                "directory": "Leg Outfit 1/leg_0.png",
-                "thumbnail": "Leg Outfit 1/leg_0.png"
-              },
-              {
-                "id": "leg_1",
-                "name": "leg_1",
-                "directory": "Leg Outfit 1/leg_1.png",
-                "thumbnail": "Leg Outfit 1/leg_1.png"
-              },
-              {
-                "id": "leg_2",
-                "name": "leg_2",
-                "directory": "Leg Outfit 1/leg_2.png",
-                "thumbnail": "Leg Outfit 1/leg_2.png"
-              },
-              {
-                "id": "leg_3",
-                "name": "leg_3",
-                "directory": "Leg Outfit 1/leg_3.png",
-                "thumbnail": "Leg Outfit 1/leg_3.png"
-              },
-              {
-                "id": "leg_4",
-                "name": "leg_4",
-                "directory": "Leg Outfit 1/leg_4.png",
-                "thumbnail": "Leg Outfit 1/leg_4.png"
-              },
-              {
-                "id": "leg_5",
-                "name": "leg_5",
-                "directory": "Leg Outfit 1/leg_5.png",
-                "thumbnail": "Leg Outfit 1/leg_5.png"
-              },
-              {
-                "id": "leg_6",
-                "name": "leg_6",
-                "directory": "Leg Outfit 1/leg_6.png",
-                "thumbnail": "Leg Outfit 1/leg_6.png"
-              }
-            ]
-          },
-          {
-            "trait": "Top Outfit 6",
-            "type": "texture",
-            "collection": [
-              {
-                "id": "top_0",
-                "name": "top_0",
-                "directory": "Top Outfit 6/top_0.png",
-                "thumbnail": "Top Outfit 6/top_0.png"
-              },
-              {
-                "id": "top_1",
-                "name": "top_1",
-                "directory": "Top Outfit 6/top_1.png",
-                "thumbnail": "Top Outfit 6/top_1.png"
-              },
-              {
-                "id": "top_2",
-                "name": "top_2",
-                "directory": "Top Outfit 6/top_2.png",
-                "thumbnail": "Top Outfit 6/top_2.png"
-              },
-              {
-                "id": "top_3",
-                "name": "top_3",
-                "directory": "Top Outfit 6/top_3.png",
-                "thumbnail": "Top Outfit 6/top_3.png"
-              },
-              {
-                "id": "top_4",
-                "name": "top_4",
-                "directory": "Top Outfit 6/top_4.png",
-                "thumbnail": "Top Outfit 6/top_4.png"
-              },
-              {
-                "id": "top_5",
-                "name": "top_5",
-                "directory": "Top Outfit 6/top_5.png",
-                "thumbnail": "Top Outfit 6/top_5.png"
-              },
-              {
-                "id": "top_6",
-                "name": "top_6",
-                "directory": "Top Outfit 6/top_6.png",
-                "thumbnail": "Top Outfit 6/top_6.png"
-              }
-            ]
-          },
-          {
-            "trait": "Jacket Outfit 10",
-            "type": "texture",
-            "collection": [
-              {
-                "id": "jacket_0",
-                "name": "jacket_0",
-                "directory": "Jacket Outfit 10/jacket_0.png",
-                "thumbnail": "Jacket Outfit 10/jacket_0.png"
-              },
-              {
-                "id": "jacket_1",
-                "name": "jacket_1",
-                "directory": "Jacket Outfit 10/jacket_1.png",
-                "thumbnail": "Jacket Outfit 10/jacket_1.png"
-              },
-              {
-                "id": "jacket_2",
-                "name": "jacket_2",
-                "directory": "Jacket Outfit 10/jacket_2.png",
-                "thumbnail": "Jacket Outfit 10/jacket_2.png"
-              },
-              {
-                "id": "jacket_3",
-                "name": "jacket_3",
-                "directory": "Jacket Outfit 10/jacket_3.png",
-                "thumbnail": "Jacket Outfit 10/jacket_3.png"
-              },
-              {
-                "id": "jacket_4",
-                "name": "jacket_4",
-                "directory": "Jacket Outfit 10/jacket_4.png",
-                "thumbnail": "Jacket Outfit 10/jacket_4.png"
-              },
-              {
-                "id": "jacket_5",
-                "name": "jacket_5",
-                "directory": "Jacket Outfit 10/jacket_5.png",
-                "thumbnail": "Jacket Outfit 10/jacket_5.png"
-              },
-              {
-                "id": "jacket_6",
-                "name": "jacket_6",
-                "directory": "Jacket Outfit 10/jacket_6.png",
-                "thumbnail": "Jacket Outfit 10/jacket_6.png"
-              }
-            ]
-          },
-          {
-            "trait": "Topsuit Outfit 9",
-            "type": "texture",
-            "collection": [
-              {
-                "id": "topsuit_0",
-                "name": "topsuit_0",
-                "directory": "Topsuit Outfit 9/topsuit_0.png",
-                "thumbnail": "Topsuit Outfit 9/topsuit_0.png"
-              },
-              {
-                "id": "topsuit_1",
-                "name": "topsuit_1",
-                "directory": "Topsuit Outfit 9/topsuit_1.png",
-                "thumbnail": "Topsuit Outfit 9/topsuit_1.png"
-              },
-              {
-                "id": "topsuit_2",
-                "name": "topsuit_2",
-                "directory": "Topsuit Outfit 9/topsuit_2.png",
-                "thumbnail": "Topsuit Outfit 9/topsuit_2.png"
-              },
-              {
-                "id": "topsuit_3",
-                "name": "topsuit_3",
-                "directory": "Topsuit Outfit 9/topsuit_3.png",
-                "thumbnail": "Topsuit Outfit 9/topsuit_3.png"
-              },
-              {
-                "id": "topsuit_4",
-                "name": "topsuit_4",
-                "directory": "Topsuit Outfit 9/topsuit_4.png",
-                "thumbnail": "Topsuit Outfit 9/topsuit_4.png"
-              },
-              {
-                "id": "topsuit_5",
-                "name": "topsuit_5",
-                "directory": "Topsuit Outfit 9/topsuit_5.png",
-                "thumbnail": "Topsuit Outfit 9/topsuit_5.png"
-              },
-              {
-                "id": "topsuit_6",
-                "name": "topsuit_6",
-                "directory": "Topsuit Outfit 9/topsuit_6.png",
-                "thumbnail": "Topsuit Outfit 9/topsuit_6.png"
-              }
-            ]
-          },
-          {
-            "trait": "Top Outfit 8",
-            "type": "texture",
-            "collection": [
-              {
-                "id": "top_0",
-                "name": "top_0",
-                "directory": "Top Outfit 8/top_0.png",
-                "thumbnail": "Top Outfit 8/top_0.png"
-              },
-              {
-                "id": "top_1",
-                "name": "top_1",
-                "directory": "Top Outfit 8/top_1.png",
-                "thumbnail": "Top Outfit 8/top_1.png"
-              },
-              {
-                "id": "top_2",
-                "name": "top_2",
-                "directory": "Top Outfit 8/top_2.png",
-                "thumbnail": "Top Outfit 8/top_2.png"
-              },
-              {
-                "id": "top_3",
-                "name": "top_3",
-                "directory": "Top Outfit 8/top_3.png",
-                "thumbnail": "Top Outfit 8/top_3.png"
-              },
-              {
-                "id": "top_4",
-                "name": "top_4",
-                "directory": "Top Outfit 8/top_4.png",
-                "thumbnail": "Top Outfit 8/top_4.png"
-              },
-              {
-                "id": "top_5",
-                "name": "top_5",
-                "directory": "Top Outfit 8/top_5.png",
-                "thumbnail": "Top Outfit 8/top_5.png"
-              },
-              {
-                "id": "top_6",
-                "name": "top_6",
-                "directory": "Top Outfit 8/top_6.png",
-                "thumbnail": "Top Outfit 8/top_6.png"
-              }
-            ]
-          },
-          {
-            "trait": "Shirt Outfit 3",
-            "type": "texture",
-            "collection": [
-              {
-                "id": "shirt_0",
-                "name": "shirt_0",
-                "directory": "Shirt Outfit 3/shirt_0.png",
-                "thumbnail": "Shirt Outfit 3/shirt_0.png"
-              },
-              {
-                "id": "shirt_1",
-                "name": "shirt_1",
-                "directory": "Shirt Outfit 3/shirt_1.png",
-                "thumbnail": "Shirt Outfit 3/shirt_1.png"
-              },
-              {
-                "id": "shirt_2",
-                "name": "shirt_2",
-                "directory": "Shirt Outfit 3/shirt_2.png",
-                "thumbnail": "Shirt Outfit 3/shirt_2.png"
-              },
-              {
-                "id": "shirt_3",
-                "name": "shirt_3",
-                "directory": "Shirt Outfit 3/shirt_3.png",
-                "thumbnail": "Shirt Outfit 3/shirt_3.png"
-              },
-              {
-                "id": "shirt_4",
-                "name": "shirt_4",
-                "directory": "Shirt Outfit 3/shirt_4.png",
-                "thumbnail": "Shirt Outfit 3/shirt_4.png"
-              },
-              {
-                "id": "shirt_5",
-                "name": "shirt_5",
-                "directory": "Shirt Outfit 3/shirt_5.png",
-                "thumbnail": "Shirt Outfit 3/shirt_5.png"
-              },
-              {
-                "id": "shirt_6",
-                "name": "shirt_6",
-                "directory": "Shirt Outfit 3/shirt_6.png",
-                "thumbnail": "Shirt Outfit 3/shirt_6.png"
-              }
-            ]
-          },
-          {
-            "trait": "Sweater Outfit 4",
-            "type": "texture",
-            "collection": [
-              {
-                "id": "swater_0",
-                "name": "swater_0",
-                "directory": "Sweater Outfit 4/swater_0.png",
-                "thumbnail": "Sweater Outfit 4/swater_0.png"
-              },
-              {
-                "id": "swater_1",
-                "name": "swater_1",
-                "directory": "Sweater Outfit 4/swater_1.png",
-                "thumbnail": "Sweater Outfit 4/swater_1.png"
-              },
-              {
-                "id": "swater_2",
-                "name": "swater_2",
-                "directory": "Sweater Outfit 4/swater_2.png",
-                "thumbnail": "Sweater Outfit 4/swater_2.png"
-              },
-              {
-                "id": "swater_3",
-                "name": "swater_3",
-                "directory": "Sweater Outfit 4/swater_3.png",
-                "thumbnail": "Sweater Outfit 4/swater_3.png"
-              },
-              {
-                "id": "swater_4",
-                "name": "swater_4",
-                "directory": "Sweater Outfit 4/swater_4.png",
-                "thumbnail": "Sweater Outfit 4/swater_4.png"
-              },
-              {
-                "id": "swater_5",
-                "name": "swater_5",
-                "directory": "Sweater Outfit 4/swater_5.png",
-                "thumbnail": "Sweater Outfit 4/swater_5.png"
-              },
-              {
-                "id": "swater_6",
-                "name": "swater_6",
-                "directory": "Sweater Outfit 4/swater_6.png",
-                "thumbnail": "Sweater Outfit 4/swater_6.png"
-              }
-            ]
-          },
-          {
-            "trait": "Tanktop Outfit 4",
-            "type": "texture",
-            "collection": [
-              {
-                "id": "tanktop_0",
-                "name": "tanktop_0",
-                "directory": "Tanktop Outfit 4/tanktop_0.png",
-                "thumbnail": "Tanktop Outfit 4/tanktop_0.png"
-              },
-              {
-                "id": "tanktop_1",
-                "name": "tanktop_1",
-                "directory": "Tanktop Outfit 4/tanktop_1.png",
-                "thumbnail": "Tanktop Outfit 4/tanktop_1.png"
-              },
-              {
-                "id": "tanktop_2",
-                "name": "tanktop_2",
-                "directory": "Tanktop Outfit 4/tanktop_2.png",
-                "thumbnail": "Tanktop Outfit 4/tanktop_2.png"
-              },
-              {
-                "id": "tanktop_3",
-                "name": "tanktop_3",
-                "directory": "Tanktop Outfit 4/tanktop_3.png",
-                "thumbnail": "Tanktop Outfit 4/tanktop_3.png"
-              },
-              {
-                "id": "tanktop_4",
-                "name": "tanktop_4",
-                "directory": "Tanktop Outfit 4/tanktop_4.png",
-                "thumbnail": "Tanktop Outfit 4/tanktop_4.png"
-              },
-              {
-                "id": "tanktop_5",
-                "name": "tanktop_5",
-                "directory": "Tanktop Outfit 4/tanktop_5.png",
-                "thumbnail": "Tanktop Outfit 4/tanktop_5.png"
-              },
-              {
-                "id": "tanktop_6",
-                "name": "tanktop_6",
-                "directory": "Tanktop Outfit 4/tanktop_6.png",
-                "thumbnail": "Tanktop Outfit 4/tanktop_6.png"
-              }
-            ]
-          },
-          {
-            "trait": "Shirt Outfit 1",
-            "type": "texture",
-            "collection": [
-              {
-                "id": "shirt_0",
-                "name": "shirt_0",
-                "directory": "Shirt Outfit 1/shirt_0.png",
-                "thumbnail": "Shirt Outfit 1/shirt_0.png"
-              },
-              {
-                "id": "shirt_1",
-                "name": "shirt_1",
-                "directory": "Shirt Outfit 1/shirt_1.png",
-                "thumbnail": "Shirt Outfit 1/shirt_1.png"
-              },
-              {
-                "id": "shirt_2",
-                "name": "shirt_2",
-                "directory": "Shirt Outfit 1/shirt_2.png",
-                "thumbnail": "Shirt Outfit 1/shirt_2.png"
-              },
-              {
-                "id": "shirt_3",
-                "name": "shirt_3",
-                "directory": "Shirt Outfit 1/shirt_3.png",
-                "thumbnail": "Shirt Outfit 1/shirt_3.png"
-              },
-              {
-                "id": "shirt_4",
-                "name": "shirt_4",
-                "directory": "Shirt Outfit 1/shirt_4.png",
-                "thumbnail": "Shirt Outfit 1/shirt_4.png"
-              },
-              {
-                "id": "shirt_5",
-                "name": "shirt_5",
-                "directory": "Shirt Outfit 1/shirt_5.png",
-                "thumbnail": "Shirt Outfit 1/shirt_5.png"
-              },
-              {
-                "id": "shirt_6",
-                "name": "shirt_6",
-                "directory": "Shirt Outfit 1/shirt_6.png",
-                "thumbnail": "Shirt Outfit 1/shirt_6.png"
-              }
-            ]
-          },
-          {
-            "trait": "Boots Outfit 7",
-            "type": "texture",
-            "collection": [
-              {
-                "id": "boots_0",
-                "name": "boots_0",
-                "directory": "Boots Outfit 7/boots_0.png",
-                "thumbnail": "Boots Outfit 7/boots_0.png"
-              },
-              {
-                "id": "boots_1",
-                "name": "boots_1",
-                "directory": "Boots Outfit 7/boots_1.png",
-                "thumbnail": "Boots Outfit 7/boots_1.png"
-              },
-              {
-                "id": "boots_2",
-                "name": "boots_2",
-                "directory": "Boots Outfit 7/boots_2.png",
-                "thumbnail": "Boots Outfit 7/boots_2.png"
-              },
-              {
-                "id": "boots_3",
-                "name": "boots_3",
-                "directory": "Boots Outfit 7/boots_3.png",
-                "thumbnail": "Boots Outfit 7/boots_3.png"
-              },
-              {
-                "id": "boots_4",
-                "name": "boots_4",
-                "directory": "Boots Outfit 7/boots_4.png",
-                "thumbnail": "Boots Outfit 7/boots_4.png"
-              },
-              {
-                "id": "boots_5",
-                "name": "boots_5",
-                "directory": "Boots Outfit 7/boots_5.png",
-                "thumbnail": "Boots Outfit 7/boots_5.png"
-              },
-              {
-                "id": "boots_6",
-                "name": "boots_6",
-                "directory": "Boots Outfit 7/boots_6.png",
-                "thumbnail": "Boots Outfit 7/boots_6.png"
-              }
-            ]
-          },
-          {
-            "trait": "Boots Outfit 2",
-            "type": "texture",
-            "collection": [
-              {
-                "id": "boots_0",
-                "name": "boots_0",
-                "directory": "Boots Outfit 2/boots_0.png",
-                "thumbnail": "Boots Outfit 2/boots_0.png"
-              },
-              {
-                "id": "boots_1",
-                "name": "boots_1",
-                "directory": "Boots Outfit 2/boots_1.png",
-                "thumbnail": "Boots Outfit 2/boots_1.png"
-              },
-              {
-                "id": "boots_2",
-                "name": "boots_2",
-                "directory": "Boots Outfit 2/boots_2.png",
-                "thumbnail": "Boots Outfit 2/boots_2.png"
-              },
-              {
-                "id": "boots_3",
-                "name": "boots_3",
-                "directory": "Boots Outfit 2/boots_3.png",
-                "thumbnail": "Boots Outfit 2/boots_3.png"
-              },
-              {
-                "id": "boots_4",
-                "name": "boots_4",
-                "directory": "Boots Outfit 2/boots_4.png",
-                "thumbnail": "Boots Outfit 2/boots_4.png"
-              },
-              {
-                "id": "boots_5",
-                "name": "boots_5",
-                "directory": "Boots Outfit 2/boots_5.png",
-                "thumbnail": "Boots Outfit 2/boots_5.png"
-              },
-              {
-                "id": "boots_6",
-                "name": "boots_6",
-                "directory": "Boots Outfit 2/boots_6.png",
-                "thumbnail": "Boots Outfit 2/boots_6.png"
-              }
-            ]
-          },
-          {
-            "trait": "Shoes Outfit 5",
-            "type": "texture",
-            "collection": [
-              {
-                "id": "socks_0",
-                "name": "socks_0",
-                "directory": "Shoes Outfit 5/socks_0.png",
-                "thumbnail": "Shoes Outfit 5/socks_0.png"
-              },
-              {
-                "id": "socks_1",
-                "name": "socks_1",
-                "directory": "Shoes Outfit 5/socks_1.png",
-                "thumbnail": "Shoes Outfit 5/socks_1.png"
-              },
-              {
-                "id": "socks_2",
-                "name": "socks_2",
-                "directory": "Shoes Outfit 5/socks_2.png",
-                "thumbnail": "Shoes Outfit 5/socks_2.png"
-              },
-              {
-                "id": "socks_3",
-                "name": "socks_3",
-                "directory": "Shoes Outfit 5/socks_3.png",
-                "thumbnail": "Shoes Outfit 5/socks_3.png"
-              },
-              {
-                "id": "socks_4",
-                "name": "socks_4",
-                "directory": "Shoes Outfit 5/socks_4.png",
-                "thumbnail": "Shoes Outfit 5/socks_4.png"
-              },
-              {
-                "id": "socks_5",
-                "name": "socks_5",
-                "directory": "Shoes Outfit 5/socks_5.png",
-                "thumbnail": "Shoes Outfit 5/socks_5.png"
-              },
-              {
-                "id": "socks_6",
-                "name": "socks_6",
-                "directory": "Shoes Outfit 5/socks_6.png",
-                "thumbnail": "Shoes Outfit 5/socks_6.png"
-              }
-            ]
-          },
-          {
-            "trait": "Shoes Outfit 8",
-            "type": "texture",
-            "collection": [
-              {
-                "id": "shoes_0",
-                "name": "shoes_0",
-                "directory": "Shoes Outfit 8/shoes_0.png",
-                "thumbnail": "Shoes Outfit 8/shoes_0.png"
-              },
-              {
-                "id": "shoes_1",
-                "name": "shoes_1",
-                "directory": "Shoes Outfit 8/shoes_1.png",
-                "thumbnail": "Shoes Outfit 8/shoes_1.png"
-              },
-              {
-                "id": "shoes_2",
-                "name": "shoes_2",
-                "directory": "Shoes Outfit 8/shoes_2.png",
-                "thumbnail": "Shoes Outfit 8/shoes_2.png"
-              },
-              {
-                "id": "shoes_3",
-                "name": "shoes_3",
-                "directory": "Shoes Outfit 8/shoes_3.png",
-                "thumbnail": "Shoes Outfit 8/shoes_3.png"
-              },
-              {
-                "id": "shoes_4",
-                "name": "shoes_4",
-                "directory": "Shoes Outfit 8/shoes_4.png",
-                "thumbnail": "Shoes Outfit 8/shoes_4.png"
-              },
-              {
-                "id": "shoes_5",
-                "name": "shoes_5",
-                "directory": "Shoes Outfit 8/shoes_5.png",
-                "thumbnail": "Shoes Outfit 8/shoes_5.png"
-              },
-              {
-                "id": "shoes_6",
-                "name": "shoes_6",
-                "directory": "Shoes Outfit 8/shoes_6.png",
-                "thumbnail": "Shoes Outfit 8/shoes_6.png"
-              }
-            ]
-          },
-          {
-            "trait": "Shoes Outfit 6",
-            "type": "texture",
-            "collection": [
-              {
-                "id": "shoes_0",
-                "name": "shoes_0",
-                "directory": "Shoes Outfit 6/shoes_0.png",
-                "thumbnail": "Shoes Outfit 6/shoes_0.png"
-              },
-              {
-                "id": "shoes_1",
-                "name": "shoes_1",
-                "directory": "Shoes Outfit 6/shoes_1.png",
-                "thumbnail": "Shoes Outfit 6/shoes_1.png"
-              },
-              {
-                "id": "shoes_2",
-                "name": "shoes_2",
-                "directory": "Shoes Outfit 6/shoes_2.png",
-                "thumbnail": "Shoes Outfit 6/shoes_2.png"
-              },
-              {
-                "id": "shoes_3",
-                "name": "shoes_3",
-                "directory": "Shoes Outfit 6/shoes_3.png",
-                "thumbnail": "Shoes Outfit 6/shoes_3.png"
-              },
-              {
-                "id": "shoes_4",
-                "name": "shoes_4",
-                "directory": "Shoes Outfit 6/shoes_4.png",
-                "thumbnail": "Shoes Outfit 6/shoes_4.png"
-              },
-              {
-                "id": "shoes_5",
-                "name": "shoes_5",
-                "directory": "Shoes Outfit 6/shoes_5.png",
-                "thumbnail": "Shoes Outfit 6/shoes_5.png"
-              },
-              {
-                "id": "shoes_6",
-                "name": "shoes_6",
-                "directory": "Shoes Outfit 6/shoes_6.png",
-                "thumbnail": "Shoes Outfit 6/shoes_6.png"
-              }
-            ]
-          },
-          {
-            "trait": "Shoes Outfit 3",
-            "type": "texture",
-            "collection": [
-              {
-                "id": "shoes_0",
-                "name": "shoes_0",
-                "directory": "Shoes Outfit 3/shoes_0.png",
-                "thumbnail": "Shoes Outfit 3/shoes_0.png"
-              },
-              {
-                "id": "shoes_1",
-                "name": "shoes_1",
-                "directory": "Shoes Outfit 3/shoes_1.png",
-                "thumbnail": "Shoes Outfit 3/shoes_1.png"
-              },
-              {
-                "id": "shoes_2",
-                "name": "shoes_2",
-                "directory": "Shoes Outfit 3/shoes_2.png",
-                "thumbnail": "Shoes Outfit 3/shoes_2.png"
-              },
-              {
-                "id": "shoes_3",
-                "name": "shoes_3",
-                "directory": "Shoes Outfit 3/shoes_3.png",
-                "thumbnail": "Shoes Outfit 3/shoes_3.png"
-              },
-              {
-                "id": "shoes_4",
-                "name": "shoes_4",
-                "directory": "Shoes Outfit 3/shoes_4.png",
-                "thumbnail": "Shoes Outfit 3/shoes_4.png"
-              },
-              {
-                "id": "shoes_5",
-                "name": "shoes_5",
-                "directory": "Shoes Outfit 3/shoes_5.png",
-                "thumbnail": "Shoes Outfit 3/shoes_5.png"
-              },
-              {
-                "id": "shoes_6",
-                "name": "shoes_6",
-                "directory": "Shoes Outfit 3/shoes_6.png",
-                "thumbnail": "Shoes Outfit 3/shoes_6.png"
-              }
-            ]
-          },
-          {
-            "trait": "Shoes Outfit 1",
-            "type": "texture",
-            "collection": [
-              {
-                "id": "shoes_0",
-                "name": "shoes_0",
-                "directory": "Shoes Outfit 1/shoes_0.png",
-                "thumbnail": "Shoes Outfit 1/shoes_0.png"
-              },
-              {
-                "id": "shoes_1",
-                "name": "shoes_1",
-                "directory": "Shoes Outfit 1/shoes_1.png",
-                "thumbnail": "Shoes Outfit 1/shoes_1.png"
-              },
-              {
-                "id": "shoes_2",
-                "name": "shoes_2",
-                "directory": "Shoes Outfit 1/shoes_2.png",
-                "thumbnail": "Shoes Outfit 1/shoes_2.png"
-              },
-              {
-                "id": "shoes_3",
-                "name": "shoes_3",
-                "directory": "Shoes Outfit 1/shoes_3.png",
-                "thumbnail": "Shoes Outfit 1/shoes_3.png"
-              },
-              {
-                "id": "shoes_4",
-                "name": "shoes_4",
-                "directory": "Shoes Outfit 1/shoes_4.png",
-                "thumbnail": "Shoes Outfit 1/shoes_4.png"
-              },
-              {
-                "id": "shoes_5",
-                "name": "shoes_5",
-                "directory": "Shoes Outfit 1/shoes_5.png",
-                "thumbnail": "Shoes Outfit 1/shoes_5.png"
-              },
-              {
-                "id": "shoes_6",
-                "name": "shoes_6",
-                "directory": "Shoes Outfit 1/shoes_6.png",
-                "thumbnail": "Shoes Outfit 1/shoes_6.png"
-              }
-            ]
-          },
-          {
-            "trait": "Shoe Outfit 4",
-            "type": "texture",
-            "collection": [
-              {
-                "id": "shoe_0",
-                "name": "shoe_0",
-                "directory": "Shoe Outfit 4/shoe_0.png",
-                "thumbnail": "Shoe Outfit 4/shoe_0.png"
-              },
-              {
-                "id": "shoe_1",
-                "name": "shoe_1",
-                "directory": "Shoe Outfit 4/shoe_1.png",
-                "thumbnail": "Shoe Outfit 4/shoe_1.png"
-              },
-              {
-                "id": "shoe_2",
-                "name": "shoe_2",
-                "directory": "Shoe Outfit 4/shoe_2.png",
-                "thumbnail": "Shoe Outfit 4/shoe_2.png"
-              },
-              {
-                "id": "shoe_3",
-                "name": "shoe_3",
-                "directory": "Shoe Outfit 4/shoe_3.png",
-                "thumbnail": "Shoe Outfit 4/shoe_3.png"
-              },
-              {
-                "id": "shoe_4",
-                "name": "shoe_4",
-                "directory": "Shoe Outfit 4/shoe_4.png",
-                "thumbnail": "Shoe Outfit 4/shoe_4.png"
-              },
-              {
-                "id": "shoe_5",
-                "name": "shoe_5",
-                "directory": "Shoe Outfit 4/shoe_5.png",
-                "thumbnail": "Shoe Outfit 4/shoe_5.png"
-              },
-              {
-                "id": "shoe_6",
-                "name": "shoe_6",
-                "directory": "Shoe Outfit 4/shoe_6.png",
-                "thumbnail": "Shoe Outfit 4/shoe_6.png"
-              }
-            ]
-          },
-          {
-            "trait": "Shoes Outfit 9",
-            "type": "texture",
-            "collection": [
-              {
-                "id": "shoes_0",
-                "name": "shoes_0",
-                "directory": "Shoes Outfit 9/shoes_0.png",
-                "thumbnail": "Shoes Outfit 9/shoes_0.png"
-              },
-              {
-                "id": "shoes_1",
-                "name": "shoes_1",
-                "directory": "Shoes Outfit 9/shoes_1.png",
-                "thumbnail": "Shoes Outfit 9/shoes_1.png"
-              },
-              {
-                "id": "shoes_2",
-                "name": "shoes_2",
-                "directory": "Shoes Outfit 9/shoes_2.png",
-                "thumbnail": "Shoes Outfit 9/shoes_2.png"
-              },
-              {
-                "id": "shoes_3",
-                "name": "shoes_3",
-                "directory": "Shoes Outfit 9/shoes_3.png",
-                "thumbnail": "Shoes Outfit 9/shoes_3.png"
-              },
-              {
-                "id": "shoes_4",
-                "name": "shoes_4",
-                "directory": "Shoes Outfit 9/shoes_4.png",
-                "thumbnail": "Shoes Outfit 9/shoes_4.png"
-              },
-              {
-                "id": "shoes_5",
-                "name": "shoes_5",
-                "directory": "Shoes Outfit 9/shoes_5.png",
-                "thumbnail": "Shoes Outfit 9/shoes_5.png"
-              },
-              {
-                "id": "shoes_6",
-                "name": "shoes_6",
-                "directory": "Shoes Outfit 9/shoes_6.png",
-                "thumbnail": "Shoes Outfit 9/shoes_6.png"
-              }
-            ]
-          },
-          {
-            "trait": "Pants Outfit 8",
-            "type": "texture",
-            "collection": [
-              {
-                "id": "pants_0",
-                "name": "pants_0",
-                "directory": "Pants Outfit 8/pants_0.png",
-                "thumbnail": "Pants Outfit 8/pants_0.png"
-              },
-              {
-                "id": "pants_1",
-                "name": "pants_1",
-                "directory": "Pants Outfit 8/pants_1.png",
-                "thumbnail": "Pants Outfit 8/pants_1.png"
-              },
-              {
-                "id": "pants_2",
-                "name": "pants_2",
-                "directory": "Pants Outfit 8/pants_2.png",
-                "thumbnail": "Pants Outfit 8/pants_2.png"
-              },
-              {
-                "id": "pants_3",
-                "name": "pants_3",
-                "directory": "Pants Outfit 8/pants_3.png",
-                "thumbnail": "Pants Outfit 8/pants_3.png"
-              },
-              {
-                "id": "pants_4",
-                "name": "pants_4",
-                "directory": "Pants Outfit 8/pants_4.png",
-                "thumbnail": "Pants Outfit 8/pants_4.png"
-              },
-              {
-                "id": "pants_5",
-                "name": "pants_5",
-                "directory": "Pants Outfit 8/pants_5.png",
-                "thumbnail": "Pants Outfit 8/pants_5.png"
-              },
-              {
-                "id": "pants_6",
-                "name": "pants_6",
-                "directory": "Pants Outfit 8/pants_6.png",
-                "thumbnail": "Pants Outfit 8/pants_6.png"
-              }
-            ]
-          },
-          {
-            "trait": "Pants Outfit 6",
-            "type": "texture",
-            "collection": [
-              {
-                "id": "pants_0",
-                "name": "pants_0",
-                "directory": "Pants Outfit 6/pants_0.png",
-                "thumbnail": "Pants Outfit 6/pants_0.png"
-              },
-              {
-                "id": "pants_1",
-                "name": "pants_1",
-                "directory": "Pants Outfit 6/pants_1.png",
-                "thumbnail": "Pants Outfit 6/pants_1.png"
-              },
-              {
-                "id": "pants_2",
-                "name": "pants_2",
-                "directory": "Pants Outfit 6/pants_2.png",
-                "thumbnail": "Pants Outfit 6/pants_2.png"
-              },
-              {
-                "id": "pants_3",
-                "name": "pants_3",
-                "directory": "Pants Outfit 6/pants_3.png",
-                "thumbnail": "Pants Outfit 6/pants_3.png"
-              },
-              {
-                "id": "pants_4",
-                "name": "pants_4",
-                "directory": "Pants Outfit 6/pants_4.png",
-                "thumbnail": "Pants Outfit 6/pants_4.png"
-              },
-              {
-                "id": "pants_5",
-                "name": "pants_5",
-                "directory": "Pants Outfit 6/pants_5.png",
-                "thumbnail": "Pants Outfit 6/pants_5.png"
-              },
-              {
-                "id": "pants_6",
-                "name": "pants_6",
-                "directory": "Pants Outfit 6/pants_6.png",
-                "thumbnail": "Pants Outfit 6/pants_6.png"
-              }
-            ]
-          },
-          {
-            "trait": "Pants Outfit 9",
-            "type": "texture",
-            "collection": [
-              {
-                "id": "pants_0",
-                "name": "pants_0",
-                "directory": "Pants Outfit 9/pants_0.png",
-                "thumbnail": "Pants Outfit 9/pants_0.png"
-              },
-              {
-                "id": "pants_1",
-                "name": "pants_1",
-                "directory": "Pants Outfit 9/pants_1.png",
-                "thumbnail": "Pants Outfit 9/pants_1.png"
-              },
-              {
-                "id": "pants_2",
-                "name": "pants_2",
-                "directory": "Pants Outfit 9/pants_2.png",
-                "thumbnail": "Pants Outfit 9/pants_2.png"
-              },
-              {
-                "id": "pants_3",
-                "name": "pants_3",
-                "directory": "Pants Outfit 9/pants_3.png",
-                "thumbnail": "Pants Outfit 9/pants_3.png"
-              },
-              {
-                "id": "pants_4",
-                "name": "pants_4",
-                "directory": "Pants Outfit 9/pants_4.png",
-                "thumbnail": "Pants Outfit 9/pants_4.png"
-              },
-              {
-                "id": "pants_5",
-                "name": "pants_5",
-                "directory": "Pants Outfit 9/pants_5.png",
-                "thumbnail": "Pants Outfit 9/pants_5.png"
-              },
-              {
-                "id": "pants_6",
-                "name": "pants_6",
-                "directory": "Pants Outfit 9/pants_6.png",
-                "thumbnail": "Pants Outfit 9/pants_6.png"
-              }
-            ]
-          },
-          {
-            "trait": "Shorts Outfit 10",
-            "type": "texture",
-            "collection": [
-              {
-                "id": "shorts_0",
-                "name": "shorts_0",
-                "directory": "Shorts Outfit 10/shorts_0.png",
-                "thumbnail": "Shorts Outfit 10/shorts_0.png"
-              },
-              {
-                "id": "shorts_1",
-                "name": "shorts_1",
-                "directory": "Shorts Outfit 10/shorts_1.png",
-                "thumbnail": "Shorts Outfit 10/shorts_1.png"
-              },
-              {
-                "id": "shorts_2",
-                "name": "shorts_2",
-                "directory": "Shorts Outfit 10/shorts_2.png",
-                "thumbnail": "Shorts Outfit 10/shorts_2.png"
-              },
-              {
-                "id": "shorts_3",
-                "name": "shorts_3",
-                "directory": "Shorts Outfit 10/shorts_3.png",
-                "thumbnail": "Shorts Outfit 10/shorts_3.png"
-              },
-              {
-                "id": "shorts_4",
-                "name": "shorts_4",
-                "directory": "Shorts Outfit 10/shorts_4.png",
-                "thumbnail": "Shorts Outfit 10/shorts_4.png"
-              },
-              {
-                "id": "shorts_5",
-                "name": "shorts_5",
-                "directory": "Shorts Outfit 10/shorts_5.png",
-                "thumbnail": "Shorts Outfit 10/shorts_5.png"
-              },
-              {
-                "id": "shorts_6",
-                "name": "shorts_6",
-                "directory": "Shorts Outfit 10/shorts_6.png",
-                "thumbnail": "Shorts Outfit 10/shorts_6.png"
-              }
-            ]
-          },
-          {
-            "trait": "Shorts Outfit 7",
-            "type": "texture",
-            "collection": [
-              {
-                "id": "shorts_0",
-                "name": "shorts_0",
-                "directory": "Shorts Outfit 7/shorts_0.png",
-                "thumbnail": "Shorts Outfit 7/shorts_0.png"
-              },
-              {
-                "id": "shorts_1",
-                "name": "shorts_1",
-                "directory": "Shorts Outfit 7/shorts_1.png",
-                "thumbnail": "Shorts Outfit 7/shorts_1.png"
-              },
-              {
-                "id": "shorts_2",
-                "name": "shorts_2",
-                "directory": "Shorts Outfit 7/shorts_2.png",
-                "thumbnail": "Shorts Outfit 7/shorts_2.png"
-              },
-              {
-                "id": "shorts_3",
-                "name": "shorts_3",
-                "directory": "Shorts Outfit 7/shorts_3.png",
-                "thumbnail": "Shorts Outfit 7/shorts_3.png"
-              },
-              {
-                "id": "shorts_4",
-                "name": "shorts_4",
-                "directory": "Shorts Outfit 7/shorts_4.png",
-                "thumbnail": "Shorts Outfit 7/shorts_4.png"
-              },
-              {
-                "id": "shorts_5",
-                "name": "shorts_5",
-                "directory": "Shorts Outfit 7/shorts_5.png",
-                "thumbnail": "Shorts Outfit 7/shorts_5.png"
-              },
-              {
-                "id": "shorts_6",
-                "name": "shorts_6",
-                "directory": "Shorts Outfit 7/shorts_6.png",
-                "thumbnail": "Shorts Outfit 7/shorts_6.png"
-              }
-            ]
-          },
-          {
-            "trait": "Skirt Outfit 3",
-            "type": "texture",
-            "collection": [
-              {
-                "id": "skirt_0",
-                "name": "skirt_0",
-                "directory": "Skirt Outfit 3/skirt_0.png",
-                "thumbnail": "Skirt Outfit 3/skirt_0.png"
-              },
-              {
-                "id": "skirt_1",
-                "name": "skirt_1",
-                "directory": "Skirt Outfit 3/skirt_1.png",
-                "thumbnail": "Skirt Outfit 3/skirt_1.png"
-              },
-              {
-                "id": "skirt_2",
-                "name": "skirt_2",
-                "directory": "Skirt Outfit 3/skirt_2.png",
-                "thumbnail": "Skirt Outfit 3/skirt_2.png"
-              },
-              {
-                "id": "skirt_3",
-                "name": "skirt_3",
-                "directory": "Skirt Outfit 3/skirt_3.png",
-                "thumbnail": "Skirt Outfit 3/skirt_3.png"
-              },
-              {
-                "id": "skirt_4",
-                "name": "skirt_4",
-                "directory": "Skirt Outfit 3/skirt_4.png",
-                "thumbnail": "Skirt Outfit 3/skirt_4.png"
-              },
-              {
-                "id": "skirt_5",
-                "name": "skirt_5",
-                "directory": "Skirt Outfit 3/skirt_5.png",
-                "thumbnail": "Skirt Outfit 3/skirt_5.png"
-              },
-              {
-                "id": "skirt_6",
-                "name": "skirt_6",
-                "directory": "Skirt Outfit 3/skirt_6.png",
-                "thumbnail": "Skirt Outfit 3/skirt_6.png"
-              }
-            ]
-          },
-          {
-            "trait": "Short Outfit 4",
-            "type": "texture",
-            "collection": [
-              {
-                "id": "short_0",
-                "name": "short_0",
-                "directory": "Short Outfit 4/short_0.png",
-                "thumbnail": "Short Outfit 4/short_0.png"
-              },
-              {
-                "id": "short_1",
-                "name": "short_1",
-                "directory": "Short Outfit 4/short_1.png",
-                "thumbnail": "Short Outfit 4/short_1.png"
-              },
-              {
-                "id": "short_2",
-                "name": "short_2",
-                "directory": "Short Outfit 4/short_2.png",
-                "thumbnail": "Short Outfit 4/short_2.png"
-              },
-              {
-                "id": "short_3",
-                "name": "short_3",
-                "directory": "Short Outfit 4/short_3.png",
-                "thumbnail": "Short Outfit 4/short_3.png"
-              },
-              {
-                "id": "short_4",
-                "name": "short_4",
-                "directory": "Short Outfit 4/short_4.png",
-                "thumbnail": "Short Outfit 4/short_4.png"
-              },
-              {
-                "id": "short_5",
-                "name": "short_5",
-                "directory": "Short Outfit 4/short_5.png",
-                "thumbnail": "Short Outfit 4/short_5.png"
-              },
-              {
-                "id": "short_6",
-                "name": "short_6",
-                "directory": "Short Outfit 4/short_6.png",
-                "thumbnail": "Short Outfit 4/short_6.png"
-              }
-            ]
-          },
-          {
-            "trait": "Shorts Outfit 5",
-            "type": "texture",
-            "collection": [
-              {
-                "id": "shorts_0",
-                "name": "shorts_0",
-                "directory": "Shorts Outfit 5/shorts_0.png",
-                "thumbnail": "Shorts Outfit 5/shorts_0.png"
-              },
-              {
-                "id": "shorts_1",
-                "name": "shorts_1",
-                "directory": "Shorts Outfit 5/shorts_1.png",
-                "thumbnail": "Shorts Outfit 5/shorts_1.png"
-              },
-              {
-                "id": "shorts_2",
-                "name": "shorts_2",
-                "directory": "Shorts Outfit 5/shorts_2.png",
-                "thumbnail": "Shorts Outfit 5/shorts_2.png"
-              },
-              {
-                "id": "shorts_3",
-                "name": "shorts_3",
-                "directory": "Shorts Outfit 5/shorts_3.png",
-                "thumbnail": "Shorts Outfit 5/shorts_3.png"
-              },
-              {
-                "id": "shorts_4",
-                "name": "shorts_4",
-                "directory": "Shorts Outfit 5/shorts_4.png",
-                "thumbnail": "Shorts Outfit 5/shorts_4.png"
-              },
-              {
-                "id": "shorts_5",
-                "name": "shorts_5",
-                "directory": "Shorts Outfit 5/shorts_5.png",
-                "thumbnail": "Shorts Outfit 5/shorts_5.png"
-              },
-              {
-                "id": "shorts_6",
-                "name": "shorts_6",
-                "directory": "Shorts Outfit 5/shorts_6.png",
-                "thumbnail": "Shorts Outfit 5/shorts_6.png"
-              }
-            ]
-          },
-          {
-            "trait": "Shorts Outfit 1",
-            "type": "texture",
-            "collection": [
-              {
-                "id": "shorts_0",
-                "name": "shorts_0",
-                "directory": "Shorts Outfit 1/shorts_0.png",
-                "thumbnail": "Shorts Outfit 1/shorts_0.png"
-              },
-              {
-                "id": "shorts_1",
-                "name": "shorts_1",
-                "directory": "Shorts Outfit 1/shorts_1.png",
-                "thumbnail": "Shorts Outfit 1/shorts_1.png"
-              },
-              {
-                "id": "shorts_2",
-                "name": "shorts_2",
-                "directory": "Shorts Outfit 1/shorts_2.png",
-                "thumbnail": "Shorts Outfit 1/shorts_2.png"
-              },
-              {
-                "id": "shorts_3",
-                "name": "shorts_3",
-                "directory": "Shorts Outfit 1/shorts_3.png",
-                "thumbnail": "Shorts Outfit 1/shorts_3.png"
-              },
-              {
-                "id": "shorts_4",
-                "name": "shorts_4",
-                "directory": "Shorts Outfit 1/shorts_4.png",
-                "thumbnail": "Shorts Outfit 1/shorts_4.png"
-              },
-              {
-                "id": "shorts_5",
-                "name": "shorts_5",
-                "directory": "Shorts Outfit 1/shorts_5.png",
-                "thumbnail": "Shorts Outfit 1/shorts_5.png"
-              },
-              {
-                "id": "shorts_6",
-                "name": "shorts_6",
-                "directory": "Shorts Outfit 1/shorts_6.png",
-                "thumbnail": "Shorts Outfit 1/shorts_6.png"
-              }
-            ]
-          },
-          {
-            "trait": "Jacket Outfit 9",
-            "type": "texture",
-            "collection": [
-              {
-                "id": "jacket_0",
-                "name": "jacket_0",
-                "directory": "Jacket Outfit 9/jacket_0.png",
-                "thumbnail": "Jacket Outfit 9/jacket_0.png"
-              },
-              {
-                "id": "jacket_1",
-                "name": "jacket_1",
-                "directory": "Jacket Outfit 9/jacket_1.png",
-                "thumbnail": "Jacket Outfit 9/jacket_1.png"
-              },
-              {
-                "id": "jacket_2",
-                "name": "jacket_2",
-                "directory": "Jacket Outfit 9/jacket_2.png",
-                "thumbnail": "Jacket Outfit 9/jacket_2.png"
-              },
-              {
-                "id": "jacket_3",
-                "name": "jacket_3",
-                "directory": "Jacket Outfit 9/jacket_3.png",
-                "thumbnail": "Jacket Outfit 9/jacket_3.png"
-              },
-              {
-                "id": "jacket_4",
-                "name": "jacket_4",
-                "directory": "Jacket Outfit 9/jacket_4.png",
-                "thumbnail": "Jacket Outfit 9/jacket_4.png"
-              },
-              {
-                "id": "jacket_5",
-                "name": "jacket_5",
-                "directory": "Jacket Outfit 9/jacket_5.png",
-                "thumbnail": "Jacket Outfit 9/jacket_5.png"
-              },
-              {
-                "id": "jacket_6",
-                "name": "jacket_6",
-                "directory": "Jacket Outfit 9/jacket_6.png",
-                "thumbnail": "Jacket Outfit 9/jacket_6.png"
-              }
-            ]
-          },
-          {
-            "trait": "Jacket Outfit 5",
-            "type": "texture",
-            "collection": [
-              {
-                "id": "jacket_0",
-                "name": "jacket_0",
-                "directory": "Jacket Outfit 5/jacket_0.png",
-                "thumbnail": "Jacket Outfit 5/jacket_0.png"
-              },
-              {
-                "id": "jacket_1",
-                "name": "jacket_1",
-                "directory": "Jacket Outfit 5/jacket_1.png",
-                "thumbnail": "Jacket Outfit 5/jacket_1.png"
-              },
-              {
-                "id": "jacket_2",
-                "name": "jacket_2",
-                "directory": "Jacket Outfit 5/jacket_2.png",
-                "thumbnail": "Jacket Outfit 5/jacket_2.png"
-              },
-              {
-                "id": "jacket_3",
-                "name": "jacket_3",
-                "directory": "Jacket Outfit 5/jacket_3.png",
-                "thumbnail": "Jacket Outfit 5/jacket_3.png"
-              },
-              {
-                "id": "jacket_4",
-                "name": "jacket_4",
-                "directory": "Jacket Outfit 5/jacket_4.png",
-                "thumbnail": "Jacket Outfit 5/jacket_4.png"
-              },
-              {
-                "id": "jacket_5",
-                "name": "jacket_5",
-                "directory": "Jacket Outfit 5/jacket_5.png",
-                "thumbnail": "Jacket Outfit 5/jacket_5.png"
-              },
-              {
-                "id": "jacket_6",
-                "name": "jacket_6",
-                "directory": "Jacket Outfit 5/jacket_6.png",
-                "thumbnail": "Jacket Outfit 5/jacket_6.png"
-              }
-            ]
-          },
-          {
-            "trait": "Jacket Outfit 3",
-            "type": "texture",
-            "collection": [
-              {
-                "id": "jacket_0",
-                "name": "jacket_0",
-                "directory": "Jacket Outfit 3/jacket_0.png",
-                "thumbnail": "Jacket Outfit 3/jacket_0.png"
-              },
-              {
-                "id": "jacket_1",
-                "name": "jacket_1",
-                "directory": "Jacket Outfit 3/jacket_1.png",
-                "thumbnail": "Jacket Outfit 3/jacket_1.png"
-              },
-              {
-                "id": "jacket_2",
-                "name": "jacket_2",
-                "directory": "Jacket Outfit 3/jacket_2.png",
-                "thumbnail": "Jacket Outfit 3/jacket_2.png"
-              },
-              {
-                "id": "jacket_3",
-                "name": "jacket_3",
-                "directory": "Jacket Outfit 3/jacket_3.png",
-                "thumbnail": "Jacket Outfit 3/jacket_3.png"
-              },
-              {
-                "id": "jacket_4",
-                "name": "jacket_4",
-                "directory": "Jacket Outfit 3/jacket_4.png",
-                "thumbnail": "Jacket Outfit 3/jacket_4.png"
-              },
-              {
-                "id": "jacket_5",
-                "name": "jacket_5",
-                "directory": "Jacket Outfit 3/jacket_5.png",
-                "thumbnail": "Jacket Outfit 3/jacket_5.png"
-              },
-              {
-                "id": "jacket_6",
-                "name": "jacket_6",
-                "directory": "Jacket Outfit 3/jacket_6.png",
-                "thumbnail": "Jacket Outfit 3/jacket_6.png"
-              }
-            ]
-          },
-          {
-            "trait": "Dress Outfit 2",
-            "type": "texture",
-            "collection": [
-              {
-                "id": "dress_0",
-                "name": "dress_0",
-                "directory": "Dress Outfit 2/dress_0.png",
-                "thumbnail": "Dress Outfit 2/dress_0.png"
-              },
-              {
-                "id": "dress_1",
-                "name": "dress_1",
-                "directory": "Dress Outfit 2/dress_1.png",
-                "thumbnail": "Dress Outfit 2/dress_1.png"
-              },
-              {
-                "id": "dress_2",
-                "name": "dress_2",
-                "directory": "Dress Outfit 2/dress_2.png",
-                "thumbnail": "Dress Outfit 2/dress_2.png"
-              },
-              {
-                "id": "dress_3",
-                "name": "dress_3",
-                "directory": "Dress Outfit 2/dress_3.png",
-                "thumbnail": "Dress Outfit 2/dress_3.png"
-              },
-              {
-                "id": "dress_4",
-                "name": "dress_4",
-                "directory": "Dress Outfit 2/dress_4.png",
-                "thumbnail": "Dress Outfit 2/dress_4.png"
-              },
-              {
-                "id": "dress_5",
-                "name": "dress_5",
-                "directory": "Dress Outfit 2/dress_5.png",
-                "thumbnail": "Dress Outfit 2/dress_5.png"
-              },
-              {
-                "id": "dress_6",
-                "name": "dress_6",
-                "directory": "Dress Outfit 2/dress_6.png",
-                "thumbnail": "Dress Outfit 2/dress_6.png"
-              }
-            ]
-          },
-          {
-            "trait": "Jacket Outfit 7",
-            "type": "texture",
-            "collection": [
-              {
-                "id": "jacket_0",
-                "name": "jacket_0",
-                "directory": "Jacket Outfit 7/jacket_0.png",
-                "thumbnail": "Jacket Outfit 7/jacket_0.png"
-              },
-              {
-                "id": "jacket_1",
-                "name": "jacket_1",
-                "directory": "Jacket Outfit 7/jacket_1.png",
-                "thumbnail": "Jacket Outfit 7/jacket_1.png"
-              },
-              {
-                "id": "jacket_2",
-                "name": "jacket_2",
-                "directory": "Jacket Outfit 7/jacket_2.png",
-                "thumbnail": "Jacket Outfit 7/jacket_2.png"
-              },
-              {
-                "id": "jacket_3",
-                "name": "jacket_3",
-                "directory": "Jacket Outfit 7/jacket_3.png",
-                "thumbnail": "Jacket Outfit 7/jacket_3.png"
-              },
-              {
-                "id": "jacket_4",
-                "name": "jacket_4",
-                "directory": "Jacket Outfit 7/jacket_4.png",
-                "thumbnail": "Jacket Outfit 7/jacket_4.png"
-              },
-              {
-                "id": "jacket_5",
-                "name": "jacket_5",
-                "directory": "Jacket Outfit 7/jacket_5.png",
-                "thumbnail": "Jacket Outfit 7/jacket_5.png"
-              },
-              {
-                "id": "jacket_6",
-                "name": "jacket_6",
-                "directory": "Jacket Outfit 7/jacket_6.png",
-                "thumbnail": "Jacket Outfit 7/jacket_6.png"
-              }
-            ]
           }
         ]
       }
+    ],
+    "textures":[
+      {
+        "trait": "Belt Outfit 3",
+        "type": "texture",
+        "collection": [
+          {
+            "id": "belt_0",
+            "name": "belt_0",
+            "directory": "Belt Outfit 3/belt_0.png",
+            "thumbnail": "Belt Outfit 3/belt_0.png"
+          },
+          {
+            "id": "belt_1",
+            "name": "belt_1",
+            "directory": "Belt Outfit 3/belt_1.png",
+            "thumbnail": "Belt Outfit 3/belt_1.png"
+          },
+          {
+            "id": "belt_2",
+            "name": "belt_2",
+            "directory": "Belt Outfit 3/belt_2.png",
+            "thumbnail": "Belt Outfit 3/belt_2.png"
+          },
+          {
+            "id": "belt_3",
+            "name": "belt_3",
+            "directory": "Belt Outfit 3/belt_3.png",
+            "thumbnail": "Belt Outfit 3/belt_3.png"
+          },
+          {
+            "id": "belt_4",
+            "name": "belt_4",
+            "directory": "Belt Outfit 3/belt_4.png",
+            "thumbnail": "Belt Outfit 3/belt_4.png"
+          },
+          {
+            "id": "belt_5",
+            "name": "belt_5",
+            "directory": "Belt Outfit 3/belt_5.png",
+            "thumbnail": "Belt Outfit 3/belt_5.png"
+          },
+          {
+            "id": "belt_6",
+            "name": "belt_6",
+            "directory": "Belt Outfit 3/belt_6.png",
+            "thumbnail": "Belt Outfit 3/belt_6.png"
+          }
+        ]
+      },
+      {
+        "trait": "Leg Outfit 1",
+        "type": "texture",
+        "collection": [
+          {
+            "id": "leg_0",
+            "name": "leg_0",
+            "directory": "Leg Outfit 1/leg_0.png",
+            "thumbnail": "Leg Outfit 1/leg_0.png"
+          },
+          {
+            "id": "leg_1",
+            "name": "leg_1",
+            "directory": "Leg Outfit 1/leg_1.png",
+            "thumbnail": "Leg Outfit 1/leg_1.png"
+          },
+          {
+            "id": "leg_2",
+            "name": "leg_2",
+            "directory": "Leg Outfit 1/leg_2.png",
+            "thumbnail": "Leg Outfit 1/leg_2.png"
+          },
+          {
+            "id": "leg_3",
+            "name": "leg_3",
+            "directory": "Leg Outfit 1/leg_3.png",
+            "thumbnail": "Leg Outfit 1/leg_3.png"
+          },
+          {
+            "id": "leg_4",
+            "name": "leg_4",
+            "directory": "Leg Outfit 1/leg_4.png",
+            "thumbnail": "Leg Outfit 1/leg_4.png"
+          },
+          {
+            "id": "leg_5",
+            "name": "leg_5",
+            "directory": "Leg Outfit 1/leg_5.png",
+            "thumbnail": "Leg Outfit 1/leg_5.png"
+          },
+          {
+            "id": "leg_6",
+            "name": "leg_6",
+            "directory": "Leg Outfit 1/leg_6.png",
+            "thumbnail": "Leg Outfit 1/leg_6.png"
+          }
+        ]
+      },
+      {
+        "trait": "Top Outfit 6",
+        "type": "texture",
+        "collection": [
+          {
+            "id": "top_0",
+            "name": "top_0",
+            "directory": "Top Outfit 6/top_0.png",
+            "thumbnail": "Top Outfit 6/top_0.png"
+          },
+          {
+            "id": "top_1",
+            "name": "top_1",
+            "directory": "Top Outfit 6/top_1.png",
+            "thumbnail": "Top Outfit 6/top_1.png"
+          },
+          {
+            "id": "top_2",
+            "name": "top_2",
+            "directory": "Top Outfit 6/top_2.png",
+            "thumbnail": "Top Outfit 6/top_2.png"
+          },
+          {
+            "id": "top_3",
+            "name": "top_3",
+            "directory": "Top Outfit 6/top_3.png",
+            "thumbnail": "Top Outfit 6/top_3.png"
+          },
+          {
+            "id": "top_4",
+            "name": "top_4",
+            "directory": "Top Outfit 6/top_4.png",
+            "thumbnail": "Top Outfit 6/top_4.png"
+          },
+          {
+            "id": "top_5",
+            "name": "top_5",
+            "directory": "Top Outfit 6/top_5.png",
+            "thumbnail": "Top Outfit 6/top_5.png"
+          },
+          {
+            "id": "top_6",
+            "name": "top_6",
+            "directory": "Top Outfit 6/top_6.png",
+            "thumbnail": "Top Outfit 6/top_6.png"
+          }
+        ]
+      },
+      {
+        "trait": "Jacket Outfit 10",
+        "type": "texture",
+        "collection": [
+          {
+            "id": "jacket_0",
+            "name": "jacket_0",
+            "directory": "Jacket Outfit 10/jacket_0.png",
+            "thumbnail": "Jacket Outfit 10/jacket_0.png"
+          },
+          {
+            "id": "jacket_1",
+            "name": "jacket_1",
+            "directory": "Jacket Outfit 10/jacket_1.png",
+            "thumbnail": "Jacket Outfit 10/jacket_1.png"
+          },
+          {
+            "id": "jacket_2",
+            "name": "jacket_2",
+            "directory": "Jacket Outfit 10/jacket_2.png",
+            "thumbnail": "Jacket Outfit 10/jacket_2.png"
+          },
+          {
+            "id": "jacket_3",
+            "name": "jacket_3",
+            "directory": "Jacket Outfit 10/jacket_3.png",
+            "thumbnail": "Jacket Outfit 10/jacket_3.png"
+          },
+          {
+            "id": "jacket_4",
+            "name": "jacket_4",
+            "directory": "Jacket Outfit 10/jacket_4.png",
+            "thumbnail": "Jacket Outfit 10/jacket_4.png"
+          },
+          {
+            "id": "jacket_5",
+            "name": "jacket_5",
+            "directory": "Jacket Outfit 10/jacket_5.png",
+            "thumbnail": "Jacket Outfit 10/jacket_5.png"
+          },
+          {
+            "id": "jacket_6",
+            "name": "jacket_6",
+            "directory": "Jacket Outfit 10/jacket_6.png",
+            "thumbnail": "Jacket Outfit 10/jacket_6.png"
+          }
+        ]
+      },
+      {
+        "trait": "Topsuit Outfit 9",
+        "type": "texture",
+        "collection": [
+          {
+            "id": "topsuit_0",
+            "name": "topsuit_0",
+            "directory": "Topsuit Outfit 9/topsuit_0.png",
+            "thumbnail": "Topsuit Outfit 9/topsuit_0.png"
+          },
+          {
+            "id": "topsuit_1",
+            "name": "topsuit_1",
+            "directory": "Topsuit Outfit 9/topsuit_1.png",
+            "thumbnail": "Topsuit Outfit 9/topsuit_1.png"
+          },
+          {
+            "id": "topsuit_2",
+            "name": "topsuit_2",
+            "directory": "Topsuit Outfit 9/topsuit_2.png",
+            "thumbnail": "Topsuit Outfit 9/topsuit_2.png"
+          },
+          {
+            "id": "topsuit_3",
+            "name": "topsuit_3",
+            "directory": "Topsuit Outfit 9/topsuit_3.png",
+            "thumbnail": "Topsuit Outfit 9/topsuit_3.png"
+          },
+          {
+            "id": "topsuit_4",
+            "name": "topsuit_4",
+            "directory": "Topsuit Outfit 9/topsuit_4.png",
+            "thumbnail": "Topsuit Outfit 9/topsuit_4.png"
+          },
+          {
+            "id": "topsuit_5",
+            "name": "topsuit_5",
+            "directory": "Topsuit Outfit 9/topsuit_5.png",
+            "thumbnail": "Topsuit Outfit 9/topsuit_5.png"
+          },
+          {
+            "id": "topsuit_6",
+            "name": "topsuit_6",
+            "directory": "Topsuit Outfit 9/topsuit_6.png",
+            "thumbnail": "Topsuit Outfit 9/topsuit_6.png"
+          }
+        ]
+      },
+      {
+        "trait": "Top Outfit 8",
+        "type": "texture",
+        "collection": [
+          {
+            "id": "top_0",
+            "name": "top_0",
+            "directory": "Top Outfit 8/top_0.png",
+            "thumbnail": "Top Outfit 8/top_0.png"
+          },
+          {
+            "id": "top_1",
+            "name": "top_1",
+            "directory": "Top Outfit 8/top_1.png",
+            "thumbnail": "Top Outfit 8/top_1.png"
+          },
+          {
+            "id": "top_2",
+            "name": "top_2",
+            "directory": "Top Outfit 8/top_2.png",
+            "thumbnail": "Top Outfit 8/top_2.png"
+          },
+          {
+            "id": "top_3",
+            "name": "top_3",
+            "directory": "Top Outfit 8/top_3.png",
+            "thumbnail": "Top Outfit 8/top_3.png"
+          },
+          {
+            "id": "top_4",
+            "name": "top_4",
+            "directory": "Top Outfit 8/top_4.png",
+            "thumbnail": "Top Outfit 8/top_4.png"
+          },
+          {
+            "id": "top_5",
+            "name": "top_5",
+            "directory": "Top Outfit 8/top_5.png",
+            "thumbnail": "Top Outfit 8/top_5.png"
+          },
+          {
+            "id": "top_6",
+            "name": "top_6",
+            "directory": "Top Outfit 8/top_6.png",
+            "thumbnail": "Top Outfit 8/top_6.png"
+          }
+        ]
+      },
+      {
+        "trait": "Shirt Outfit 3",
+        "type": "texture",
+        "collection": [
+          {
+            "id": "shirt_0",
+            "name": "shirt_0",
+            "directory": "Shirt Outfit 3/shirt_0.png",
+            "thumbnail": "Shirt Outfit 3/shirt_0.png"
+          },
+          {
+            "id": "shirt_1",
+            "name": "shirt_1",
+            "directory": "Shirt Outfit 3/shirt_1.png",
+            "thumbnail": "Shirt Outfit 3/shirt_1.png"
+          },
+          {
+            "id": "shirt_2",
+            "name": "shirt_2",
+            "directory": "Shirt Outfit 3/shirt_2.png",
+            "thumbnail": "Shirt Outfit 3/shirt_2.png"
+          },
+          {
+            "id": "shirt_3",
+            "name": "shirt_3",
+            "directory": "Shirt Outfit 3/shirt_3.png",
+            "thumbnail": "Shirt Outfit 3/shirt_3.png"
+          },
+          {
+            "id": "shirt_4",
+            "name": "shirt_4",
+            "directory": "Shirt Outfit 3/shirt_4.png",
+            "thumbnail": "Shirt Outfit 3/shirt_4.png"
+          },
+          {
+            "id": "shirt_5",
+            "name": "shirt_5",
+            "directory": "Shirt Outfit 3/shirt_5.png",
+            "thumbnail": "Shirt Outfit 3/shirt_5.png"
+          },
+          {
+            "id": "shirt_6",
+            "name": "shirt_6",
+            "directory": "Shirt Outfit 3/shirt_6.png",
+            "thumbnail": "Shirt Outfit 3/shirt_6.png"
+          }
+        ]
+      },
+      {
+        "trait": "Sweater Outfit 4",
+        "type": "texture",
+        "collection": [
+          {
+            "id": "swater_0",
+            "name": "swater_0",
+            "directory": "Sweater Outfit 4/swater_0.png",
+            "thumbnail": "Sweater Outfit 4/swater_0.png"
+          },
+          {
+            "id": "swater_1",
+            "name": "swater_1",
+            "directory": "Sweater Outfit 4/swater_1.png",
+            "thumbnail": "Sweater Outfit 4/swater_1.png"
+          },
+          {
+            "id": "swater_2",
+            "name": "swater_2",
+            "directory": "Sweater Outfit 4/swater_2.png",
+            "thumbnail": "Sweater Outfit 4/swater_2.png"
+          },
+          {
+            "id": "swater_3",
+            "name": "swater_3",
+            "directory": "Sweater Outfit 4/swater_3.png",
+            "thumbnail": "Sweater Outfit 4/swater_3.png"
+          },
+          {
+            "id": "swater_4",
+            "name": "swater_4",
+            "directory": "Sweater Outfit 4/swater_4.png",
+            "thumbnail": "Sweater Outfit 4/swater_4.png"
+          },
+          {
+            "id": "swater_5",
+            "name": "swater_5",
+            "directory": "Sweater Outfit 4/swater_5.png",
+            "thumbnail": "Sweater Outfit 4/swater_5.png"
+          },
+          {
+            "id": "swater_6",
+            "name": "swater_6",
+            "directory": "Sweater Outfit 4/swater_6.png",
+            "thumbnail": "Sweater Outfit 4/swater_6.png"
+          }
+        ]
+      },
+      {
+        "trait": "Tanktop Outfit 4",
+        "type": "texture",
+        "collection": [
+          {
+            "id": "tanktop_0",
+            "name": "tanktop_0",
+            "directory": "Tanktop Outfit 4/tanktop_0.png",
+            "thumbnail": "Tanktop Outfit 4/tanktop_0.png"
+          },
+          {
+            "id": "tanktop_1",
+            "name": "tanktop_1",
+            "directory": "Tanktop Outfit 4/tanktop_1.png",
+            "thumbnail": "Tanktop Outfit 4/tanktop_1.png"
+          },
+          {
+            "id": "tanktop_2",
+            "name": "tanktop_2",
+            "directory": "Tanktop Outfit 4/tanktop_2.png",
+            "thumbnail": "Tanktop Outfit 4/tanktop_2.png"
+          },
+          {
+            "id": "tanktop_3",
+            "name": "tanktop_3",
+            "directory": "Tanktop Outfit 4/tanktop_3.png",
+            "thumbnail": "Tanktop Outfit 4/tanktop_3.png"
+          },
+          {
+            "id": "tanktop_4",
+            "name": "tanktop_4",
+            "directory": "Tanktop Outfit 4/tanktop_4.png",
+            "thumbnail": "Tanktop Outfit 4/tanktop_4.png"
+          },
+          {
+            "id": "tanktop_5",
+            "name": "tanktop_5",
+            "directory": "Tanktop Outfit 4/tanktop_5.png",
+            "thumbnail": "Tanktop Outfit 4/tanktop_5.png"
+          },
+          {
+            "id": "tanktop_6",
+            "name": "tanktop_6",
+            "directory": "Tanktop Outfit 4/tanktop_6.png",
+            "thumbnail": "Tanktop Outfit 4/tanktop_6.png"
+          }
+        ]
+      },
+      {
+        "trait": "Shirt Outfit 1",
+        "type": "texture",
+        "collection": [
+          {
+            "id": "shirt_0",
+            "name": "shirt_0",
+            "directory": "Shirt Outfit 1/shirt_0.png",
+            "thumbnail": "Shirt Outfit 1/shirt_0.png"
+          },
+          {
+            "id": "shirt_1",
+            "name": "shirt_1",
+            "directory": "Shirt Outfit 1/shirt_1.png",
+            "thumbnail": "Shirt Outfit 1/shirt_1.png"
+          },
+          {
+            "id": "shirt_2",
+            "name": "shirt_2",
+            "directory": "Shirt Outfit 1/shirt_2.png",
+            "thumbnail": "Shirt Outfit 1/shirt_2.png"
+          },
+          {
+            "id": "shirt_3",
+            "name": "shirt_3",
+            "directory": "Shirt Outfit 1/shirt_3.png",
+            "thumbnail": "Shirt Outfit 1/shirt_3.png"
+          },
+          {
+            "id": "shirt_4",
+            "name": "shirt_4",
+            "directory": "Shirt Outfit 1/shirt_4.png",
+            "thumbnail": "Shirt Outfit 1/shirt_4.png"
+          },
+          {
+            "id": "shirt_5",
+            "name": "shirt_5",
+            "directory": "Shirt Outfit 1/shirt_5.png",
+            "thumbnail": "Shirt Outfit 1/shirt_5.png"
+          },
+          {
+            "id": "shirt_6",
+            "name": "shirt_6",
+            "directory": "Shirt Outfit 1/shirt_6.png",
+            "thumbnail": "Shirt Outfit 1/shirt_6.png"
+          }
+        ]
+      },
+      {
+        "trait": "Boots Outfit 7",
+        "type": "texture",
+        "collection": [
+          {
+            "id": "boots_0",
+            "name": "boots_0",
+            "directory": "Boots Outfit 7/boots_0.png",
+            "thumbnail": "Boots Outfit 7/boots_0.png"
+          },
+          {
+            "id": "boots_1",
+            "name": "boots_1",
+            "directory": "Boots Outfit 7/boots_1.png",
+            "thumbnail": "Boots Outfit 7/boots_1.png"
+          },
+          {
+            "id": "boots_2",
+            "name": "boots_2",
+            "directory": "Boots Outfit 7/boots_2.png",
+            "thumbnail": "Boots Outfit 7/boots_2.png"
+          },
+          {
+            "id": "boots_3",
+            "name": "boots_3",
+            "directory": "Boots Outfit 7/boots_3.png",
+            "thumbnail": "Boots Outfit 7/boots_3.png"
+          },
+          {
+            "id": "boots_4",
+            "name": "boots_4",
+            "directory": "Boots Outfit 7/boots_4.png",
+            "thumbnail": "Boots Outfit 7/boots_4.png"
+          },
+          {
+            "id": "boots_5",
+            "name": "boots_5",
+            "directory": "Boots Outfit 7/boots_5.png",
+            "thumbnail": "Boots Outfit 7/boots_5.png"
+          },
+          {
+            "id": "boots_6",
+            "name": "boots_6",
+            "directory": "Boots Outfit 7/boots_6.png",
+            "thumbnail": "Boots Outfit 7/boots_6.png"
+          }
+        ]
+      },
+      {
+        "trait": "Boots Outfit 2",
+        "type": "texture",
+        "collection": [
+          {
+            "id": "boots_0",
+            "name": "boots_0",
+            "directory": "Boots Outfit 2/boots_0.png",
+            "thumbnail": "Boots Outfit 2/boots_0.png"
+          },
+          {
+            "id": "boots_1",
+            "name": "boots_1",
+            "directory": "Boots Outfit 2/boots_1.png",
+            "thumbnail": "Boots Outfit 2/boots_1.png"
+          },
+          {
+            "id": "boots_2",
+            "name": "boots_2",
+            "directory": "Boots Outfit 2/boots_2.png",
+            "thumbnail": "Boots Outfit 2/boots_2.png"
+          },
+          {
+            "id": "boots_3",
+            "name": "boots_3",
+            "directory": "Boots Outfit 2/boots_3.png",
+            "thumbnail": "Boots Outfit 2/boots_3.png"
+          },
+          {
+            "id": "boots_4",
+            "name": "boots_4",
+            "directory": "Boots Outfit 2/boots_4.png",
+            "thumbnail": "Boots Outfit 2/boots_4.png"
+          },
+          {
+            "id": "boots_5",
+            "name": "boots_5",
+            "directory": "Boots Outfit 2/boots_5.png",
+            "thumbnail": "Boots Outfit 2/boots_5.png"
+          },
+          {
+            "id": "boots_6",
+            "name": "boots_6",
+            "directory": "Boots Outfit 2/boots_6.png",
+            "thumbnail": "Boots Outfit 2/boots_6.png"
+          }
+        ]
+      },
+      {
+        "trait": "Shoes Outfit 5",
+        "type": "texture",
+        "collection": [
+          {
+            "id": "socks_0",
+            "name": "socks_0",
+            "directory": "Shoes Outfit 5/socks_0.png",
+            "thumbnail": "Shoes Outfit 5/socks_0.png"
+          },
+          {
+            "id": "socks_1",
+            "name": "socks_1",
+            "directory": "Shoes Outfit 5/socks_1.png",
+            "thumbnail": "Shoes Outfit 5/socks_1.png"
+          },
+          {
+            "id": "socks_2",
+            "name": "socks_2",
+            "directory": "Shoes Outfit 5/socks_2.png",
+            "thumbnail": "Shoes Outfit 5/socks_2.png"
+          },
+          {
+            "id": "socks_3",
+            "name": "socks_3",
+            "directory": "Shoes Outfit 5/socks_3.png",
+            "thumbnail": "Shoes Outfit 5/socks_3.png"
+          },
+          {
+            "id": "socks_4",
+            "name": "socks_4",
+            "directory": "Shoes Outfit 5/socks_4.png",
+            "thumbnail": "Shoes Outfit 5/socks_4.png"
+          },
+          {
+            "id": "socks_5",
+            "name": "socks_5",
+            "directory": "Shoes Outfit 5/socks_5.png",
+            "thumbnail": "Shoes Outfit 5/socks_5.png"
+          },
+          {
+            "id": "socks_6",
+            "name": "socks_6",
+            "directory": "Shoes Outfit 5/socks_6.png",
+            "thumbnail": "Shoes Outfit 5/socks_6.png"
+          }
+        ]
+      },
+      {
+        "trait": "Shoes Outfit 8",
+        "type": "texture",
+        "collection": [
+          {
+            "id": "shoes_0",
+            "name": "shoes_0",
+            "directory": "Shoes Outfit 8/shoes_0.png",
+            "thumbnail": "Shoes Outfit 8/shoes_0.png"
+          },
+          {
+            "id": "shoes_1",
+            "name": "shoes_1",
+            "directory": "Shoes Outfit 8/shoes_1.png",
+            "thumbnail": "Shoes Outfit 8/shoes_1.png"
+          },
+          {
+            "id": "shoes_2",
+            "name": "shoes_2",
+            "directory": "Shoes Outfit 8/shoes_2.png",
+            "thumbnail": "Shoes Outfit 8/shoes_2.png"
+          },
+          {
+            "id": "shoes_3",
+            "name": "shoes_3",
+            "directory": "Shoes Outfit 8/shoes_3.png",
+            "thumbnail": "Shoes Outfit 8/shoes_3.png"
+          },
+          {
+            "id": "shoes_4",
+            "name": "shoes_4",
+            "directory": "Shoes Outfit 8/shoes_4.png",
+            "thumbnail": "Shoes Outfit 8/shoes_4.png"
+          },
+          {
+            "id": "shoes_5",
+            "name": "shoes_5",
+            "directory": "Shoes Outfit 8/shoes_5.png",
+            "thumbnail": "Shoes Outfit 8/shoes_5.png"
+          },
+          {
+            "id": "shoes_6",
+            "name": "shoes_6",
+            "directory": "Shoes Outfit 8/shoes_6.png",
+            "thumbnail": "Shoes Outfit 8/shoes_6.png"
+          }
+        ]
+      },
+      {
+        "trait": "Shoes Outfit 6",
+        "type": "texture",
+        "collection": [
+          {
+            "id": "shoes_0",
+            "name": "shoes_0",
+            "directory": "Shoes Outfit 6/shoes_0.png",
+            "thumbnail": "Shoes Outfit 6/shoes_0.png"
+          },
+          {
+            "id": "shoes_1",
+            "name": "shoes_1",
+            "directory": "Shoes Outfit 6/shoes_1.png",
+            "thumbnail": "Shoes Outfit 6/shoes_1.png"
+          },
+          {
+            "id": "shoes_2",
+            "name": "shoes_2",
+            "directory": "Shoes Outfit 6/shoes_2.png",
+            "thumbnail": "Shoes Outfit 6/shoes_2.png"
+          },
+          {
+            "id": "shoes_3",
+            "name": "shoes_3",
+            "directory": "Shoes Outfit 6/shoes_3.png",
+            "thumbnail": "Shoes Outfit 6/shoes_3.png"
+          },
+          {
+            "id": "shoes_4",
+            "name": "shoes_4",
+            "directory": "Shoes Outfit 6/shoes_4.png",
+            "thumbnail": "Shoes Outfit 6/shoes_4.png"
+          },
+          {
+            "id": "shoes_5",
+            "name": "shoes_5",
+            "directory": "Shoes Outfit 6/shoes_5.png",
+            "thumbnail": "Shoes Outfit 6/shoes_5.png"
+          },
+          {
+            "id": "shoes_6",
+            "name": "shoes_6",
+            "directory": "Shoes Outfit 6/shoes_6.png",
+            "thumbnail": "Shoes Outfit 6/shoes_6.png"
+          }
+        ]
+      },
+      {
+        "trait": "Shoes Outfit 3",
+        "type": "texture",
+        "collection": [
+          {
+            "id": "shoes_0",
+            "name": "shoes_0",
+            "directory": "Shoes Outfit 3/shoes_0.png",
+            "thumbnail": "Shoes Outfit 3/shoes_0.png"
+          },
+          {
+            "id": "shoes_1",
+            "name": "shoes_1",
+            "directory": "Shoes Outfit 3/shoes_1.png",
+            "thumbnail": "Shoes Outfit 3/shoes_1.png"
+          },
+          {
+            "id": "shoes_2",
+            "name": "shoes_2",
+            "directory": "Shoes Outfit 3/shoes_2.png",
+            "thumbnail": "Shoes Outfit 3/shoes_2.png"
+          },
+          {
+            "id": "shoes_3",
+            "name": "shoes_3",
+            "directory": "Shoes Outfit 3/shoes_3.png",
+            "thumbnail": "Shoes Outfit 3/shoes_3.png"
+          },
+          {
+            "id": "shoes_4",
+            "name": "shoes_4",
+            "directory": "Shoes Outfit 3/shoes_4.png",
+            "thumbnail": "Shoes Outfit 3/shoes_4.png"
+          },
+          {
+            "id": "shoes_5",
+            "name": "shoes_5",
+            "directory": "Shoes Outfit 3/shoes_5.png",
+            "thumbnail": "Shoes Outfit 3/shoes_5.png"
+          },
+          {
+            "id": "shoes_6",
+            "name": "shoes_6",
+            "directory": "Shoes Outfit 3/shoes_6.png",
+            "thumbnail": "Shoes Outfit 3/shoes_6.png"
+          }
+        ]
+      },
+      {
+        "trait": "Shoes Outfit 1",
+        "type": "texture",
+        "collection": [
+          {
+            "id": "shoes_0",
+            "name": "shoes_0",
+            "directory": "Shoes Outfit 1/shoes_0.png",
+            "thumbnail": "Shoes Outfit 1/shoes_0.png"
+          },
+          {
+            "id": "shoes_1",
+            "name": "shoes_1",
+            "directory": "Shoes Outfit 1/shoes_1.png",
+            "thumbnail": "Shoes Outfit 1/shoes_1.png"
+          },
+          {
+            "id": "shoes_2",
+            "name": "shoes_2",
+            "directory": "Shoes Outfit 1/shoes_2.png",
+            "thumbnail": "Shoes Outfit 1/shoes_2.png"
+          },
+          {
+            "id": "shoes_3",
+            "name": "shoes_3",
+            "directory": "Shoes Outfit 1/shoes_3.png",
+            "thumbnail": "Shoes Outfit 1/shoes_3.png"
+          },
+          {
+            "id": "shoes_4",
+            "name": "shoes_4",
+            "directory": "Shoes Outfit 1/shoes_4.png",
+            "thumbnail": "Shoes Outfit 1/shoes_4.png"
+          },
+          {
+            "id": "shoes_5",
+            "name": "shoes_5",
+            "directory": "Shoes Outfit 1/shoes_5.png",
+            "thumbnail": "Shoes Outfit 1/shoes_5.png"
+          },
+          {
+            "id": "shoes_6",
+            "name": "shoes_6",
+            "directory": "Shoes Outfit 1/shoes_6.png",
+            "thumbnail": "Shoes Outfit 1/shoes_6.png"
+          }
+        ]
+      },
+      {
+        "trait": "Shoe Outfit 4",
+        "type": "texture",
+        "collection": [
+          {
+            "id": "shoe_0",
+            "name": "shoe_0",
+            "directory": "Shoe Outfit 4/shoe_0.png",
+            "thumbnail": "Shoe Outfit 4/shoe_0.png"
+          },
+          {
+            "id": "shoe_1",
+            "name": "shoe_1",
+            "directory": "Shoe Outfit 4/shoe_1.png",
+            "thumbnail": "Shoe Outfit 4/shoe_1.png"
+          },
+          {
+            "id": "shoe_2",
+            "name": "shoe_2",
+            "directory": "Shoe Outfit 4/shoe_2.png",
+            "thumbnail": "Shoe Outfit 4/shoe_2.png"
+          },
+          {
+            "id": "shoe_3",
+            "name": "shoe_3",
+            "directory": "Shoe Outfit 4/shoe_3.png",
+            "thumbnail": "Shoe Outfit 4/shoe_3.png"
+          },
+          {
+            "id": "shoe_4",
+            "name": "shoe_4",
+            "directory": "Shoe Outfit 4/shoe_4.png",
+            "thumbnail": "Shoe Outfit 4/shoe_4.png"
+          },
+          {
+            "id": "shoe_5",
+            "name": "shoe_5",
+            "directory": "Shoe Outfit 4/shoe_5.png",
+            "thumbnail": "Shoe Outfit 4/shoe_5.png"
+          },
+          {
+            "id": "shoe_6",
+            "name": "shoe_6",
+            "directory": "Shoe Outfit 4/shoe_6.png",
+            "thumbnail": "Shoe Outfit 4/shoe_6.png"
+          }
+        ]
+      },
+      {
+        "trait": "Shoes Outfit 9",
+        "type": "texture",
+        "collection": [
+          {
+            "id": "shoes_0",
+            "name": "shoes_0",
+            "directory": "Shoes Outfit 9/shoes_0.png",
+            "thumbnail": "Shoes Outfit 9/shoes_0.png"
+          },
+          {
+            "id": "shoes_1",
+            "name": "shoes_1",
+            "directory": "Shoes Outfit 9/shoes_1.png",
+            "thumbnail": "Shoes Outfit 9/shoes_1.png"
+          },
+          {
+            "id": "shoes_2",
+            "name": "shoes_2",
+            "directory": "Shoes Outfit 9/shoes_2.png",
+            "thumbnail": "Shoes Outfit 9/shoes_2.png"
+          },
+          {
+            "id": "shoes_3",
+            "name": "shoes_3",
+            "directory": "Shoes Outfit 9/shoes_3.png",
+            "thumbnail": "Shoes Outfit 9/shoes_3.png"
+          },
+          {
+            "id": "shoes_4",
+            "name": "shoes_4",
+            "directory": "Shoes Outfit 9/shoes_4.png",
+            "thumbnail": "Shoes Outfit 9/shoes_4.png"
+          },
+          {
+            "id": "shoes_5",
+            "name": "shoes_5",
+            "directory": "Shoes Outfit 9/shoes_5.png",
+            "thumbnail": "Shoes Outfit 9/shoes_5.png"
+          },
+          {
+            "id": "shoes_6",
+            "name": "shoes_6",
+            "directory": "Shoes Outfit 9/shoes_6.png",
+            "thumbnail": "Shoes Outfit 9/shoes_6.png"
+          }
+        ]
+      },
+      {
+        "trait": "Pants Outfit 8",
+        "type": "texture",
+        "collection": [
+          {
+            "id": "pants_0",
+            "name": "pants_0",
+            "directory": "Pants Outfit 8/pants_0.png",
+            "thumbnail": "Pants Outfit 8/pants_0.png"
+          },
+          {
+            "id": "pants_1",
+            "name": "pants_1",
+            "directory": "Pants Outfit 8/pants_1.png",
+            "thumbnail": "Pants Outfit 8/pants_1.png"
+          },
+          {
+            "id": "pants_2",
+            "name": "pants_2",
+            "directory": "Pants Outfit 8/pants_2.png",
+            "thumbnail": "Pants Outfit 8/pants_2.png"
+          },
+          {
+            "id": "pants_3",
+            "name": "pants_3",
+            "directory": "Pants Outfit 8/pants_3.png",
+            "thumbnail": "Pants Outfit 8/pants_3.png"
+          },
+          {
+            "id": "pants_4",
+            "name": "pants_4",
+            "directory": "Pants Outfit 8/pants_4.png",
+            "thumbnail": "Pants Outfit 8/pants_4.png"
+          },
+          {
+            "id": "pants_5",
+            "name": "pants_5",
+            "directory": "Pants Outfit 8/pants_5.png",
+            "thumbnail": "Pants Outfit 8/pants_5.png"
+          },
+          {
+            "id": "pants_6",
+            "name": "pants_6",
+            "directory": "Pants Outfit 8/pants_6.png",
+            "thumbnail": "Pants Outfit 8/pants_6.png"
+          }
+        ]
+      },
+      {
+        "trait": "Pants Outfit 6",
+        "type": "texture",
+        "collection": [
+          {
+            "id": "pants_0",
+            "name": "pants_0",
+            "directory": "Pants Outfit 6/pants_0.png",
+            "thumbnail": "Pants Outfit 6/pants_0.png"
+          },
+          {
+            "id": "pants_1",
+            "name": "pants_1",
+            "directory": "Pants Outfit 6/pants_1.png",
+            "thumbnail": "Pants Outfit 6/pants_1.png"
+          },
+          {
+            "id": "pants_2",
+            "name": "pants_2",
+            "directory": "Pants Outfit 6/pants_2.png",
+            "thumbnail": "Pants Outfit 6/pants_2.png"
+          },
+          {
+            "id": "pants_3",
+            "name": "pants_3",
+            "directory": "Pants Outfit 6/pants_3.png",
+            "thumbnail": "Pants Outfit 6/pants_3.png"
+          },
+          {
+            "id": "pants_4",
+            "name": "pants_4",
+            "directory": "Pants Outfit 6/pants_4.png",
+            "thumbnail": "Pants Outfit 6/pants_4.png"
+          },
+          {
+            "id": "pants_5",
+            "name": "pants_5",
+            "directory": "Pants Outfit 6/pants_5.png",
+            "thumbnail": "Pants Outfit 6/pants_5.png"
+          },
+          {
+            "id": "pants_6",
+            "name": "pants_6",
+            "directory": "Pants Outfit 6/pants_6.png",
+            "thumbnail": "Pants Outfit 6/pants_6.png"
+          }
+        ]
+      },
+      {
+        "trait": "Pants Outfit 9",
+        "type": "texture",
+        "collection": [
+          {
+            "id": "pants_0",
+            "name": "pants_0",
+            "directory": "Pants Outfit 9/pants_0.png",
+            "thumbnail": "Pants Outfit 9/pants_0.png"
+          },
+          {
+            "id": "pants_1",
+            "name": "pants_1",
+            "directory": "Pants Outfit 9/pants_1.png",
+            "thumbnail": "Pants Outfit 9/pants_1.png"
+          },
+          {
+            "id": "pants_2",
+            "name": "pants_2",
+            "directory": "Pants Outfit 9/pants_2.png",
+            "thumbnail": "Pants Outfit 9/pants_2.png"
+          },
+          {
+            "id": "pants_3",
+            "name": "pants_3",
+            "directory": "Pants Outfit 9/pants_3.png",
+            "thumbnail": "Pants Outfit 9/pants_3.png"
+          },
+          {
+            "id": "pants_4",
+            "name": "pants_4",
+            "directory": "Pants Outfit 9/pants_4.png",
+            "thumbnail": "Pants Outfit 9/pants_4.png"
+          },
+          {
+            "id": "pants_5",
+            "name": "pants_5",
+            "directory": "Pants Outfit 9/pants_5.png",
+            "thumbnail": "Pants Outfit 9/pants_5.png"
+          },
+          {
+            "id": "pants_6",
+            "name": "pants_6",
+            "directory": "Pants Outfit 9/pants_6.png",
+            "thumbnail": "Pants Outfit 9/pants_6.png"
+          }
+        ]
+      },
+      {
+        "trait": "Shorts Outfit 10",
+        "type": "texture",
+        "collection": [
+          {
+            "id": "shorts_0",
+            "name": "shorts_0",
+            "directory": "Shorts Outfit 10/shorts_0.png",
+            "thumbnail": "Shorts Outfit 10/shorts_0.png"
+          },
+          {
+            "id": "shorts_1",
+            "name": "shorts_1",
+            "directory": "Shorts Outfit 10/shorts_1.png",
+            "thumbnail": "Shorts Outfit 10/shorts_1.png"
+          },
+          {
+            "id": "shorts_2",
+            "name": "shorts_2",
+            "directory": "Shorts Outfit 10/shorts_2.png",
+            "thumbnail": "Shorts Outfit 10/shorts_2.png"
+          },
+          {
+            "id": "shorts_3",
+            "name": "shorts_3",
+            "directory": "Shorts Outfit 10/shorts_3.png",
+            "thumbnail": "Shorts Outfit 10/shorts_3.png"
+          },
+          {
+            "id": "shorts_4",
+            "name": "shorts_4",
+            "directory": "Shorts Outfit 10/shorts_4.png",
+            "thumbnail": "Shorts Outfit 10/shorts_4.png"
+          },
+          {
+            "id": "shorts_5",
+            "name": "shorts_5",
+            "directory": "Shorts Outfit 10/shorts_5.png",
+            "thumbnail": "Shorts Outfit 10/shorts_5.png"
+          },
+          {
+            "id": "shorts_6",
+            "name": "shorts_6",
+            "directory": "Shorts Outfit 10/shorts_6.png",
+            "thumbnail": "Shorts Outfit 10/shorts_6.png"
+          }
+        ]
+      },
+      {
+        "trait": "Shorts Outfit 7",
+        "type": "texture",
+        "collection": [
+          {
+            "id": "shorts_0",
+            "name": "shorts_0",
+            "directory": "Shorts Outfit 7/shorts_0.png",
+            "thumbnail": "Shorts Outfit 7/shorts_0.png"
+          },
+          {
+            "id": "shorts_1",
+            "name": "shorts_1",
+            "directory": "Shorts Outfit 7/shorts_1.png",
+            "thumbnail": "Shorts Outfit 7/shorts_1.png"
+          },
+          {
+            "id": "shorts_2",
+            "name": "shorts_2",
+            "directory": "Shorts Outfit 7/shorts_2.png",
+            "thumbnail": "Shorts Outfit 7/shorts_2.png"
+          },
+          {
+            "id": "shorts_3",
+            "name": "shorts_3",
+            "directory": "Shorts Outfit 7/shorts_3.png",
+            "thumbnail": "Shorts Outfit 7/shorts_3.png"
+          },
+          {
+            "id": "shorts_4",
+            "name": "shorts_4",
+            "directory": "Shorts Outfit 7/shorts_4.png",
+            "thumbnail": "Shorts Outfit 7/shorts_4.png"
+          },
+          {
+            "id": "shorts_5",
+            "name": "shorts_5",
+            "directory": "Shorts Outfit 7/shorts_5.png",
+            "thumbnail": "Shorts Outfit 7/shorts_5.png"
+          },
+          {
+            "id": "shorts_6",
+            "name": "shorts_6",
+            "directory": "Shorts Outfit 7/shorts_6.png",
+            "thumbnail": "Shorts Outfit 7/shorts_6.png"
+          }
+        ]
+      },
+      {
+        "trait": "Skirt Outfit 3",
+        "type": "texture",
+        "collection": [
+          {
+            "id": "skirt_0",
+            "name": "skirt_0",
+            "directory": "Skirt Outfit 3/skirt_0.png",
+            "thumbnail": "Skirt Outfit 3/skirt_0.png"
+          },
+          {
+            "id": "skirt_1",
+            "name": "skirt_1",
+            "directory": "Skirt Outfit 3/skirt_1.png",
+            "thumbnail": "Skirt Outfit 3/skirt_1.png"
+          },
+          {
+            "id": "skirt_2",
+            "name": "skirt_2",
+            "directory": "Skirt Outfit 3/skirt_2.png",
+            "thumbnail": "Skirt Outfit 3/skirt_2.png"
+          },
+          {
+            "id": "skirt_3",
+            "name": "skirt_3",
+            "directory": "Skirt Outfit 3/skirt_3.png",
+            "thumbnail": "Skirt Outfit 3/skirt_3.png"
+          },
+          {
+            "id": "skirt_4",
+            "name": "skirt_4",
+            "directory": "Skirt Outfit 3/skirt_4.png",
+            "thumbnail": "Skirt Outfit 3/skirt_4.png"
+          },
+          {
+            "id": "skirt_5",
+            "name": "skirt_5",
+            "directory": "Skirt Outfit 3/skirt_5.png",
+            "thumbnail": "Skirt Outfit 3/skirt_5.png"
+          },
+          {
+            "id": "skirt_6",
+            "name": "skirt_6",
+            "directory": "Skirt Outfit 3/skirt_6.png",
+            "thumbnail": "Skirt Outfit 3/skirt_6.png"
+          }
+        ]
+      },
+      {
+        "trait": "Short Outfit 4",
+        "type": "texture",
+        "collection": [
+          {
+            "id": "short_0",
+            "name": "short_0",
+            "directory": "Short Outfit 4/short_0.png",
+            "thumbnail": "Short Outfit 4/short_0.png"
+          },
+          {
+            "id": "short_1",
+            "name": "short_1",
+            "directory": "Short Outfit 4/short_1.png",
+            "thumbnail": "Short Outfit 4/short_1.png"
+          },
+          {
+            "id": "short_2",
+            "name": "short_2",
+            "directory": "Short Outfit 4/short_2.png",
+            "thumbnail": "Short Outfit 4/short_2.png"
+          },
+          {
+            "id": "short_3",
+            "name": "short_3",
+            "directory": "Short Outfit 4/short_3.png",
+            "thumbnail": "Short Outfit 4/short_3.png"
+          },
+          {
+            "id": "short_4",
+            "name": "short_4",
+            "directory": "Short Outfit 4/short_4.png",
+            "thumbnail": "Short Outfit 4/short_4.png"
+          },
+          {
+            "id": "short_5",
+            "name": "short_5",
+            "directory": "Short Outfit 4/short_5.png",
+            "thumbnail": "Short Outfit 4/short_5.png"
+          },
+          {
+            "id": "short_6",
+            "name": "short_6",
+            "directory": "Short Outfit 4/short_6.png",
+            "thumbnail": "Short Outfit 4/short_6.png"
+          }
+        ]
+      },
+      {
+        "trait": "Shorts Outfit 5",
+        "type": "texture",
+        "collection": [
+          {
+            "id": "shorts_0",
+            "name": "shorts_0",
+            "directory": "Shorts Outfit 5/shorts_0.png",
+            "thumbnail": "Shorts Outfit 5/shorts_0.png"
+          },
+          {
+            "id": "shorts_1",
+            "name": "shorts_1",
+            "directory": "Shorts Outfit 5/shorts_1.png",
+            "thumbnail": "Shorts Outfit 5/shorts_1.png"
+          },
+          {
+            "id": "shorts_2",
+            "name": "shorts_2",
+            "directory": "Shorts Outfit 5/shorts_2.png",
+            "thumbnail": "Shorts Outfit 5/shorts_2.png"
+          },
+          {
+            "id": "shorts_3",
+            "name": "shorts_3",
+            "directory": "Shorts Outfit 5/shorts_3.png",
+            "thumbnail": "Shorts Outfit 5/shorts_3.png"
+          },
+          {
+            "id": "shorts_4",
+            "name": "shorts_4",
+            "directory": "Shorts Outfit 5/shorts_4.png",
+            "thumbnail": "Shorts Outfit 5/shorts_4.png"
+          },
+          {
+            "id": "shorts_5",
+            "name": "shorts_5",
+            "directory": "Shorts Outfit 5/shorts_5.png",
+            "thumbnail": "Shorts Outfit 5/shorts_5.png"
+          },
+          {
+            "id": "shorts_6",
+            "name": "shorts_6",
+            "directory": "Shorts Outfit 5/shorts_6.png",
+            "thumbnail": "Shorts Outfit 5/shorts_6.png"
+          }
+        ]
+      },
+      {
+        "trait": "Shorts Outfit 1",
+        "type": "texture",
+        "collection": [
+          {
+            "id": "shorts_0",
+            "name": "shorts_0",
+            "directory": "Shorts Outfit 1/shorts_0.png",
+            "thumbnail": "Shorts Outfit 1/shorts_0.png"
+          },
+          {
+            "id": "shorts_1",
+            "name": "shorts_1",
+            "directory": "Shorts Outfit 1/shorts_1.png",
+            "thumbnail": "Shorts Outfit 1/shorts_1.png"
+          },
+          {
+            "id": "shorts_2",
+            "name": "shorts_2",
+            "directory": "Shorts Outfit 1/shorts_2.png",
+            "thumbnail": "Shorts Outfit 1/shorts_2.png"
+          },
+          {
+            "id": "shorts_3",
+            "name": "shorts_3",
+            "directory": "Shorts Outfit 1/shorts_3.png",
+            "thumbnail": "Shorts Outfit 1/shorts_3.png"
+          },
+          {
+            "id": "shorts_4",
+            "name": "shorts_4",
+            "directory": "Shorts Outfit 1/shorts_4.png",
+            "thumbnail": "Shorts Outfit 1/shorts_4.png"
+          },
+          {
+            "id": "shorts_5",
+            "name": "shorts_5",
+            "directory": "Shorts Outfit 1/shorts_5.png",
+            "thumbnail": "Shorts Outfit 1/shorts_5.png"
+          },
+          {
+            "id": "shorts_6",
+            "name": "shorts_6",
+            "directory": "Shorts Outfit 1/shorts_6.png",
+            "thumbnail": "Shorts Outfit 1/shorts_6.png"
+          }
+        ]
+      },
+      {
+        "trait": "Jacket Outfit 9",
+        "type": "texture",
+        "collection": [
+          {
+            "id": "jacket_0",
+            "name": "jacket_0",
+            "directory": "Jacket Outfit 9/jacket_0.png",
+            "thumbnail": "Jacket Outfit 9/jacket_0.png"
+          },
+          {
+            "id": "jacket_1",
+            "name": "jacket_1",
+            "directory": "Jacket Outfit 9/jacket_1.png",
+            "thumbnail": "Jacket Outfit 9/jacket_1.png"
+          },
+          {
+            "id": "jacket_2",
+            "name": "jacket_2",
+            "directory": "Jacket Outfit 9/jacket_2.png",
+            "thumbnail": "Jacket Outfit 9/jacket_2.png"
+          },
+          {
+            "id": "jacket_3",
+            "name": "jacket_3",
+            "directory": "Jacket Outfit 9/jacket_3.png",
+            "thumbnail": "Jacket Outfit 9/jacket_3.png"
+          },
+          {
+            "id": "jacket_4",
+            "name": "jacket_4",
+            "directory": "Jacket Outfit 9/jacket_4.png",
+            "thumbnail": "Jacket Outfit 9/jacket_4.png"
+          },
+          {
+            "id": "jacket_5",
+            "name": "jacket_5",
+            "directory": "Jacket Outfit 9/jacket_5.png",
+            "thumbnail": "Jacket Outfit 9/jacket_5.png"
+          },
+          {
+            "id": "jacket_6",
+            "name": "jacket_6",
+            "directory": "Jacket Outfit 9/jacket_6.png",
+            "thumbnail": "Jacket Outfit 9/jacket_6.png"
+          }
+        ]
+      },
+      {
+        "trait": "Jacket Outfit 5",
+        "type": "texture",
+        "collection": [
+          {
+            "id": "jacket_0",
+            "name": "jacket_0",
+            "directory": "Jacket Outfit 5/jacket_0.png",
+            "thumbnail": "Jacket Outfit 5/jacket_0.png"
+          },
+          {
+            "id": "jacket_1",
+            "name": "jacket_1",
+            "directory": "Jacket Outfit 5/jacket_1.png",
+            "thumbnail": "Jacket Outfit 5/jacket_1.png"
+          },
+          {
+            "id": "jacket_2",
+            "name": "jacket_2",
+            "directory": "Jacket Outfit 5/jacket_2.png",
+            "thumbnail": "Jacket Outfit 5/jacket_2.png"
+          },
+          {
+            "id": "jacket_3",
+            "name": "jacket_3",
+            "directory": "Jacket Outfit 5/jacket_3.png",
+            "thumbnail": "Jacket Outfit 5/jacket_3.png"
+          },
+          {
+            "id": "jacket_4",
+            "name": "jacket_4",
+            "directory": "Jacket Outfit 5/jacket_4.png",
+            "thumbnail": "Jacket Outfit 5/jacket_4.png"
+          },
+          {
+            "id": "jacket_5",
+            "name": "jacket_5",
+            "directory": "Jacket Outfit 5/jacket_5.png",
+            "thumbnail": "Jacket Outfit 5/jacket_5.png"
+          },
+          {
+            "id": "jacket_6",
+            "name": "jacket_6",
+            "directory": "Jacket Outfit 5/jacket_6.png",
+            "thumbnail": "Jacket Outfit 5/jacket_6.png"
+          }
+        ]
+      },
+      {
+        "trait": "Jacket Outfit 3",
+        "type": "texture",
+        "collection": [
+          {
+            "id": "jacket_0",
+            "name": "jacket_0",
+            "directory": "Jacket Outfit 3/jacket_0.png",
+            "thumbnail": "Jacket Outfit 3/jacket_0.png"
+          },
+          {
+            "id": "jacket_1",
+            "name": "jacket_1",
+            "directory": "Jacket Outfit 3/jacket_1.png",
+            "thumbnail": "Jacket Outfit 3/jacket_1.png"
+          },
+          {
+            "id": "jacket_2",
+            "name": "jacket_2",
+            "directory": "Jacket Outfit 3/jacket_2.png",
+            "thumbnail": "Jacket Outfit 3/jacket_2.png"
+          },
+          {
+            "id": "jacket_3",
+            "name": "jacket_3",
+            "directory": "Jacket Outfit 3/jacket_3.png",
+            "thumbnail": "Jacket Outfit 3/jacket_3.png"
+          },
+          {
+            "id": "jacket_4",
+            "name": "jacket_4",
+            "directory": "Jacket Outfit 3/jacket_4.png",
+            "thumbnail": "Jacket Outfit 3/jacket_4.png"
+          },
+          {
+            "id": "jacket_5",
+            "name": "jacket_5",
+            "directory": "Jacket Outfit 3/jacket_5.png",
+            "thumbnail": "Jacket Outfit 3/jacket_5.png"
+          },
+          {
+            "id": "jacket_6",
+            "name": "jacket_6",
+            "directory": "Jacket Outfit 3/jacket_6.png",
+            "thumbnail": "Jacket Outfit 3/jacket_6.png"
+          }
+        ]
+      },
+      {
+        "trait": "Dress Outfit 2",
+        "type": "texture",
+        "collection": [
+          {
+            "id": "dress_0",
+            "name": "dress_0",
+            "directory": "Dress Outfit 2/dress_0.png",
+            "thumbnail": "Dress Outfit 2/dress_0.png"
+          },
+          {
+            "id": "dress_1",
+            "name": "dress_1",
+            "directory": "Dress Outfit 2/dress_1.png",
+            "thumbnail": "Dress Outfit 2/dress_1.png"
+          },
+          {
+            "id": "dress_2",
+            "name": "dress_2",
+            "directory": "Dress Outfit 2/dress_2.png",
+            "thumbnail": "Dress Outfit 2/dress_2.png"
+          },
+          {
+            "id": "dress_3",
+            "name": "dress_3",
+            "directory": "Dress Outfit 2/dress_3.png",
+            "thumbnail": "Dress Outfit 2/dress_3.png"
+          },
+          {
+            "id": "dress_4",
+            "name": "dress_4",
+            "directory": "Dress Outfit 2/dress_4.png",
+            "thumbnail": "Dress Outfit 2/dress_4.png"
+          },
+          {
+            "id": "dress_5",
+            "name": "dress_5",
+            "directory": "Dress Outfit 2/dress_5.png",
+            "thumbnail": "Dress Outfit 2/dress_5.png"
+          },
+          {
+            "id": "dress_6",
+            "name": "dress_6",
+            "directory": "Dress Outfit 2/dress_6.png",
+            "thumbnail": "Dress Outfit 2/dress_6.png"
+          }
+        ]
+      },
+      {
+        "trait": "Jacket Outfit 7",
+        "type": "texture",
+        "collection": [
+          {
+            "id": "jacket_0",
+            "name": "jacket_0",
+            "directory": "Jacket Outfit 7/jacket_0.png",
+            "thumbnail": "Jacket Outfit 7/jacket_0.png"
+          },
+          {
+            "id": "jacket_1",
+            "name": "jacket_1",
+            "directory": "Jacket Outfit 7/jacket_1.png",
+            "thumbnail": "Jacket Outfit 7/jacket_1.png"
+          },
+          {
+            "id": "jacket_2",
+            "name": "jacket_2",
+            "directory": "Jacket Outfit 7/jacket_2.png",
+            "thumbnail": "Jacket Outfit 7/jacket_2.png"
+          },
+          {
+            "id": "jacket_3",
+            "name": "jacket_3",
+            "directory": "Jacket Outfit 7/jacket_3.png",
+            "thumbnail": "Jacket Outfit 7/jacket_3.png"
+          },
+          {
+            "id": "jacket_4",
+            "name": "jacket_4",
+            "directory": "Jacket Outfit 7/jacket_4.png",
+            "thumbnail": "Jacket Outfit 7/jacket_4.png"
+          },
+          {
+            "id": "jacket_5",
+            "name": "jacket_5",
+            "directory": "Jacket Outfit 7/jacket_5.png",
+            "thumbnail": "Jacket Outfit 7/jacket_5.png"
+          },
+          {
+            "id": "jacket_6",
+            "name": "jacket_6",
+            "directory": "Jacket Outfit 7/jacket_6.png",
+            "thumbnail": "Jacket Outfit 7/jacket_6.png"
+          }
+        ]
+      },
+      {
+        "trait": "skin color",
+            "type": "texture",
+            "collection": [
+              {
+                "name":"Original Skin",
+                "id":"originalskin",
+                "directory":["skin/Anime_Proj_base_NoClothes_skin_BaseColor_alt.png","skin/Anime_Proj_base_NoClothes_Face_BaseColor_alt.png"]
+              },
+              {
+                "name":"Original Arm Sleeve",
+                "id":"originalarmsleeve",
+                "directory":["skin/ArmSleeves_Original.png","skin/Anime_Proj_base_NoClothes_Face_BaseColor_alt.png"]
+              },
+              {
+                "name":"Original Knee High",
+                "id":"originalkneehigh",
+                "directory":["skin/KneeHighs_Original.png","skin/Anime_Proj_base_NoClothes_Face_BaseColor_alt.png"]
+              },
+              {
+                "name":"Original Thigh High",
+                "id":"originalthighhigh",
+                "directory":["skin/ThighHighs_Original.png","skin/Anime_Proj_base_NoClothes_Face_BaseColor_alt.png"]
+              },
+              {
+                "name":"Tone1 Skin",
+                "id":"tone1skin",
+                "directory":["skin/Anime_Proj_base_NoClothes_skin_BaseColor1.png","skin/Anime_Proj_base_NoClothes_Face_BaseColor1.png"]
+              },
+              {
+                "name":"Tone1 Arm Sleeve",
+                "id":"tone1armsleeve",
+                "directory":["skin/ArmSleeves_Tone_1.png","skin/Anime_Proj_base_NoClothes_Face_BaseColor1.png"]
+              },
+              {
+                "name":"Tone1 Knee High",
+                "id":"tone1kneehigh",
+                "directory":["skin/KneeHighs_Tone_1.png","skin/Anime_Proj_base_NoClothes_Face_BaseColor1.png"]
+              },
+              {
+                "name":"Tone1 Thigh High",
+                "id":"tone1thighhigh",
+                "directory":["skin/ThighHighs_Tone_1.png","skin/Anime_Proj_base_NoClothes_Face_BaseColor1.png"]
+              },
+              {
+                "name":"Tone2 Skin",
+                "id":"tone2skin",
+                "directory":["skin/Anime_Proj_base_NoClothes_skin_BaseColor2.png","skin/Anime_Proj_base_NoClothes_Face_BaseColor2.png"]
+              },
+              {
+                "name":"Tone2 Arm Sleeve",
+                "id":"tone2armsleeve",
+                "directory":["skin/ArmSleeves_Tone_2.png","skin/Anime_Proj_base_NoClothes_Face_BaseColor2.png"]
+              },
+              {
+                "name":"Tone2 Knee High",
+                "id":"tone2kneehigh",
+                "directory":["skin/KneeHighs_Tone_2.png","skin/Anime_Proj_base_NoClothes_Face_BaseColor2.png"]
+              },
+              {
+                "name":"Tone2 Thigh High",
+                "id":"tone2thighhigh",
+                "directory":["skin/ThighHighs_Tone_2.png","skin/Anime_Proj_base_NoClothes_Face_BaseColor2.png"]
+              },
+              {
+                "name":"Tone3 Skin",
+                "id":"tone3skin",
+                "directory":["skin/Anime_Proj_base_NoClothes_skin_BaseColor3.png","skin/Anime_Proj_base_NoClothes_Face_BaseColor3.png"]
+              },
+              {
+                "name":"Tone3 Arm Sleeve",
+                "id":"tone3armsleeve",
+                "directory":["skin/ArmSleeves_Tone_3.png","skin/Anime_Proj_base_NoClothes_Face_BaseColor3.png"]
+              },
+              {
+                "name":"Tone3 Knee High",
+                "id":"tone3kneehigh",
+                "directory":["skin/KneeHighs_Tone_3.png","skin/Anime_Proj_base_NoClothes_Face_BaseColor3.png"]
+              },
+              {
+                "name":"Tone3 Thigh High",
+                "id":"tone3thighhigh",
+                "directory":["skin/ThighHighs_Tone_3.png","skin/Anime_Proj_base_NoClothes_Face_BaseColor3.png"]
+              },
+              {
+                "name":"Tone4 Skin",
+                "id":"tone4skin",
+                "directory":["skin/Anime_Proj_base_NoClothes_skin_BaseColor4.png","skin/Anime_Proj_base_NoClothes_Face_BaseColor4.png"]
+              },
+              {
+                "name":"Tone4 Arm Sleeve",
+                "id":"tone4armsleeve",
+                "directory":["skin/ArmSleeves_Tone_4.png","skin/Anime_Proj_base_NoClothes_Face_BaseColor4.png"]
+              },
+              {
+                "name":"Tone4 Knee High",
+                "id":"tone4kneehigh",
+                "directory":["skin/KneeHighs_Tone_4.png","skin/Anime_Proj_base_NoClothes_Face_BaseColor4.png"]
+              },
+              {
+                "name":"Tone4 Thigh High",
+                "id":"tone4thighhigh",
+                "directory":["skin/ThighHighs_Tone_4.png","skin/Anime_Proj_base_NoClothes_Face_BaseColor4.png"]
+              }     
+          ]
+      }
+    ],
+    "colors":[
+      
     ]
   },
   {
@@ -2596,11 +2755,60 @@
     "EyeTargets": [
       "Head006"
     ],
-    "traitsDirectory": "https://webaverse-studios.github.io/character-assets/neurohacker/",
-    "thumbnailsDirectory": "https://webaverse-studios.github.io/character-assets/neurohacker/",
+    "traitsDirectory": "./character-assets/neurohacker/",
+    "thumbnailsDirectory": "./character-assets/neurohacker/",
     "animationPath": "./3d/animations/idle_neurohacker.fbx",
     "traitIconsDirectory": "./3d/icons/",
     "traits": [
+      { 
+        "trait": "body",
+        "name": "body",
+        "icon": "skin-color.png",
+        "type": "mesh",
+        "icon-gradient": "accessories-gradient.svg",
+        "cameraTarget": {
+          "distance": 3.4,
+          "height": 0.8
+        },
+        "collection": [
+          {
+          "id": "0",
+          "name": "Fitness body",
+          "directory": "body/neurohacker.vrm",
+          "thumbnail": "body/neurohacker.png",
+          "cullingModel": ["Body"],
+          "cullingLayer":0,
+          "textureTargets":["Body", "Head002"],
+          "textureCollection": "skin color",
+          "thumbnailOverrides": [
+            "body/skin/original.png",
+            "body/skin/original.png",
+            "body/skin/original.png",
+            "body/skin/original.png",
+
+            "body/skin/skin1.png",
+            "body/skin/skin1.png",
+            "body/skin/skin1.png",
+            "body/skin/skin1.png",
+
+            "body/skin/skin2.png",
+            "body/skin/skin2.png",
+            "body/skin/skin2.png",
+            "body/skin/skin2.png",
+
+            "body/skin/skin3.png",
+            "body/skin/skin3.png",
+            "body/skin/skin3.png",
+            "body/skin/skin3.png",
+
+            "body/skin/skin4.png",
+            "body/skin/skin4.png",
+            "body/skin/skin4.png",
+            "body/skin/skin4.png"
+            ]
+          }  
+        ]
+      },
       {
         "trait": "accessories",
         "type": "mesh",
@@ -3598,6 +3806,114 @@
             ]
           }
         ]
+      }
+    ],
+    "textures":[
+      {   
+        "trait": "skin color",
+        "type": "texture",
+        "collection": [
+          {
+            "name":"Original Skin",
+            "id":"originalskin",
+            "directory":["skin/Anime_Proj_base_NoClothes_skin_BaseColor_alt.png","skin/Anime_Proj_base_NoClothes_Face_BaseColor_alt.png"]
+          },
+          {
+            "name":"Original Arm Sleeve",
+            "id":"originalarmsleeve",
+            "directory":["skin/ArmSleeves_Original.png","skin/Anime_Proj_base_NoClothes_Face_BaseColor_alt.png"]
+          },
+          {
+            "name":"Original Knee High",
+            "id":"originalkneehigh",
+            "directory":["skin/KneeHighs_Original.png","skin/Anime_Proj_base_NoClothes_Face_BaseColor_alt.png"]
+          },
+          {
+            "name":"Original Thigh High",
+            "id":"originalthighhigh",
+            "directory":["skin/ThighHighs_Original.png","skin/Anime_Proj_base_NoClothes_Face_BaseColor_alt.png"]
+          },
+          {
+            "name":"Tone1 Skin",
+            "id":"tone1skin",
+            "directory":["skin/Anime_Proj_base_NoClothes_skin_BaseColor1.png","skin/Anime_Proj_base_NoClothes_Face_BaseColor1.png"]
+          },
+          {
+            "name":"Tone1 Arm Sleeve",
+            "id":"tone1armsleeve",
+            "directory":["skin/ArmSleeves_Tone_1.png","skin/Anime_Proj_base_NoClothes_Face_BaseColor1.png"]
+          },
+          {
+            "name":"Tone1 Knee High",
+            "id":"tone1kneehigh",
+            "directory":["skin/KneeHighs_Tone_1.png","skin/Anime_Proj_base_NoClothes_Face_BaseColor1.png"]
+          },
+          {
+            "name":"Tone1 Thigh High",
+            "id":"tone1thighhigh",
+            "directory":["skin/ThighHighs_Tone_1.png","skin/Anime_Proj_base_NoClothes_Face_BaseColor1.png"]
+          },
+          {
+            "name":"Tone2 Skin",
+            "id":"tone2skin",
+            "directory":["skin/Anime_Proj_base_NoClothes_skin_BaseColor2.png","skin/Anime_Proj_base_NoClothes_Face_BaseColor2.png"]
+          },
+          {
+            "name":"Tone2 Arm Sleeve",
+            "id":"tone2armsleeve",
+            "directory":["skin/ArmSleeves_Tone_2.png","skin/Anime_Proj_base_NoClothes_Face_BaseColor2.png"]
+          },
+          {
+            "name":"Tone2 Knee High",
+            "id":"tone2kneehigh",
+            "directory":["skin/KneeHighs_Tone_2.png","skin/Anime_Proj_base_NoClothes_Face_BaseColor2.png"]
+          },
+          {
+            "name":"Tone2 Thigh High",
+            "id":"tone2thighhigh",
+            "directory":["skin/ThighHighs_Tone_2.png","skin/Anime_Proj_base_NoClothes_Face_BaseColor2.png"]
+          },
+          {
+            "name":"Tone3 Skin",
+            "id":"tone3skin",
+            "directory":["skin/Anime_Proj_base_NoClothes_skin_BaseColor3.png","skin/Anime_Proj_base_NoClothes_Face_BaseColor3.png"]
+          },
+          {
+            "name":"Tone3 Arm Sleeve",
+            "id":"tone3armsleeve",
+            "directory":["skin/ArmSleeves_Tone_3.png","skin/Anime_Proj_base_NoClothes_Face_BaseColor3.png"]
+          },
+          {
+            "name":"Tone3 Knee High",
+            "id":"tone3kneehigh",
+            "directory":["skin/KneeHighs_Tone_3.png","skin/Anime_Proj_base_NoClothes_Face_BaseColor3.png"]
+          },
+          {
+            "name":"Tone3 Thigh High",
+            "id":"tone3thighhigh",
+            "directory":["skin/ThighHighs_Tone_3.png","skin/Anime_Proj_base_NoClothes_Face_BaseColor3.png"]
+          },
+          {
+            "name":"Tone4 Skin",
+            "id":"tone4skin",
+            "directory":["skin/Anime_Proj_base_NoClothes_skin_BaseColor4.png","skin/Anime_Proj_base_NoClothes_Face_BaseColor4.png"]
+          },
+          {
+            "name":"Tone4 Arm Sleeve",
+            "id":"tone4armsleeve",
+            "directory":["skin/ArmSleeves_Tone_4.png","skin/Anime_Proj_base_NoClothes_Face_BaseColor4.png"]
+          },
+          {
+            "name":"Tone4 Knee High",
+            "id":"tone4kneehigh",
+            "directory":["skin/KneeHighs_Tone_4.png","skin/Anime_Proj_base_NoClothes_Face_BaseColor4.png"]
+          },
+          {
+            "name":"Tone4 Thigh High",
+            "id":"tone4thighhigh",
+            "directory":["skin/ThighHighs_Tone_4.png","skin/Anime_Proj_base_NoClothes_Face_BaseColor4.png"]
+          }  
+        ]
       },
       {
         "trait": "outfit_2",
@@ -3876,7 +4192,7 @@
           {
             "id": "outfit_8_5",
             "name": "outfit_8_5",
-            "directory": "outfit_8/outfit_8_5.png", 
+            "directory": "outfit_8/outfit_8_5.png",
             "thumbnail": "outfit_8/outfit_8_5.png"
           },
           {
