@@ -632,7 +632,7 @@
             "id": "buns",
             "name": "Buns",
             "directory": "head/buns.vrm",
-            "thumbnail": "_textureCollections/head/buns.png",
+            "thumbnail": "head/buns.png",
             "cullingDistance": [
               0.03,
               0.03
@@ -642,7 +642,7 @@
             "id": "curledbangs",
             "name": "Curled Bangs",
             "directory": "head/curledbangs.vrm",
-            "thumbnail": "_textureCollections/head/curledbangs.png",
+            "thumbnail": "head/curledbangs.png",
             "cullingDistance": [
               0.03,
               0.03
@@ -652,7 +652,7 @@
             "id": "dreds",
             "name": "Dreds",
             "directory": "head/dreds.vrm",
-            "thumbnail": "_textureCollections/head/dreds.png",
+            "thumbnail": "head/dreds.png",
             "cullingDistance": [
               0.03,
               0.03
@@ -662,7 +662,7 @@
             "id": "longspike",
             "name": "Long Spike",
             "directory": "head/longspike.vrm",
-            "thumbnail": "_textureCollections/head/longspike.png",
+            "thumbnail": "head/longspike.png",
             "cullingDistance": [
               0.03,
               0.03
@@ -672,7 +672,7 @@
             "id": "ponytail",
             "name": "Ponytail",
             "directory": "head/ponytail.vrm",
-            "thumbnail": "_textureCollections/head/ponytail.png",
+            "thumbnail": "head/ponytail.png",
             "cullingDistance": [
               0.03,
               0.03
@@ -682,7 +682,7 @@
             "id": "short",
             "name": "Short",
             "directory": "head/short.vrm",
-            "thumbnail": "_textureCollections/head/short.png",
+            "thumbnail": "head/short.png",
             "cullingDistance": [
               0.03,
               0.03
@@ -692,7 +692,7 @@
             "id": "shortband",
             "name": "Shortband",
             "directory": "head/shortband.vrm",
-            "thumbnail": "_textureCollections/head/shortband.png",
+            "thumbnail": "head/shortband.png",
             "cullingDistance": [
               0.03,
               0.03
@@ -702,7 +702,7 @@
             "id": "shortcurve",
             "name": "Short Curve",
             "directory": "head/shortcurve.vrm",
-            "thumbnail": "_textureCollections/head/shortcurve.png",
+            "thumbnail": "head/shortcurve.png",
             "cullingDistance": [
               0.03,
               0.03
@@ -712,7 +712,7 @@
             "id": "straight",
             "name": "Straight",
             "directory": "head/straight.vrm",
-            "thumbnail": "_textureCollections/head/straight.png",
+            "thumbnail": "head/straight.png",
             "cullingDistance": [
               0.03,
               0.03
@@ -722,7 +722,7 @@
             "id": "swept",
             "name": "Swept",
             "directory": "head/swept.vrm",
-            "thumbnail": "_textureCollections/head/swept.png",
+            "thumbnail": "head/swept.png",
             "cullingDistance": [
               0.03,
               0.03
@@ -3434,7 +3434,7 @@
             "id": "hair1",
             "name": "Hair 1",
             "directory": "head/hair1.vrm",
-            "thumbnail": "_textureCollections/head/hair1.png",
+            "thumbnail": "head/hair1.png",
             "cullingLayer": 1,
             "cullingDistance": [
               0.03,
@@ -3445,7 +3445,7 @@
             "id": "hair2",
             "name": "Hair 2",
             "directory": "head/hair2.vrm",
-            "thumbnail": "_textureCollections/head/hair2.png",
+            "thumbnail": "head/hair2.png",
             "cullingLayer": 1,
             "cullingDistance": [
               0.03,
@@ -3456,7 +3456,7 @@
             "id": "hair3",
             "name": "Hair 3",
             "directory": "head/hair3.vrm",
-            "thumbnail": "_textureCollections/head/hair3.png",
+            "thumbnail": "head/hair3.png",
             "cullingLayer": 1,
             "cullingDistance": [
               0.03,
@@ -3467,7 +3467,7 @@
             "id": "hair4",
             "name": "Hair 4",
             "directory": "head/hair4.vrm",
-            "thumbnail": "_textureCollections/head/hair4.png",
+            "thumbnail": "head/hair4.png",
             "cullingLayer": 1,
             "cullingDistance": [
               0.03,
@@ -3478,7 +3478,7 @@
             "id": "hair5",
             "name": "Hair 5",
             "directory": "head/hair5.vrm",
-            "thumbnail": "_textureCollections/head/hair5.png",
+            "thumbnail": "head/hair5.png",
             "cullingLayer": 1,
             "cullingDistance": [
               0.03,
@@ -3489,7 +3489,7 @@
             "id": "braided",
             "name": "Braided",
             "directory": "head/braided.vrm",
-            "thumbnail": "_textureCollections/head/braided.png",
+            "thumbnail": "head/braided.png",
             "cullingLayer": 1,
             "cullingDistance": [
               0.03,
@@ -3500,7 +3500,7 @@
             "id": "short",
             "name": "Short",
             "directory": "head/short.vrm",
-            "thumbnail": "_textureCollections/head/short.png",
+            "thumbnail": "head/short.png",
             "cullingLayer": 1,
             "cullingDistance": [
               0.03,
@@ -3511,7 +3511,7 @@
             "id": "hairshort",
             "name": "Hair Short",
             "directory": "head/hairshort.vrm",
-            "thumbnail": "_textureCollections/head/hairshort.png",
+            "thumbnail": "head/hairshort.png",
             "cullingLayer": 1,
             "type": [
               "short"
@@ -3525,7 +3525,7 @@
             "id": "straight",
             "name": "Straight",
             "directory": "head/straight.vrm",
-            "thumbnail": "_textureCollections/head/straight.png",
+            "thumbnail": "head/straight.png",
             "cullingLayer": 1,
             "cullingDistance": [
               0.03,
@@ -3536,7 +3536,7 @@
             "id": "straightdown",
             "name": "Straightdown",
             "directory": "head/straightdown.vrm",
-            "thumbnail": "_textureCollections/head/straightdown.png",
+            "thumbnail": "head/straightdown.png",
             "cullingLayer": 1,
             "cullingDistance": [
               0.03,
