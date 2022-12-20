@@ -2755,8 +2755,8 @@
     "EyeTargets": [
       "Head006"
     ],
-    "traitsDirectory": "./character-assets/neurohacker/",
-    "thumbnailsDirectory": "./character-assets/neurohacker/",
+    "traitsDirectory": "https://webaverse-studios.github.io/character-assets/neurohacker/",
+    "thumbnailsDirectory": "https://webaverse-studios.github.io/character-assets/neurohacker/",
     "animationPath": "./3d/animations/idle_neurohacker.fbx",
     "traitIconsDirectory": "./3d/icons/",
     "traits": [
