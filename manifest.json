@@ -379,7 +379,7 @@
             "id": "designertallboots",
             "name": "Designer Tall Boots",
             "directory": "feet/designertallboots.vrm",
-            "thumbnail": "_textureCollections/feet/designertallboots.png",
+            "thumbnail": "feet/designertallboots.png",
             "cullingLayer": 4,
             "type": [
               "boots"
@@ -403,7 +403,7 @@
             "id": "tallboots",
             "name": "Tall Boots",
             "directory": "feet/tallboots.vrm",
-            "thumbnail": "_textureCollections/feet/tallboots.png",
+            "thumbnail": "feet/tallboots.png",
             "cullingLayer": 4,
             "type": [
               "boots"
@@ -427,7 +427,7 @@
             "id": "designershoes",
             "name": "Designer Shoes",
             "directory": "feet/designershoes.vrm",
-            "thumbnail": "_textureCollections/feet/designershoes.png",
+            "thumbnail": "feet/designershoes.png",
             "cullingLayer": 1,
             "type": [
               "shoes"
@@ -451,7 +451,7 @@
             "id": "dressboots2",
             "name": "Dress Boots 2",
             "directory": "feet/dressboots2.vrm",
-            "thumbnail": "_textureCollections/feet/dressboots2.png",
+            "thumbnail": "feet/dressboots2.png",
             "cullingLayer": 1,
             "type": [
               "shoes"
@@ -475,7 +475,7 @@
             "id": "dressboots",
             "name": "Dress Boots",
             "directory": "feet/dressboots.vrm",
-            "thumbnail": "_textureCollections/feet/dressboots.png",
+            "thumbnail": "feet/dressboots.png",
             "cullingLayer": 1,
             "type": [
               "shoes"
@@ -499,7 +499,7 @@
             "id": "hightop",
             "name": "High Top",
             "directory": "feet/hightop.vrm",
-            "thumbnail": "_textureCollections/feet/hightop.png",
+            "thumbnail": "feet/hightop.png",
             "cullingLayer": 1,
             "type": [
               "shoes"
@@ -523,7 +523,7 @@
             "id": "shortboots",
             "name": "Short Boots",
             "directory": "feet/shortboots.vrm",
-            "thumbnail": "_textureCollections/feet/shortboots.png",
+            "thumbnail": "feet/shortboots.png",
             "cullingLayer": 1,
             "type": [
               "shoes"
@@ -547,7 +547,7 @@
             "id": "sneakers",
             "name": "Sneakers",
             "directory": "feet/sneakers.vrm",
-            "thumbnail": "_textureCollections/feet/sneakers.png",
+            "thumbnail": "feet/sneakers.png",
             "cullingLayer": 1,
             "type": [
               "shoes"
@@ -571,7 +571,7 @@
             "id": "tennisshoes",
             "name": "Tennis Shoes",
             "directory": "feet/tennisshoes.vrm",
-            "thumbnail": "_textureCollections/feet/tennisshoes.png",
+            "thumbnail": "feet/tennisshoes.png",
             "cullingLayer": 1,
             "type": [
               "shoes"
@@ -595,7 +595,7 @@
             "id": "thinshoe",
             "name": "Thin Shoe",
             "directory": "feet/thinshoe.vrm",
-            "thumbnail": "_textureCollections/feet/thinshoe.png",
+            "thumbnail": "feet/thinshoe.png",
             "cullingLayer": 1,
             "type": [
               "shoes"
@@ -3211,7 +3211,7 @@
             "id": "boots",
             "name": "Boots",
             "directory": "foot/boots.vrm",
-            "thumbnail": "_textureCollections/foot/boots.png",
+            "thumbnail": "foot/boots.png",
             "cullingLayer": 1,
             "cullingDistance": [
               0.03,
@@ -3232,7 +3232,7 @@
             "id": "dressshoes",
             "name": "Dressshoes",
             "directory": "foot/dressshoes.vrm",
-            "thumbnail": "_textureCollections/foot/dressshoes.png",
+            "thumbnail": "foot/dressshoes.png",
             "cullingLayer": 1,
             "cullingDistance": [
               0.03,
@@ -3253,7 +3253,7 @@
             "id": "fantasyboots",
             "name": "Fantasyboots",
             "directory": "foot/fantasyboots.vrm",
-            "thumbnail": "_textureCollections/foot/fantasyboots.png",
+            "thumbnail": "foot/fantasyboots.png",
             "cullingLayer": 1,
             "cullingDistance": [
               0.03,
@@ -3274,7 +3274,7 @@
             "id": "hikingboots",
             "name": "Hikingboots",
             "directory": "foot/hikingboots.vrm",
-            "thumbnail": "_textureCollections/foot/hikingboots.png",
+            "thumbnail": "foot/hikingboots.png",
             "cullingLayer": 1,
             "cullingDistance": [
               0.03,
@@ -3295,7 +3295,7 @@
             "id": "runningshoes",
             "name": "Runningshoes",
             "directory": "foot/runningshoes.vrm",
-            "thumbnail": "_textureCollections/foot/runningshoes.png",
+            "thumbnail": "foot/runningshoes.png",
             "cullingLayer": 1,
             "cullingDistance": [
               0.03,
@@ -3316,7 +3316,7 @@
             "id": "shroudedboots",
             "name": "Shroudedboots",
             "directory": "foot/shroudedboots.vrm",
-            "thumbnail": "_textureCollections/foot/shroudedboots.png",
+            "thumbnail": "foot/shroudedboots.png",
             "cullingLayer": 1,
             "cullingDistance": [
               0.03,
@@ -3337,7 +3337,7 @@
             "id": "simpleshoes",
             "name": "Simple Shoes",
             "directory": "foot/simpleshoes.vrm",
-            "thumbnail": "_textureCollections/foot/simpleshoes.png",
+            "thumbnail": "foot/simpleshoes.png",
             "cullingLayer": 1,
             "cullingDistance": [
               0.03,
@@ -3358,7 +3358,7 @@
             "id": "sinchboots",
             "name": "Sinch Boots",
             "directory": "foot/sinchboots.vrm",
-            "thumbnail": "_textureCollections/foot/sinchboots.png",
+            "thumbnail": "foot/sinchboots.png",
             "cullingLayer": 1,
             "cullingDistance": [
               0.03,
@@ -3379,7 +3379,7 @@
             "id": "strapedboots",
             "name": "Straped Boots",
             "directory": "foot/strapedboots.vrm",
-            "thumbnail": "_textureCollections/foot/strapedboots.png",
+            "thumbnail": "foot/strapedboots.png",
             "cullingLayer": 1,
             "cullingDistance": [
               0.03,
@@ -3400,7 +3400,7 @@
             "id": "tallboots",
             "name": "Tallboots",
             "directory": "foot/tallboots.vrm",
-            "thumbnail": "_textureCollections/foot/tallboots.png",
+            "thumbnail": "foot/tallboots.png",
             "cullingLayer": 1,
             "cullingDistance": [
               0.03,
