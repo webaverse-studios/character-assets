@@ -31,6 +31,119 @@
       ]
     },
     "traits": [
+      {
+        "trait": "head",
+        "type": "mesh",
+        "name": "head",
+        "icon": "hairStyle.png",
+        "icon-gradient": "hairStyle.svg",
+        "cameraTarget": {
+          "distance": 0.75,
+          "height": 1.35
+        },
+        "collection": [
+          {
+            "id": "buns",
+            "name": "Buns",
+            "directory": "head/buns.vrm",
+            "thumbnail": "head/buns.png",
+            "cullingDistance": [
+              0.03,
+              0.03
+            ]
+          },
+          {
+            "id": "curledbangs",
+            "name": "Curled Bangs",
+            "directory": "head/curledbangs.vrm",
+            "thumbnail": "head/curledbangs.png",
+            "cullingDistance": [
+              0.03,
+              0.03
+            ]
+          },
+          {
+            "id": "dreds",
+            "name": "Dreds",
+            "directory": "head/dreds.vrm",
+            "thumbnail": "head/dreds.png",
+            "cullingDistance": [
+              0.03,
+              0.03
+            ]
+          },
+          {
+            "id": "longspike",
+            "name": "Long Spike",
+            "directory": "head/longspike.vrm",
+            "thumbnail": "head/longspike.png",
+            "cullingDistance": [
+              0.03,
+              0.03
+            ]
+          },
+          {
+            "id": "ponytail",
+            "name": "Ponytail",
+            "directory": "head/ponytail.vrm",
+            "thumbnail": "head/ponytail.png",
+            "cullingDistance": [
+              0.03,
+              0.03
+            ]
+          },
+          {
+            "id": "short",
+            "name": "Short",
+            "directory": "head/short.vrm",
+            "thumbnail": "head/short.png",
+            "cullingDistance": [
+              0.03,
+              0.03
+            ]
+          },
+          {
+            "id": "shortband",
+            "name": "Shortband",
+            "directory": "head/shortband.vrm",
+            "thumbnail": "head/shortband.png",
+            "cullingDistance": [
+              0.03,
+              0.03
+            ]
+          },
+          {
+            "id": "shortcurve",
+            "name": "Short Curve",
+            "directory": "head/shortcurve.vrm",
+            "thumbnail": "head/shortcurve.png",
+            "cullingDistance": [
+              0.03,
+              0.03
+            ]
+          },
+          {
+            "id": "straight",
+            "name": "Straight",
+            "directory": "head/straight.vrm",
+            "thumbnail": "head/straight.png",
+            "cullingDistance": [
+              0.03,
+              0.03
+            ]
+          },
+          {
+            "id": "swept",
+            "name": "Swept",
+            "directory": "head/swept.vrm",
+            "thumbnail": "head/swept.png",
+            "cullingDistance": [
+              0.03,
+              0.03
+            ]
+          }
+        ]
+      },
       { 
         "trait": "body",
         "name": "body",
@@ -80,55 +193,142 @@
         ]
       },
       {
-        "trait": "accessories",
-        "name": "accessories",
-        "icon": "accessories.png",
+        "trait": "eyes",
+        "name": "eyes",
+        "icon": "eye.png",
         "type": "mesh",
-        "id": 3,
-        "icon-gradient": "accessories-gradient.svg",
         "cameraTarget": {
-          "distance": 3.4,
-          "height": 0.8
+          "distance": 1.2,
+          "height": 1.35
         },
         "collection": [
           {
-            "id": "hipbelt",
-            "name": "Hip Belt",
-            "directory": "accessories/hipbelt.vrm",
-            "thumbnail": "_textureCollections/accessories/hipbelt.png",
+            "id": "regulareyes",
+            "name": "Regular Eyes",
+            "directory": "eyes/regulareyes.vrm",
+            "thumbnail": "eyes/regulareyes.png",
+            "textureCollection": "eyes color",
+            "thumbnailOverrides": [
+              "eyes/color/eyes-icon0.png",
+              "eyes/color/eyes-icon1.png",
+              "eyes/color/eyes-icon2.png",
+              "eyes/color/eyes-icon3.png",
+
+              "eyes/color/eyes-icon4.png",
+              "eyes/color/eyes-icon5.png",
+              "eyes/color/eyes-icon6.png",
+              "eyes/color/eyes-icon7.png",
+
+              "eyes/color/eyes-icon8.png",
+              "eyes/color/eyes-icon9.png",
+              "eyes/color/eyes-icon10.png",
+              "eyes/color/eyes-icon11.png",
+
+              "eyes/color/eyes-icon12.png",
+              "eyes/color/eyes-icon13.png",
+              "eyes/color/eyes-icon14.png",
+              "eyes/color/eyes-icon15.png",
+
+              "eyes/color/eyes-icon16.png",
+              "eyes/color/eyes-icon17.png",
+              "eyes/color/eyes-icon18.png",
+              "eyes/color/eyes-icon19.png",
+
+              "eyes/color/eyes-icon20.png",
+              "eyes/color/eyes-icon21.png",
+              "eyes/color/eyes-icon22.png",
+              "eyes/color/eyes-icon23.png",
+
+              "eyes/color/eyes-icon24.png",
+              "eyes/color/eyes-icon25.png",
+              "eyes/color/eyes-icon26.png",
+              "eyes/color/eyes-icon27.png",
+
+              "eyes/color/eyes-icon28.png",
+              "eyes/color/eyes-icon29.png",
+              "eyes/color/eyes-icon30.png",
+              "eyes/color/eyes-icon31.png",
+
+              "eyes/color/eyes-icon32.png",
+              "eyes/color/eyes-icon33.png",
+              "eyes/color/eyes-icon34.png"
+              ]
+            }  
+        ]
+      },
+      {
+        "trait": "outer",
+        "type": "mesh",
+        "name": "outer",
+        "restrictedTypes": [
+          "hoodie",
+          "solo"
+        ],
+        "icon": "jacket.png",
+        "icon-gradient": "jacket.svg",
+        "cameraTarget": {
+          "distance": 1.5,
+          "height": 1
+        },
+        "collection": [
+          {
+            "id": "halfjacket",
+            "name": "Half Jacket",
+            "directory": "outer/halfjacket.vrm",
+            "thumbnail": "_textureCollections/outer/halfjacket.png",
             "cullingDistance": [
               0.03,
               0.03
             ],
-            "textureCollection": "Belt Outfit 3",
+            "textureCollection": "Jacket Outfit 9",
             "thumbnailOverrides": [
-              "accessories/hipbelt/Hip Belt-icon0.png",
-              "accessories/hipbelt/Hip Belt-icon1.png",
-              "accessories/hipbelt/Hip Belt-icon2.png",
-              "accessories/hipbelt/Hip Belt-icon3.png",
-              "accessories/hipbelt/Hip Belt-icon4.png",
-              "accessories/hipbelt/Hip Belt-icon5.png",
-              "accessories/hipbelt/Hip Belt-icon6.png"
+              "outer/halfjacket/Half Jacket-icon0.png",
+              "outer/halfjacket/Half Jacket-icon1.png",
+              "outer/halfjacket/Half Jacket-icon2.png",
+              "outer/halfjacket/Half Jacket-icon3.png",
+              "outer/halfjacket/Half Jacket-icon4.png",
+              "outer/halfjacket/Half Jacket-icon5.png",
+              "outer/halfjacket/Half Jacket-icon6.png"
             ]
           },
           {
-            "id": "legstrapandcompress",
-            "name": "Leg Strap And Compress",
-            "directory": "accessories/legstrapandcompress.vrm",
-            "thumbnail": "_textureCollections/accessories/legstrapandcompress.png",
+            "id": "jacket",
+            "name": "Jacket",
+            "directory": "outer/jacket.vrm",
+            "thumbnail": "_textureCollections/outer/jacket.png",
             "cullingDistance": [
               0.03,
               0.03
             ],
-            "textureCollection": "Leg Outfit 1",
+            "textureCollection": "Jacket Outfit 5",
             "thumbnailOverrides": [
-              "accessories/legstrapandcompress/Leg Strap And Compress-icon0.png",
-              "accessories/legstrapandcompress/Leg Strap And Compress-icon1.png",
-              "accessories/legstrapandcompress/Leg Strap And Compress-icon2.png",
-              "accessories/legstrapandcompress/Leg Strap And Compress-icon3.png",
-              "accessories/legstrapandcompress/Leg Strap And Compress-icon4.png",
-              "accessories/legstrapandcompress/Leg Strap And Compress-icon5.png",
-              "accessories/legstrapandcompress/Leg Strap And Compress-icon6.png"
+              "outer/jacket/Jacket-icon0.png",
+              "outer/jacket/Jacket-icon1.png",
+              "outer/jacket/Jacket-icon2.png",
+              "outer/jacket/Jacket-icon3.png",
+              "outer/jacket/Jacket-icon4.png",
+              "outer/jacket/Jacket-icon5.png",
+              "outer/jacket/Jacket-icon6.png"
+            ]
+          },
+          {
+            "id": "shortjacket",
+            "name": "Short Jacket",
+            "directory": "outer/shortjacket.vrm",
+            "thumbnail": "_textureCollections/outer/shortjacket.png",
+            "cullingDistance": [
+              0.03,
+              0.03
+            ],
+            "textureCollection": "Jacket Outfit 3",
+            "thumbnailOverrides": [
+              "outer/shortjacket/Short Jacket-icon0.png",
+              "outer/shortjacket/Short Jacket-icon1.png",
+              "outer/shortjacket/Short Jacket-icon2.png",
+              "outer/shortjacket/Short Jacket-icon3.png",
+              "outer/shortjacket/Short Jacket-icon4.png",
+              "outer/shortjacket/Short Jacket-icon5.png",
+              "outer/shortjacket/Short Jacket-icon6.png"
             ]
           }
         ]
@@ -359,6 +559,236 @@
               "chest/fulljacket/Full Jacket-icon4.png",
               "chest/fulljacket/Full Jacket-icon5.png",
               "chest/fulljacket/Full Jacket-icon6.png"
+            ]
+          }
+        ]
+      },
+      {
+        "trait": "legs",
+        "type": "mesh",
+        "name": "legs",
+        "icon": "legs.png",
+        "icon-gradient": "chest-gradient.svg",
+        "id": 4,
+        "cameraTarget": {
+          "distance": 2,
+          "height": 0.5
+        },
+        "collection": [
+          {
+            "id": "cargopants",
+            "name": "Cargo Pants",
+            "directory": "legs/cargopants.vrm",
+            "thumbnail": "_textureCollections/legs/cargopants.png",
+            "cullingLayer": 2,
+            "type": [
+              "pants"
+            ],
+            "cullingDistance": [
+              0.06,
+              0.06
+            ],
+            "textureCollection": "Pants Outfit 8",
+            "thumbnailOverrides": [
+              "legs/cargopants/Cargo Pants-icon0.png",
+              "legs/cargopants/Cargo Pants-icon1.png",
+              "legs/cargopants/Cargo Pants-icon2.png",
+              "legs/cargopants/Cargo Pants-icon3.png",
+              "legs/cargopants/Cargo Pants-icon4.png",
+              "legs/cargopants/Cargo Pants-icon5.png",
+              "legs/cargopants/Cargo Pants-icon6.png"
+            ]
+          },
+          {
+            "id": "doublebeltpants",
+            "name": "Double Belt Pants",
+            "directory": "legs/doublebeltpants.vrm",
+            "thumbnail": "_textureCollections/legs/doublebeltpants.png",
+            "cullingLayer": 2,
+            "type": [
+              "pants"
+            ],
+            "cullingDistance": [
+              0.06,
+              0.06
+            ],
+            "textureCollection": "Pants Outfit 6",
+            "thumbnailOverrides": [
+              "legs/doublebeltpants/Double Belt Pants-icon0.png",
+              "legs/doublebeltpants/Double Belt Pants-icon1.png",
+              "legs/doublebeltpants/Double Belt Pants-icon2.png",
+              "legs/doublebeltpants/Double Belt Pants-icon3.png",
+              "legs/doublebeltpants/Double Belt Pants-icon4.png",
+              "legs/doublebeltpants/Double Belt Pants-icon5.png",
+              "legs/doublebeltpants/Double Belt Pants-icon6.png"
+            ]
+          },
+          {
+            "id": "jumpsuitpants",
+            "name": "Jumpsuit Pants",
+            "directory": "legs/jumpsuitpants.vrm",
+            "thumbnail": "_textureCollections/legs/jumpsuitpants.png",
+            "cullingLayer": 2,
+            "type": [
+              "pants"
+            ],
+            "cullingDistance": [
+              0.03,
+              0.03
+            ],
+            "textureCollection": "Pants Outfit 9",
+            "thumbnailOverrides": [
+              "legs/jumpsuitpants/Jumpsuit Pants-icon0.png",
+              "legs/jumpsuitpants/Jumpsuit Pants-icon1.png",
+              "legs/jumpsuitpants/Jumpsuit Pants-icon2.png",
+              "legs/jumpsuitpants/Jumpsuit Pants-icon3.png",
+              "legs/jumpsuitpants/Jumpsuit Pants-icon4.png",
+              "legs/jumpsuitpants/Jumpsuit Pants-icon5.png",
+              "legs/jumpsuitpants/Jumpsuit Pants-icon6.png"
+            ]
+          },
+          {
+            "id": "abovekneeshorts",
+            "name": "Above Knee Shorts",
+            "directory": "legs/abovekneeshorts.vrm",
+            "thumbnail": "_textureCollections/legs/abovekneeshorts.png",
+            "cullingLayer": 2,
+            "type": [
+              "shorts"
+            ],
+            "cullingDistance": [
+              0.03,
+              0.03
+            ],
+            "textureCollection": "Shorts Outfit 10",
+            "thumbnailOverrides": [
+              "legs/abovekneeshorts/Above Knee Shorts-icon0.png",
+              "legs/abovekneeshorts/Above Knee Shorts-icon1.png",
+              "legs/abovekneeshorts/Above Knee Shorts-icon2.png",
+              "legs/abovekneeshorts/Above Knee Shorts-icon3.png",
+              "legs/abovekneeshorts/Above Knee Shorts-icon4.png",
+              "legs/abovekneeshorts/Above Knee Shorts-icon5.png",
+              "legs/abovekneeshorts/Above Knee Shorts-icon6.png"
+            ]
+          },
+          {
+            "id": "casualshorts",
+            "name": "Casual Shorts",
+            "directory": "legs/casualshorts.vrm",
+            "thumbnail": "_textureCollections/legs/casualshorts.png",
+            "cullingLayer": 2,
+            "type": [
+              "shorts"
+            ],
+            "cullingDistance": [
+              0.03,
+              0.03
+            ],
+            "textureCollection": "Shorts Outfit 7",
+            "thumbnailOverrides": [
+              "legs/casualshorts/Casual Shorts-icon0.png",
+              "legs/casualshorts/Casual Shorts-icon1.png",
+              "legs/casualshorts/Casual Shorts-icon2.png",
+              "legs/casualshorts/Casual Shorts-icon3.png",
+              "legs/casualshorts/Casual Shorts-icon4.png",
+              "legs/casualshorts/Casual Shorts-icon5.png",
+              "legs/casualshorts/Casual Shorts-icon6.png"
+            ]
+          },
+          {
+            "id": "skirt",
+            "name": "Skirt",
+            "directory": "legs/skirt.vrm",
+            "thumbnail": "_textureCollections/legs/skirt.png",
+            "cullingLayer": 2,
+            "type": [
+              "shorts"
+            ],
+            "cullingDistance": [
+              0.03,
+              0.03
+            ],
+            "textureCollection": "Skirt Outfit 3",
+            "thumbnailOverrides": [
+              "legs/skirt/Skirt-icon0.png",
+              "legs/skirt/Skirt-icon1.png",
+              "legs/skirt/Skirt-icon2.png",
+              "legs/skirt/Skirt-icon3.png",
+              "legs/skirt/Skirt-icon4.png",
+              "legs/skirt/Skirt-icon5.png",
+              "legs/skirt/Skirt-icon6.png"
+            ]
+          },
+          {
+            "id": "sportshorts",
+            "name": "Sport Shorts",
+            "directory": "legs/sportshorts.vrm",
+            "thumbnail": "_textureCollections/legs/sportshorts.png",
+            "cullingLayer": 2,
+            "type": [
+              "shorts"
+            ],
+            "cullingDistance": [
+              0.03,
+              0.03
+            ],
+            "textureCollection": "Short Outfit 4",
+            "thumbnailOverrides": [
+              "legs/sportshorts/Sport Shorts-icon0.png",
+              "legs/sportshorts/Sport Shorts-icon1.png",
+              "legs/sportshorts/Sport Shorts-icon2.png",
+              "legs/sportshorts/Sport Shorts-icon3.png",
+              "legs/sportshorts/Sport Shorts-icon4.png",
+              "legs/sportshorts/Sport Shorts-icon5.png",
+              "legs/sportshorts/Sport Shorts-icon6.png"
+            ]
+          },
+          {
+            "id": "sportshortswithanklebands",
+            "name": "Sport Shorts With Ankle Bands",
+            "directory": "legs/sportshortswithanklebands.vrm",
+            "thumbnail": "_textureCollections/legs/sportshortswithanklebands.png",
+            "cullingLayer": 2,
+            "type": [
+              "shorts"
+            ],
+            "cullingDistance": [
+              0.03,
+              0.03
+            ],
+            "textureCollection": "Shorts Outfit 5",
+            "thumbnailOverrides": [
+              "legs/sportshortswithanklebands/Sport Shorts With Ankle Bands-icon0.png",
+              "legs/sportshortswithanklebands/Sport Shorts With Ankle Bands-icon1.png",
+              "legs/sportshortswithanklebands/Sport Shorts With Ankle Bands-icon2.png",
+              "legs/sportshortswithanklebands/Sport Shorts With Ankle Bands-icon3.png",
+              "legs/sportshortswithanklebands/Sport Shorts With Ankle Bands-icon4.png",
+              "legs/sportshortswithanklebands/Sport Shorts With Ankle Bands-icon5.png",
+              "legs/sportshortswithanklebands/Sport Shorts With Ankle Bands-icon6.png"
+            ]
+          },
+          {
+            "id": "waistshorts",
+            "name": "Waist Shorts",
+            "directory": "legs/waistshorts.vrm",
+            "thumbnail": "_textureCollections/legs/waistshorts.png",
+            "cullingLayer": 2,
+            "type": [
+              "shorts"
+            ],
+            "cullingDistance": [
+              0.03,
+              0.03
+            ],
+            "textureCollection": "Shorts Outfit 1",
+            "thumbnailOverrides": [
+              "legs/waistshorts/Waist Shorts-icon0.png",
+              "legs/waistshorts/Waist Shorts-icon1.png",
+              "legs/waistshorts/Waist Shorts-icon2.png",
+              "legs/waistshorts/Waist Shorts-icon3.png",
+              "legs/waistshorts/Waist Shorts-icon4.png",
+              "legs/waistshorts/Waist Shorts-icon5.png",
+              "legs/waistshorts/Waist Shorts-icon6.png"
             ]
           }
         ]
@@ -618,425 +1048,60 @@
         ]
       },
       {
-        "trait": "head",
+        "trait": "accessories",
+        "name": "accessories",
+        "icon": "accessories.png",
         "type": "mesh",
-        "name": "head",
-        "icon": "hairStyle.png",
-        "icon-gradient": "hairStyle.svg",
+        "id": 3,
+        "icon-gradient": "accessories-gradient.svg",
         "cameraTarget": {
-          "distance": 0.75,
-          "height": 1.35
+          "distance": 3.4,
+          "height": 0.8
         },
         "collection": [
           {
-            "id": "buns",
-            "name": "Buns",
-            "directory": "head/buns.vrm",
-            "thumbnail": "head/buns.png",
+            "id": "hipbelt",
+            "name": "Hip Belt",
+            "directory": "accessories/hipbelt.vrm",
+            "thumbnail": "_textureCollections/accessories/hipbelt.png",
             "cullingDistance": [
               0.03,
               0.03
-            ]
-          },
-          {
-            "id": "curledbangs",
-            "name": "Curled Bangs",
-            "directory": "head/curledbangs.vrm",
-            "thumbnail": "head/curledbangs.png",
-            "cullingDistance": [
-              0.03,
-              0.03
-            ]
-          },
-          {
-            "id": "dreds",
-            "name": "Dreds",
-            "directory": "head/dreds.vrm",
-            "thumbnail": "head/dreds.png",
-            "cullingDistance": [
-              0.03,
-              0.03
-            ]
-          },
-          {
-            "id": "longspike",
-            "name": "Long Spike",
-            "directory": "head/longspike.vrm",
-            "thumbnail": "head/longspike.png",
-            "cullingDistance": [
-              0.03,
-              0.03
-            ]
-          },
-          {
-            "id": "ponytail",
-            "name": "Ponytail",
-            "directory": "head/ponytail.vrm",
-            "thumbnail": "head/ponytail.png",
-            "cullingDistance": [
-              0.03,
-              0.03
-            ]
-          },
-          {
-            "id": "short",
-            "name": "Short",
-            "directory": "head/short.vrm",
-            "thumbnail": "head/short.png",
-            "cullingDistance": [
-              0.03,
-              0.03
-            ]
-          },
-          {
-            "id": "shortband",
-            "name": "Shortband",
-            "directory": "head/shortband.vrm",
-            "thumbnail": "head/shortband.png",
-            "cullingDistance": [
-              0.03,
-              0.03
-            ]
-          },
-          {
-            "id": "shortcurve",
-            "name": "Short Curve",
-            "directory": "head/shortcurve.vrm",
-            "thumbnail": "head/shortcurve.png",
-            "cullingDistance": [
-              0.03,
-              0.03
-            ]
-          },
-          {
-            "id": "straight",
-            "name": "Straight",
-            "directory": "head/straight.vrm",
-            "thumbnail": "head/straight.png",
-            "cullingDistance": [
-              0.03,
-              0.03
-            ]
-          },
-          {
-            "id": "swept",
-            "name": "Swept",
-            "directory": "head/swept.vrm",
-            "thumbnail": "head/swept.png",
-            "cullingDistance": [
-              0.03,
-              0.03
-            ]
-          }
-        ]
-      },
-      {
-        "trait": "legs",
-        "type": "mesh",
-        "name": "legs",
-        "icon": "legs.png",
-        "icon-gradient": "chest-gradient.svg",
-        "id": 4,
-        "cameraTarget": {
-          "distance": 2,
-          "height": 0.5
-        },
-        "collection": [
-          {
-            "id": "cargopants",
-            "name": "Cargo Pants",
-            "directory": "legs/cargopants.vrm",
-            "thumbnail": "_textureCollections/legs/cargopants.png",
-            "cullingLayer": 2,
-            "type": [
-              "pants"
             ],
-            "cullingDistance": [
-              0.06,
-              0.06
-            ],
-            "textureCollection": "Pants Outfit 8",
+            "textureCollection": "Belt Outfit 3",
             "thumbnailOverrides": [
-              "legs/cargopants/Cargo Pants-icon0.png",
-              "legs/cargopants/Cargo Pants-icon1.png",
-              "legs/cargopants/Cargo Pants-icon2.png",
-              "legs/cargopants/Cargo Pants-icon3.png",
-              "legs/cargopants/Cargo Pants-icon4.png",
-              "legs/cargopants/Cargo Pants-icon5.png",
-              "legs/cargopants/Cargo Pants-icon6.png"
+              "accessories/hipbelt/Hip Belt-icon0.png",
+              "accessories/hipbelt/Hip Belt-icon1.png",
+              "accessories/hipbelt/Hip Belt-icon2.png",
+              "accessories/hipbelt/Hip Belt-icon3.png",
+              "accessories/hipbelt/Hip Belt-icon4.png",
+              "accessories/hipbelt/Hip Belt-icon5.png",
+              "accessories/hipbelt/Hip Belt-icon6.png"
             ]
           },
           {
-            "id": "doublebeltpants",
-            "name": "Double Belt Pants",
-            "directory": "legs/doublebeltpants.vrm",
-            "thumbnail": "_textureCollections/legs/doublebeltpants.png",
-            "cullingLayer": 2,
-            "type": [
-              "pants"
-            ],
-            "cullingDistance": [
-              0.06,
-              0.06
-            ],
-            "textureCollection": "Pants Outfit 6",
-            "thumbnailOverrides": [
-              "legs/doublebeltpants/Double Belt Pants-icon0.png",
-              "legs/doublebeltpants/Double Belt Pants-icon1.png",
-              "legs/doublebeltpants/Double Belt Pants-icon2.png",
-              "legs/doublebeltpants/Double Belt Pants-icon3.png",
-              "legs/doublebeltpants/Double Belt Pants-icon4.png",
-              "legs/doublebeltpants/Double Belt Pants-icon5.png",
-              "legs/doublebeltpants/Double Belt Pants-icon6.png"
-            ]
-          },
-          {
-            "id": "jumpsuitpants",
-            "name": "Jumpsuit Pants",
-            "directory": "legs/jumpsuitpants.vrm",
-            "thumbnail": "_textureCollections/legs/jumpsuitpants.png",
-            "cullingLayer": 2,
-            "type": [
-              "pants"
-            ],
+            "id": "legstrapandcompress",
+            "name": "Leg Strap And Compress",
+            "directory": "accessories/legstrapandcompress.vrm",
+            "thumbnail": "_textureCollections/accessories/legstrapandcompress.png",
             "cullingDistance": [
               0.03,
               0.03
             ],
-            "textureCollection": "Pants Outfit 9",
+            "textureCollection": "Leg Outfit 1",
             "thumbnailOverrides": [
-              "legs/jumpsuitpants/Jumpsuit Pants-icon0.png",
-              "legs/jumpsuitpants/Jumpsuit Pants-icon1.png",
-              "legs/jumpsuitpants/Jumpsuit Pants-icon2.png",
-              "legs/jumpsuitpants/Jumpsuit Pants-icon3.png",
-              "legs/jumpsuitpants/Jumpsuit Pants-icon4.png",
-              "legs/jumpsuitpants/Jumpsuit Pants-icon5.png",
-              "legs/jumpsuitpants/Jumpsuit Pants-icon6.png"
-            ]
-          },
-          {
-            "id": "abovekneeshorts",
-            "name": "Above Knee Shorts",
-            "directory": "legs/abovekneeshorts.vrm",
-            "thumbnail": "_textureCollections/legs/abovekneeshorts.png",
-            "cullingLayer": 2,
-            "type": [
-              "shorts"
-            ],
-            "cullingDistance": [
-              0.03,
-              0.03
-            ],
-            "textureCollection": "Shorts Outfit 10",
-            "thumbnailOverrides": [
-              "legs/abovekneeshorts/Above Knee Shorts-icon0.png",
-              "legs/abovekneeshorts/Above Knee Shorts-icon1.png",
-              "legs/abovekneeshorts/Above Knee Shorts-icon2.png",
-              "legs/abovekneeshorts/Above Knee Shorts-icon3.png",
-              "legs/abovekneeshorts/Above Knee Shorts-icon4.png",
-              "legs/abovekneeshorts/Above Knee Shorts-icon5.png",
-              "legs/abovekneeshorts/Above Knee Shorts-icon6.png"
-            ]
-          },
-          {
-            "id": "casualshorts",
-            "name": "Casual Shorts",
-            "directory": "legs/casualshorts.vrm",
-            "thumbnail": "_textureCollections/legs/casualshorts.png",
-            "cullingLayer": 2,
-            "type": [
-              "shorts"
-            ],
-            "cullingDistance": [
-              0.03,
-              0.03
-            ],
-            "textureCollection": "Shorts Outfit 7",
-            "thumbnailOverrides": [
-              "legs/casualshorts/Casual Shorts-icon0.png",
-              "legs/casualshorts/Casual Shorts-icon1.png",
-              "legs/casualshorts/Casual Shorts-icon2.png",
-              "legs/casualshorts/Casual Shorts-icon3.png",
-              "legs/casualshorts/Casual Shorts-icon4.png",
-              "legs/casualshorts/Casual Shorts-icon5.png",
-              "legs/casualshorts/Casual Shorts-icon6.png"
-            ]
-          },
-          {
-            "id": "skirt",
-            "name": "Skirt",
-            "directory": "legs/skirt.vrm",
-            "thumbnail": "_textureCollections/legs/skirt.png",
-            "cullingLayer": 2,
-            "type": [
-              "shorts"
-            ],
-            "cullingDistance": [
-              0.03,
-              0.03
-            ],
-            "textureCollection": "Skirt Outfit 3",
-            "thumbnailOverrides": [
-              "legs/skirt/Skirt-icon0.png",
-              "legs/skirt/Skirt-icon1.png",
-              "legs/skirt/Skirt-icon2.png",
-              "legs/skirt/Skirt-icon3.png",
-              "legs/skirt/Skirt-icon4.png",
-              "legs/skirt/Skirt-icon5.png",
-              "legs/skirt/Skirt-icon6.png"
-            ]
-          },
-          {
-            "id": "sportshorts",
-            "name": "Sport Shorts",
-            "directory": "legs/sportshorts.vrm",
-            "thumbnail": "_textureCollections/legs/sportshorts.png",
-            "cullingLayer": 2,
-            "type": [
-              "shorts"
-            ],
-            "cullingDistance": [
-              0.03,
-              0.03
-            ],
-            "textureCollection": "Short Outfit 4",
-            "thumbnailOverrides": [
-              "legs/sportshorts/Sport Shorts-icon0.png",
-              "legs/sportshorts/Sport Shorts-icon1.png",
-              "legs/sportshorts/Sport Shorts-icon2.png",
-              "legs/sportshorts/Sport Shorts-icon3.png",
-              "legs/sportshorts/Sport Shorts-icon4.png",
-              "legs/sportshorts/Sport Shorts-icon5.png",
-              "legs/sportshorts/Sport Shorts-icon6.png"
-            ]
-          },
-          {
-            "id": "sportshortswithanklebands",
-            "name": "Sport Shorts With Ankle Bands",
-            "directory": "legs/sportshortswithanklebands.vrm",
-            "thumbnail": "_textureCollections/legs/sportshortswithanklebands.png",
-            "cullingLayer": 2,
-            "type": [
-              "shorts"
-            ],
-            "cullingDistance": [
-              0.03,
-              0.03
-            ],
-            "textureCollection": "Shorts Outfit 5",
-            "thumbnailOverrides": [
-              "legs/sportshortswithanklebands/Sport Shorts With Ankle Bands-icon0.png",
-              "legs/sportshortswithanklebands/Sport Shorts With Ankle Bands-icon1.png",
-              "legs/sportshortswithanklebands/Sport Shorts With Ankle Bands-icon2.png",
-              "legs/sportshortswithanklebands/Sport Shorts With Ankle Bands-icon3.png",
-              "legs/sportshortswithanklebands/Sport Shorts With Ankle Bands-icon4.png",
-              "legs/sportshortswithanklebands/Sport Shorts With Ankle Bands-icon5.png",
-              "legs/sportshortswithanklebands/Sport Shorts With Ankle Bands-icon6.png"
-            ]
-          },
-          {
-            "id": "waistshorts",
-            "name": "Waist Shorts",
-            "directory": "legs/waistshorts.vrm",
-            "thumbnail": "_textureCollections/legs/waistshorts.png",
-            "cullingLayer": 2,
-            "type": [
-              "shorts"
-            ],
-            "cullingDistance": [
-              0.03,
-              0.03
-            ],
-            "textureCollection": "Shorts Outfit 1",
-            "thumbnailOverrides": [
-              "legs/waistshorts/Waist Shorts-icon0.png",
-              "legs/waistshorts/Waist Shorts-icon1.png",
-              "legs/waistshorts/Waist Shorts-icon2.png",
-              "legs/waistshorts/Waist Shorts-icon3.png",
-              "legs/waistshorts/Waist Shorts-icon4.png",
-              "legs/waistshorts/Waist Shorts-icon5.png",
-              "legs/waistshorts/Waist Shorts-icon6.png"
-            ]
-          }
-        ]
-      },
-      {
-        "trait": "outer",
-        "type": "mesh",
-        "name": "outer",
-        "restrictedTypes": [
-          "hoodie",
-          "solo"
-        ],
-        "icon": "jacket.png",
-        "icon-gradient": "jacket.svg",
-        "cameraTarget": {
-          "distance": 1.5,
-          "height": 1
-        },
-        "collection": [
-          {
-            "id": "halfjacket",
-            "name": "Half Jacket",
-            "directory": "outer/halfjacket.vrm",
-            "thumbnail": "_textureCollections/outer/halfjacket.png",
-            "cullingDistance": [
-              0.03,
-              0.03
-            ],
-            "textureCollection": "Jacket Outfit 9",
-            "thumbnailOverrides": [
-              "outer/halfjacket/Half Jacket-icon0.png",
-              "outer/halfjacket/Half Jacket-icon1.png",
-              "outer/halfjacket/Half Jacket-icon2.png",
-              "outer/halfjacket/Half Jacket-icon3.png",
-              "outer/halfjacket/Half Jacket-icon4.png",
-              "outer/halfjacket/Half Jacket-icon5.png",
-              "outer/halfjacket/Half Jacket-icon6.png"
-            ]
-          },
-          {
-            "id": "jacket",
-            "name": "Jacket",
-            "directory": "outer/jacket.vrm",
-            "thumbnail": "_textureCollections/outer/jacket.png",
-            "cullingDistance": [
-              0.03,
-              0.03
-            ],
-            "textureCollection": "Jacket Outfit 5",
-            "thumbnailOverrides": [
-              "outer/jacket/Jacket-icon0.png",
-              "outer/jacket/Jacket-icon1.png",
-              "outer/jacket/Jacket-icon2.png",
-              "outer/jacket/Jacket-icon3.png",
-              "outer/jacket/Jacket-icon4.png",
-              "outer/jacket/Jacket-icon5.png",
-              "outer/jacket/Jacket-icon6.png"
-            ]
-          },
-          {
-            "id": "shortjacket",
-            "name": "Short Jacket",
-            "directory": "outer/shortjacket.vrm",
-            "thumbnail": "_textureCollections/outer/shortjacket.png",
-            "cullingDistance": [
-              0.03,
-              0.03
-            ],
-            "textureCollection": "Jacket Outfit 3",
-            "thumbnailOverrides": [
-              "outer/shortjacket/Short Jacket-icon0.png",
-              "outer/shortjacket/Short Jacket-icon1.png",
-              "outer/shortjacket/Short Jacket-icon2.png",
-              "outer/shortjacket/Short Jacket-icon3.png",
-              "outer/shortjacket/Short Jacket-icon4.png",
-              "outer/shortjacket/Short Jacket-icon5.png",
-              "outer/shortjacket/Short Jacket-icon6.png"
+              "accessories/legstrapandcompress/Leg Strap And Compress-icon0.png",
+              "accessories/legstrapandcompress/Leg Strap And Compress-icon1.png",
+              "accessories/legstrapandcompress/Leg Strap And Compress-icon2.png",
+              "accessories/legstrapandcompress/Leg Strap And Compress-icon3.png",
+              "accessories/legstrapandcompress/Leg Strap And Compress-icon4.png",
+              "accessories/legstrapandcompress/Leg Strap And Compress-icon5.png",
+              "accessories/legstrapandcompress/Leg Strap And Compress-icon6.png"
             ]
           }
         ]
       }
+
     ],
     "textureCollections":[
       {
@@ -2728,6 +2793,187 @@
                 "directory":["_textureCollections/skin/ThighHighs_Tone_4.png","_textureCollections/skin/Anime_Proj_base_NoClothes_Face_BaseColor4.png"]
               }     
           ]
+      },
+      {
+        "trait": "eyes color",
+        "type": "texture",
+        "collection":[
+          {
+            "name":"Emerald Eyes",
+            "id":"emeraldeyes",
+            "directory":["_textureCollections/eyes/IMG_2817.png"]
+          },
+          {
+            "name":"Sacramento Eyes",
+            "id":"sacramentoeyes",
+            "directory":["_textureCollections/eyes/IMG_2818.png"]
+          },
+          {
+            "name":"Kelly Eyes",
+            "id":"kellyeyes",
+            "directory":["_textureCollections/eyes/IMG_2819.png"]
+          },
+          {
+            "name":"Lime Eyes",
+            "id":"limeeyes",
+            "directory":["_textureCollections/eyes/IMG_2820.png"]
+          },
+          {
+            "name":"Clay Eyes",
+            "id":"clayeyes",
+            "directory":["_textureCollections/eyes/IMG_2821.png"]
+          },
+          {
+            "name":"Latte Eyes",
+            "id":"latteeyes",
+            "directory":["_textureCollections/eyes/IMG_2822.png"]
+          },
+          {
+            "name":"Copper Eyes",
+            "id":"coppereyes",
+            "directory":["_textureCollections/eyes/IMG_2823.png"]
+          },
+          {
+            "name":"Dark Grey Eyes",
+            "id":"darkgreyeyes",
+            "directory":["_textureCollections/eyes/IMG_2824.png"]
+          },
+          {
+            "name":"Pink Eyes",
+            "id":"pinkeyes",
+            "directory":["_textureCollections/eyes/IMG_2826.png"]
+          },
+          {
+            "name":"Red Eyes",
+            "id":"redeyes",
+            "directory":["_textureCollections/eyes/IMG_2827.png"]
+          },
+          {
+            "name":"Scarlet Eyes",
+            "id":"scarleteyes",
+            "directory":["_textureCollections/eyes/IMG_2828.png"]
+          },
+          {
+            "name":"Maroon Eyes",
+            "id":"marooneyes",
+            "directory":["_textureCollections/eyes/IMG_2829.png"]
+          },
+          {
+            "name":"Sangria Eyes",
+            "id":"sangriaeyes",
+            "directory":["_textureCollections/eyes/IMG_2830.png"]
+          },
+          {
+            "name":"Lavender Eyes",
+            "id":"lavendereyes",
+            "directory":["_textureCollections/eyes/IMG_2831.png"]
+          },
+          {
+            "name":"Lilac Eyes",
+            "id":"lilaceyes",
+            "directory":["_textureCollections/eyes/IMG_2833.png"]
+          },
+          {
+            "name":"Violet Eyes",
+            "id":"violeteyes",
+            "directory":["_textureCollections/eyes/IMG_2834.png"]
+          },
+          {
+            "name":"Dark Purple Eyes",
+            "id":"darkpurpleeyes",
+            "directory":["_textureCollections/eyes/IMG_2836.png"]
+          },
+          {
+            "name":"Purple Eyes",
+            "id":"purpleeyes",
+            "directory":["_textureCollections/eyes/IMG_2837.png"]
+          },
+          {
+            "name":"Indigo Eyes",
+            "id":"indigoeyes",
+            "directory":["_textureCollections/eyes/IMG_2838.png"]
+          },
+          {
+            "name":"Blue Eyes",
+            "id":"blueeyes",
+            "directory":["_textureCollections/eyes/IMG_2839.png"]
+          },
+          {
+            "name":"Dark Blue Eyes",
+            "id":"darkblueeyes",
+            "directory":["_textureCollections/eyes/IMG_2840.png"]
+          },
+          {
+            "name":"Ocean Eyes",
+            "id":"oceaneyes",
+            "directory":["_textureCollections/eyes/IMG_2841.png"]
+          },
+          {
+            "name":"Deep Ocean Eyes",
+            "id":"deepoceaneyes",
+            "directory":["_textureCollections/eyes/IMG_2842.png"]
+          },
+          {
+            "name":"Teal Eyes",
+            "id":"tealeyes",
+            "directory":["_textureCollections/eyes/IMG_2843.png"]
+          },
+          {
+            "name":"Sky Eyes",
+            "id":"skyeyes",
+            "directory":["_textureCollections/eyes/IMG_2844.png"]
+          },
+          {
+            "name":"Honey Eyes",
+            "id":"honeyeyes",
+            "directory":["_textureCollections/eyes/IMG_2845.png"]
+          },
+          {
+            "name":"Wood Eyes",
+            "id":"woodeyes",
+            "directory":["_textureCollections/eyes/IMG_2846.png"]
+          },
+          {
+            "name":"Chocolate Eyes",
+            "id":"chocolateeyes",
+            "directory":["_textureCollections/eyes/IMG_2847.png"]
+          },
+          {
+            "name":"Peanut Eyes",
+            "id":"peanuteyes",
+            "directory":["_textureCollections/eyes/IMG_2848.png"]
+          },
+          {
+            "name":"Yellow Eyes",
+            "id":"yelloweyes",
+            "directory":["_textureCollections/eyes/IMG_2849.png"]
+          },
+          {
+            "name":"Amber Eyes",
+            "id":"ambereyes",
+            "directory":["_textureCollections/eyes/IMG_2850.png"]
+          },
+          {
+            "name":"Orange Eyes",
+            "id":"orangeeyes",
+            "directory":["_textureCollections/eyes/IMG_2851.png"]
+          },
+          {
+            "name":"Black Eyes",
+            "id":"blackeyes",
+            "directory":["_textureCollections/eyes/IMG_2853.png"]
+          },
+          {
+            "name":"Grey Eyes",
+            "id":"greyeyes",
+            "directory":["_textureCollections/eyes/IMG_2854.png"]
+          },
+          {
+            "name":"Fire Eyes",
+            "id":"fireeyes",
+            "directory":["_textureCollections/eyes/IMG_2855.png"]
+          }  
+        ]
       }
     ],
     "colors":[
@@ -2760,6 +3006,132 @@
     "animationPath": "./3d/animations/idle_neurohacker.fbx",
     "traitIconsDirectory": "./3d/icons/",
     "traits": [
+      {
+        "trait": "head",
+        "type": "mesh",
+        "name": "head",
+        "icon": "hairStyle.png",
+        "icon-gradient": "head-gradient.svg",
+        "cameraTarget": {
+          "distance": 1.2,
+          "height": 1.35
+        },
+        "collection": [
+          {
+            "id": "hair1",
+            "name": "Hair 1",
+            "directory": "head/hair1.vrm",
+            "thumbnail": "head/hair1.png",
+            "cullingLayer": 1,
+            "cullingDistance": [
+              0.03,
+              0.03
+            ]
+          },
+          {
+            "id": "hair2",
+            "name": "Hair 2",
+            "directory": "head/hair2.vrm",
+            "thumbnail": "head/hair2.png",
+            "cullingLayer": 1,
+            "cullingDistance": [
+              0.03,
+              0.03
+            ]
+          },
+          {
+            "id": "hair3",
+            "name": "Hair 3",
+            "directory": "head/hair3.vrm",
+            "thumbnail": "head/hair3.png",
+            "cullingLayer": 1,
+            "cullingDistance": [
+              0.03,
+              0.03
+            ]
+          },
+          {
+            "id": "hair4",
+            "name": "Hair 4",
+            "directory": "head/hair4.vrm",
+            "thumbnail": "head/hair4.png",
+            "cullingLayer": 1,
+            "cullingDistance": [
+              0.03,
+              0.03
+            ]
+          },
+          {
+            "id": "hair5",
+            "name": "Hair 5",
+            "directory": "head/hair5.vrm",
+            "thumbnail": "head/hair5.png",
+            "cullingLayer": 1,
+            "cullingDistance": [
+              0.03,
+              0.03
+            ]
+          },
+          {
+            "id": "braided",
+            "name": "Braided",
+            "directory": "head/braided.vrm",
+            "thumbnail": "head/braided.png",
+            "cullingLayer": 1,
+            "cullingDistance": [
+              0.03,
+              0.03
+            ]
+          },
+          {
+            "id": "short",
+            "name": "Short",
+            "directory": "head/short.vrm",
+            "thumbnail": "head/short.png",
+            "cullingLayer": 1,
+            "cullingDistance": [
+              0.03,
+              0.03
+            ]
+          },
+          {
+            "id": "hairshort",
+            "name": "Hair Short",
+            "directory": "head/hairshort.vrm",
+            "thumbnail": "head/hairshort.png",
+            "cullingLayer": 1,
+            "type": [
+              "short"
+            ],
+            "cullingDistance": [
+              0.03,
+              0.03
+            ]
+          },
+          {
+            "id": "straight",
+            "name": "Straight",
+            "directory": "head/straight.vrm",
+            "thumbnail": "head/straight.png",
+            "cullingLayer": 1,
+            "cullingDistance": [
+              0.03,
+              0.03
+            ]
+          },
+          {
+            "id": "straightdown",
+            "name": "Straightdown",
+            "directory": "head/straightdown.vrm",
+            "thumbnail": "head/straightdown.png",
+            "cullingLayer": 1,
+            "cullingDistance": [
+              0.03,
+              0.03
+            ]
+          }
+        ]
+      },
       { 
         "trait": "body",
         "name": "body",
@@ -2810,157 +3182,120 @@
         ]
       },
       {
-        "trait": "accessories",
+        "trait": "eyes",
+        "name": "eyes",
+        "icon": "eye.png",
         "type": "mesh",
-        "name": "accessories",
-        "icon": "accessories.png",
-        "id": 3,
-        "icon-gradient": "accessories-gradient.svg",
         "cameraTarget": {
-          "distance": 3.4,
-          "height": 0.8
+          "distance": 1.2,
+          "height": 1.35
         },
         "collection": [
           {
-            "id": "bandolier",
-            "name": "Bandolier",
-            "directory": "accessories/bandolier.vrm",
-            "thumbnail": "_textureCollections/accessories/bandolier.png",
+            "id": "regulareyes",
+            "name": "Regular Eyes",
+            "directory": "eyes/regulareyes.vrm",
+            "thumbnail": "eyes/regulareyes.png",
+            "textureCollection": "eyes color",
+            "thumbnailOverrides": [
+              "eyes/color/eyes-icon0.png",
+              "eyes/color/eyes-icon1.png",
+              "eyes/color/eyes-icon2.png",
+              "eyes/color/eyes-icon3.png",
+
+              "eyes/color/eyes-icon4.png",
+              "eyes/color/eyes-icon5.png",
+              "eyes/color/eyes-icon6.png",
+              "eyes/color/eyes-icon7.png",
+
+              "eyes/color/eyes-icon8.png",
+              "eyes/color/eyes-icon9.png",
+              "eyes/color/eyes-icon10.png",
+              "eyes/color/eyes-icon11.png",
+
+              "eyes/color/eyes-icon12.png",
+              "eyes/color/eyes-icon13.png",
+              "eyes/color/eyes-icon14.png",
+              "eyes/color/eyes-icon15.png",
+
+              "eyes/color/eyes-icon16.png",
+              "eyes/color/eyes-icon17.png",
+              "eyes/color/eyes-icon18.png",
+              "eyes/color/eyes-icon19.png",
+
+              "eyes/color/eyes-icon20.png",
+              "eyes/color/eyes-icon21.png",
+              "eyes/color/eyes-icon22.png",
+              "eyes/color/eyes-icon23.png",
+
+              "eyes/color/eyes-icon24.png",
+              "eyes/color/eyes-icon25.png",
+              "eyes/color/eyes-icon26.png",
+              "eyes/color/eyes-icon27.png",
+
+              "eyes/color/eyes-icon28.png",
+              "eyes/color/eyes-icon29.png",
+              "eyes/color/eyes-icon30.png",
+              "eyes/color/eyes-icon31.png"
+              ]
+            }  
+        ]
+      },
+      {
+        "trait": "outer",
+        "name": "outer",
+        "restrictedTypes": [
+          "hoodie",
+          "solo"
+        ],
+        "icon": "jacket.png",
+        "icon-gradient": "jacket.svg",
+        "type": "mesh",
+        "cameraTarget": {
+          "distance": 1.5,
+          "height": 1
+        },
+        "collection": [
+          {
+            "id": "longjacket",
+            "name": "Longjacket",
+            "directory": "outer/longjacket.vrm",
+            "thumbnail": "_textureCollections/outer/longjacket.png",
+            "cullingLayer": 2,
             "cullingDistance": [
               0.03,
               0.03
             ],
-            "textureCollection": "outfit_2",
+            "textureCollection": "outfit_4",
             "thumbnailOverrides": [
-              "accessories/bandolier/Bandolier-icon0.png",
-              "accessories/bandolier/Bandolier-icon1.png",
-              "accessories/bandolier/Bandolier-icon2.png",
-              "accessories/bandolier/Bandolier-icon3.png",
-              "accessories/bandolier/Bandolier-icon4.png",
-              "accessories/bandolier/Bandolier-icon5.png",
-              "accessories/bandolier/Bandolier-icon6.png"
+              "outer/longjacket/Longjacket-icon0.png",
+              "outer/longjacket/Longjacket-icon1.png",
+              "outer/longjacket/Longjacket-icon2.png",
+              "outer/longjacket/Longjacket-icon3.png",
+              "outer/longjacket/Longjacket-icon4.png",
+              "outer/longjacket/Longjacket-icon5.png",
+              "outer/longjacket/Longjacket-icon6.png"
             ]
           },
           {
-            "id": "beltandbag",
-            "name": "Beltandbag",
-            "directory": "accessories/beltandbag.vrm",
-            "thumbnail": "_textureCollections/accessories/beltandbag.png",
+            "id": "robe",
+            "name": "Robe",
+            "directory": "outer/robe.vrm",
+            "thumbnail": "_textureCollections/outer/robe.png",
+            "cullingLayer": 2,
             "cullingDistance": [
               0.03,
               0.03
             ],
-            "textureCollection": "outfit_3",
+            "textureCollection": "outfit_5",
             "thumbnailOverrides": [
-              "accessories/beltandbag/Beltandbag-icon0.png",
-              "accessories/beltandbag/Beltandbag-icon1.png",
-              "accessories/beltandbag/Beltandbag-icon2.png",
-              "accessories/beltandbag/Beltandbag-icon3.png",
-              "accessories/beltandbag/Beltandbag-icon4.png",
-              "accessories/beltandbag/Beltandbag-icon5.png",
-              "accessories/beltandbag/Beltandbag-icon6.png"
-            ]
-          },
-          {
-            "id": "chestrig",
-            "name": "Chestrig",
-            "directory": "accessories/chestrig.vrm",
-            "thumbnail": "_textureCollections/accessories/chestrig.png",
-            "cullingDistance": [
-              0.03,
-              0.03
-            ],
-            "textureCollection": "outfit_7",
-            "thumbnailOverrides": [
-              "accessories/chestrig/Chestrig-icon0.png",
-              "accessories/chestrig/Chestrig-icon1.png",
-              "accessories/chestrig/Chestrig-icon2.png",
-              "accessories/chestrig/Chestrig-icon3.png",
-              "accessories/chestrig/Chestrig-icon4.png",
-              "accessories/chestrig/Chestrig-icon5.png",
-              "accessories/chestrig/Chestrig-icon6.png"
-            ]
-          },
-          {
-            "id": "combatgloves",
-            "name": "Combat Gloves",
-            "directory": "accessories/combatgloves.vrm",
-            "thumbnail": "_textureCollections/accessories/combatgloves.png",
-            "cullingDistance": [
-              0.03,
-              0.03
-            ],
-            "cullingLayer": 1,
-            "textureCollection": "outfit_3",
-            "thumbnailOverrides": [
-              "accessories/combatgloves/Combat Gloves-icon0.png",
-              "accessories/combatgloves/Combat Gloves-icon1.png",
-              "accessories/combatgloves/Combat Gloves-icon2.png",
-              "accessories/combatgloves/Combat Gloves-icon3.png",
-              "accessories/combatgloves/Combat Gloves-icon4.png",
-              "accessories/combatgloves/Combat Gloves-icon5.png",
-              "accessories/combatgloves/Combat Gloves-icon6.png"
-            ]
-          },
-          {
-            "id": "fingergloves",
-            "name": "Fingergloves",
-            "directory": "accessories/fingergloves.vrm",
-            "thumbnail": "_textureCollections/accessories/fingergloves.png",
-            "cullingDistance": [
-              0.03,
-              0.03
-            ],
-            "textureCollection": "outfit_10",
-            "thumbnailOverrides": [
-              "accessories/fingergloves/Fingergloves-icon0.png",
-              "accessories/fingergloves/Fingergloves-icon1.png",
-              "accessories/fingergloves/Fingergloves-icon2.png",
-              "accessories/fingergloves/Fingergloves-icon3.png",
-              "accessories/fingergloves/Fingergloves-icon4.png",
-              "accessories/fingergloves/Fingergloves-icon5.png",
-              "accessories/fingergloves/Fingergloves-icon6.png"
-            ]
-          },
-          {
-            "id": "legbandages",
-            "name": "Legbandages",
-            "directory": "accessories/legbandages.vrm",
-            "thumbnail": "_textureCollections/accessories/legbandages.png",
-            "cullingDistance": [
-              0.03,
-              0.03
-            ],
-            "textureCollection": "outfit_1",
-            "thumbnailOverrides": [
-              "accessories/legbandages/Legbandages-icon0.png",
-              "accessories/legbandages/Legbandages-icon1.png",
-              "accessories/legbandages/Legbandages-icon2.png",
-              "accessories/legbandages/Legbandages-icon3.png",
-              "accessories/legbandages/Legbandages-icon4.png",
-              "accessories/legbandages/Legbandages-icon5.png",
-              "accessories/legbandages/Legbandages-icon6.png"
-            ]
-          },
-          {
-            "id": "ninjagloves",
-            "name": "Ninjagloves",
-            "directory": "accessories/ninjagloves.vrm",
-            "thumbnail": "_textureCollections/accessories/ninjagloves.png",
-            "cullingLayer": 1,
-            "cullingDistance": [
-              0.03,
-              0.03
-            ],
-            "textureCollection": "outfit_8",
-            "thumbnailOverrides": [
-              "accessories/ninjagloves/Ninjagloves-icon0.png",
-              "accessories/ninjagloves/Ninjagloves-icon1.png",
-              "accessories/ninjagloves/Ninjagloves-icon2.png",
-              "accessories/ninjagloves/Ninjagloves-icon3.png",
-              "accessories/ninjagloves/Ninjagloves-icon4.png",
-              "accessories/ninjagloves/Ninjagloves-icon5.png",
-              "accessories/ninjagloves/Ninjagloves-icon6.png"
+              "outer/robe/Robe-icon0.png",
+              "outer/robe/Robe-icon1.png",
+              "outer/robe/Robe-icon2.png",
+              "outer/robe/Robe-icon3.png",
+              "outer/robe/Robe-icon4.png",
+              "outer/robe/Robe-icon5.png",
+              "outer/robe/Robe-icon6.png"
             ]
           }
         ]
@@ -3204,8 +3539,217 @@
         ]
       },
       {
-        "trait": "feet",
+        "trait": "legs",
         "type": "mesh",
+        "name": "legs",
+        "icon": "legs.png",
+        "icon-gradient": "chest-gradient.svg",
+        "id": 4,
+        "cameraTarget": {
+          "distance": 2,
+          "height": 0.5
+        },
+        "collection": [
+          {
+            "id": "cargopants",
+            "name": "Cargo Pants",
+            "directory": "legs/cargopants.vrm",
+            "thumbnail": "_textureCollections/legs/cargopants.png",
+            "cullingLayer": 1,
+            "cullingDistance": [
+              0.03,
+              0.03
+            ],
+            "textureCollection": "outfit_2",
+            "thumbnailOverrides": [
+              "legs/cargopants/Cargo Pants-icon0.png",
+              "legs/cargopants/Cargo Pants-icon1.png",
+              "legs/cargopants/Cargo Pants-icon2.png",
+              "legs/cargopants/Cargo Pants-icon3.png",
+              "legs/cargopants/Cargo Pants-icon4.png",
+              "legs/cargopants/Cargo Pants-icon5.png",
+              "legs/cargopants/Cargo Pants-icon6.png"
+            ]
+          },
+          {
+            "id": "cargoshorts",
+            "name": "Cargoshorts",
+            "directory": "legs/cargoshorts.vrm",
+            "thumbnail": "_textureCollections/legs/cargoshorts.png",
+            "cullingLayer": 1,
+            "cullingDistance": [
+              0.03,
+              0.03
+            ],
+            "textureCollection": "outfit_3",
+            "thumbnailOverrides": [
+              "legs/cargoshorts/Cargoshorts-icon0.png",
+              "legs/cargoshorts/Cargoshorts-icon1.png",
+              "legs/cargoshorts/Cargoshorts-icon2.png",
+              "legs/cargoshorts/Cargoshorts-icon3.png",
+              "legs/cargoshorts/Cargoshorts-icon4.png",
+              "legs/cargoshorts/Cargoshorts-icon5.png",
+              "legs/cargoshorts/Cargoshorts-icon6.png"
+            ]
+          },
+          {
+            "id": "rolleduppants",
+            "name": "Rolleduppants",
+            "directory": "legs/rolleduppants.vrm",
+            "thumbnail": "_textureCollections/legs/rolleduppants.png",
+            "cullingLayer": 1,
+            "cullingDistance": [
+              0.03,
+              0.03
+            ],
+            "textureCollection": "outfit_1",
+            "thumbnailOverrides": [
+              "legs/rolleduppants/Rolleduppants-icon0.png",
+              "legs/rolleduppants/Rolleduppants-icon1.png",
+              "legs/rolleduppants/Rolleduppants-icon2.png",
+              "legs/rolleduppants/Rolleduppants-icon3.png",
+              "legs/rolleduppants/Rolleduppants-icon4.png",
+              "legs/rolleduppants/Rolleduppants-icon5.png",
+              "legs/rolleduppants/Rolleduppants-icon6.png"
+            ]
+          },
+          {
+            "id": "shorts",
+            "name": "Shorts",
+            "directory": "legs/shorts.vrm",
+            "thumbnail": "_textureCollections/legs/shorts.png",
+            "cullingLayer": 1,
+            "cullingDistance": [
+              0.03,
+              0.03
+            ],
+            "textureCollection": "outfit_5",
+            "thumbnailOverrides": [
+              "legs/shorts/Shorts-icon0.png",
+              "legs/shorts/Shorts-icon1.png",
+              "legs/shorts/Shorts-icon2.png",
+              "legs/shorts/Shorts-icon3.png",
+              "legs/shorts/Shorts-icon4.png",
+              "legs/shorts/Shorts-icon5.png",
+              "legs/shorts/Shorts-icon6.png"
+            ]
+          },
+          {
+            "id": "shortsandsweats",
+            "name": "Shortsandsweats",
+            "directory": "legs/shortsandsweats.vrm",
+            "thumbnail": "_textureCollections/legs/shortsandsweats.png",
+            "cullingLayer": 1,
+            "cullingDistance": [
+              0.03,
+              0.03
+            ],
+            "textureCollection": "outfit_8",
+            "thumbnailOverrides": [
+              "legs/shortsandsweats/Shortsandsweats-icon0.png",
+              "legs/shortsandsweats/Shortsandsweats-icon1.png",
+              "legs/shortsandsweats/Shortsandsweats-icon2.png",
+              "legs/shortsandsweats/Shortsandsweats-icon3.png",
+              "legs/shortsandsweats/Shortsandsweats-icon4.png",
+              "legs/shortsandsweats/Shortsandsweats-icon5.png",
+              "legs/shortsandsweats/Shortsandsweats-icon6.png"
+            ]
+          },
+          {
+            "id": "streetpants",
+            "name": "Streetpants",
+            "directory": "legs/streetpants.vrm",
+            "thumbnail": "_textureCollections/legs/streetpants.png",
+            "cullingLayer": 1,
+            "cullingDistance": [
+              0.03,
+              0.03
+            ],
+            "textureCollection": "outfit_9",
+            "thumbnailOverrides": [
+              "legs/streetpants/Streetpants-icon0.png",
+              "legs/streetpants/Streetpants-icon1.png",
+              "legs/streetpants/Streetpants-icon2.png",
+              "legs/streetpants/Streetpants-icon3.png",
+              "legs/streetpants/Streetpants-icon4.png",
+              "legs/streetpants/Streetpants-icon5.png",
+              "legs/streetpants/Streetpants-icon6.png"
+            ]
+          },
+          {
+            "id": "suitpants",
+            "name": "Suitpants",
+            "directory": "legs/suitpants.vrm",
+            "thumbnail": "_textureCollections/legs/suitpants.png",
+            "cullingLayer": 1,
+            "cullingDistance": [
+              0.03,
+              0.03
+            ],
+            "textureCollection": "outfit_6",
+            "thumbnailOverrides": [
+              "legs/suitpants/Suitpants-icon0.png",
+              "legs/suitpants/Suitpants-icon1.png",
+              "legs/suitpants/Suitpants-icon2.png",
+              "legs/suitpants/Suitpants-icon3.png",
+              "legs/suitpants/Suitpants-icon4.png",
+              "legs/suitpants/Suitpants-icon5.png",
+              "legs/suitpants/Suitpants-icon6.png"
+            ]
+          },
+          {
+            "id": "tightjeans",
+            "name": "Tightjeans",
+            "directory": "legs/tightjeans.vrm",
+            "thumbnail": "_textureCollections/legs/tightjeans.png",
+            "cullingLayer": 1,
+            "cullingDistance": [
+              0.03,
+              0.03
+            ],
+            "textureCollection": "outfit_4",
+            "thumbnailOverrides": [
+              "legs/tightjeans/Tightjeans-icon0.png",
+              "legs/tightjeans/Tightjeans-icon1.png",
+              "legs/tightjeans/Tightjeans-icon2.png",
+              "legs/tightjeans/Tightjeans-icon3.png",
+              "legs/tightjeans/Tightjeans-icon4.png",
+              "legs/tightjeans/Tightjeans-icon5.png",
+              "legs/tightjeans/Tightjeans-icon6.png"
+            ]
+          },
+          {
+            "id": "workingpants",
+            "name": "Working Pants",
+            "directory": "legs/workingpants.vrm",
+            "thumbnail": "_textureCollections/legs/workingpants.png",
+            "cullingLayer": 1,
+            "cullingDistance": [
+              0.03,
+              0.03
+            ],
+            "textureCollection": "outfit_7",
+            "thumbnailOverrides": [
+              "legs/workingpants/Working Pants-icon0.png",
+              "legs/workingpants/Working Pants-icon1.png",
+              "legs/workingpants/Working Pants-icon2.png",
+              "legs/workingpants/Working Pants-icon3.png",
+              "legs/workingpants/Working Pants-icon4.png",
+              "legs/workingpants/Working Pants-icon5.png",
+              "legs/workingpants/Working Pants-icon6.png"
+            ]
+          }
+        ]
+      },
+      {
+        "trait": "feet",
+        "name": "feet",
+        "type": "mesh",
+        "icon": "shoes.png",
+        "cameraTarget": {
+          "distance": 1.3,
+          "height": 0.2
+        },
         "collection": [
           {
             "id": "boots",
@@ -3420,232 +3964,143 @@
         ]
       },
       {
-        "trait": "head",
+        "trait": "accessories",
         "type": "mesh",
-        "name": "head",
-        "icon": "hairStyle.png",
-        "icon-gradient": "head-gradient.svg",
+        "name": "accessories",
+        "icon": "accessories.png",
+        "id": 3,
+        "icon-gradient": "accessories-gradient.svg",
         "cameraTarget": {
-          "distance": 1.2,
-          "height": 1.35
+          "distance": 3.4,
+          "height": 0.8
         },
         "collection": [
           {
-            "id": "hair1",
-            "name": "Hair 1",
-            "directory": "head/hair1.vrm",
-            "thumbnail": "head/hair1.png",
-            "cullingLayer": 1,
-            "cullingDistance": [
-              0.03,
-              0.03
-            ]
-          },
-          {
-            "id": "hair2",
-            "name": "Hair 2",
-            "directory": "head/hair2.vrm",
-            "thumbnail": "head/hair2.png",
-            "cullingLayer": 1,
-            "cullingDistance": [
-              0.03,
-              0.03
-            ]
-          },
-          {
-            "id": "hair3",
-            "name": "Hair 3",
-            "directory": "head/hair3.vrm",
-            "thumbnail": "head/hair3.png",
-            "cullingLayer": 1,
-            "cullingDistance": [
-              0.03,
-              0.03
-            ]
-          },
-          {
-            "id": "hair4",
-            "name": "Hair 4",
-            "directory": "head/hair4.vrm",
-            "thumbnail": "head/hair4.png",
-            "cullingLayer": 1,
-            "cullingDistance": [
-              0.03,
-              0.03
-            ]
-          },
-          {
-            "id": "hair5",
-            "name": "Hair 5",
-            "directory": "head/hair5.vrm",
-            "thumbnail": "head/hair5.png",
-            "cullingLayer": 1,
-            "cullingDistance": [
-              0.03,
-              0.03
-            ]
-          },
-          {
-            "id": "braided",
-            "name": "Braided",
-            "directory": "head/braided.vrm",
-            "thumbnail": "head/braided.png",
-            "cullingLayer": 1,
-            "cullingDistance": [
-              0.03,
-              0.03
-            ]
-          },
-          {
-            "id": "short",
-            "name": "Short",
-            "directory": "head/short.vrm",
-            "thumbnail": "head/short.png",
-            "cullingLayer": 1,
-            "cullingDistance": [
-              0.03,
-              0.03
-            ]
-          },
-          {
-            "id": "hairshort",
-            "name": "Hair Short",
-            "directory": "head/hairshort.vrm",
-            "thumbnail": "head/hairshort.png",
-            "cullingLayer": 1,
-            "type": [
-              "short"
-            ],
-            "cullingDistance": [
-              0.03,
-              0.03
-            ]
-          },
-          {
-            "id": "straight",
-            "name": "Straight",
-            "directory": "head/straight.vrm",
-            "thumbnail": "head/straight.png",
-            "cullingLayer": 1,
-            "cullingDistance": [
-              0.03,
-              0.03
-            ]
-          },
-          {
-            "id": "straightdown",
-            "name": "Straightdown",
-            "directory": "head/straightdown.vrm",
-            "thumbnail": "head/straightdown.png",
-            "cullingLayer": 1,
-            "cullingDistance": [
-              0.03,
-              0.03
-            ]
-          }
-        ]
-      },
-      {
-        "trait": "legs",
-        "type": "mesh",
-        "name": "legs",
-        "icon": "legs.png",
-        "icon-gradient": "chest-gradient.svg",
-        "id": 4,
-        "cameraTarget": {
-          "distance": 2,
-          "height": 0.5
-        },
-        "collection": [
-          {
-            "id": "cargopants",
-            "name": "Cargo Pants",
-            "directory": "legs/cargopants.vrm",
-            "thumbnail": "_textureCollections/legs/cargopants.png",
-            "cullingLayer": 1,
+            "id": "bandolier",
+            "name": "Bandolier",
+            "directory": "accessories/bandolier.vrm",
+            "thumbnail": "_textureCollections/accessories/bandolier.png",
             "cullingDistance": [
               0.03,
               0.03
             ],
             "textureCollection": "outfit_2",
             "thumbnailOverrides": [
-              "legs/cargopants/Cargo Pants-icon0.png",
-              "legs/cargopants/Cargo Pants-icon1.png",
-              "legs/cargopants/Cargo Pants-icon2.png",
-              "legs/cargopants/Cargo Pants-icon3.png",
-              "legs/cargopants/Cargo Pants-icon4.png",
-              "legs/cargopants/Cargo Pants-icon5.png",
-              "legs/cargopants/Cargo Pants-icon6.png"
+              "accessories/bandolier/Bandolier-icon0.png",
+              "accessories/bandolier/Bandolier-icon1.png",
+              "accessories/bandolier/Bandolier-icon2.png",
+              "accessories/bandolier/Bandolier-icon3.png",
+              "accessories/bandolier/Bandolier-icon4.png",
+              "accessories/bandolier/Bandolier-icon5.png",
+              "accessories/bandolier/Bandolier-icon6.png"
             ]
           },
           {
-            "id": "cargoshorts",
-            "name": "Cargoshorts",
-            "directory": "legs/cargoshorts.vrm",
-            "thumbnail": "_textureCollections/legs/cargoshorts.png",
-            "cullingLayer": 1,
+            "id": "beltandbag",
+            "name": "Beltandbag",
+            "directory": "accessories/beltandbag.vrm",
+            "thumbnail": "_textureCollections/accessories/beltandbag.png",
             "cullingDistance": [
               0.03,
               0.03
             ],
             "textureCollection": "outfit_3",
             "thumbnailOverrides": [
-              "legs/cargoshorts/Cargoshorts-icon0.png",
-              "legs/cargoshorts/Cargoshorts-icon1.png",
-              "legs/cargoshorts/Cargoshorts-icon2.png",
-              "legs/cargoshorts/Cargoshorts-icon3.png",
-              "legs/cargoshorts/Cargoshorts-icon4.png",
-              "legs/cargoshorts/Cargoshorts-icon5.png",
-              "legs/cargoshorts/Cargoshorts-icon6.png"
+              "accessories/beltandbag/Beltandbag-icon0.png",
+              "accessories/beltandbag/Beltandbag-icon1.png",
+              "accessories/beltandbag/Beltandbag-icon2.png",
+              "accessories/beltandbag/Beltandbag-icon3.png",
+              "accessories/beltandbag/Beltandbag-icon4.png",
+              "accessories/beltandbag/Beltandbag-icon5.png",
+              "accessories/beltandbag/Beltandbag-icon6.png"
             ]
           },
           {
-            "id": "rolleduppants",
-            "name": "Rolleduppants",
-            "directory": "legs/rolleduppants.vrm",
-            "thumbnail": "_textureCollections/legs/rolleduppants.png",
+            "id": "chestrig",
+            "name": "Chestrig",
+            "directory": "accessories/chestrig.vrm",
+            "thumbnail": "_textureCollections/accessories/chestrig.png",
+            "cullingDistance": [
+              0.03,
+              0.03
+            ],
+            "textureCollection": "outfit_7",
+            "thumbnailOverrides": [
+              "accessories/chestrig/Chestrig-icon0.png",
+              "accessories/chestrig/Chestrig-icon1.png",
+              "accessories/chestrig/Chestrig-icon2.png",
+              "accessories/chestrig/Chestrig-icon3.png",
+              "accessories/chestrig/Chestrig-icon4.png",
+              "accessories/chestrig/Chestrig-icon5.png",
+              "accessories/chestrig/Chestrig-icon6.png"
+            ]
+          },
+          {
+            "id": "combatgloves",
+            "name": "Combat Gloves",
+            "directory": "accessories/combatgloves.vrm",
+            "thumbnail": "_textureCollections/accessories/combatgloves.png",
+            "cullingDistance": [
+              0.03,
+              0.03
+            ],
             "cullingLayer": 1,
+            "textureCollection": "outfit_3",
+            "thumbnailOverrides": [
+              "accessories/combatgloves/Combat Gloves-icon0.png",
+              "accessories/combatgloves/Combat Gloves-icon1.png",
+              "accessories/combatgloves/Combat Gloves-icon2.png",
+              "accessories/combatgloves/Combat Gloves-icon3.png",
+              "accessories/combatgloves/Combat Gloves-icon4.png",
+              "accessories/combatgloves/Combat Gloves-icon5.png",
+              "accessories/combatgloves/Combat Gloves-icon6.png"
+            ]
+          },
+          {
+            "id": "fingergloves",
+            "name": "Fingergloves",
+            "directory": "accessories/fingergloves.vrm",
+            "thumbnail": "_textureCollections/accessories/fingergloves.png",
+            "cullingDistance": [
+              0.03,
+              0.03
+            ],
+            "textureCollection": "outfit_10",
+            "thumbnailOverrides": [
+              "accessories/fingergloves/Fingergloves-icon0.png",
+              "accessories/fingergloves/Fingergloves-icon1.png",
+              "accessories/fingergloves/Fingergloves-icon2.png",
+              "accessories/fingergloves/Fingergloves-icon3.png",
+              "accessories/fingergloves/Fingergloves-icon4.png",
+              "accessories/fingergloves/Fingergloves-icon5.png",
+              "accessories/fingergloves/Fingergloves-icon6.png"
+            ]
+          },
+          {
+            "id": "legbandages",
+            "name": "Legbandages",
+            "directory": "accessories/legbandages.vrm",
+            "thumbnail": "_textureCollections/accessories/legbandages.png",
             "cullingDistance": [
               0.03,
               0.03
             ],
             "textureCollection": "outfit_1",
             "thumbnailOverrides": [
-              "legs/rolleduppants/Rolleduppants-icon0.png",
-              "legs/rolleduppants/Rolleduppants-icon1.png",
-              "legs/rolleduppants/Rolleduppants-icon2.png",
-              "legs/rolleduppants/Rolleduppants-icon3.png",
-              "legs/rolleduppants/Rolleduppants-icon4.png",
-              "legs/rolleduppants/Rolleduppants-icon5.png",
-              "legs/rolleduppants/Rolleduppants-icon6.png"
+              "accessories/legbandages/Legbandages-icon0.png",
+              "accessories/legbandages/Legbandages-icon1.png",
+              "accessories/legbandages/Legbandages-icon2.png",
+              "accessories/legbandages/Legbandages-icon3.png",
+              "accessories/legbandages/Legbandages-icon4.png",
+              "accessories/legbandages/Legbandages-icon5.png",
+              "accessories/legbandages/Legbandages-icon6.png"
             ]
           },
           {
-            "id": "shorts",
-            "name": "Shorts",
-            "directory": "legs/shorts.vrm",
-            "thumbnail": "_textureCollections/legs/shorts.png",
-            "cullingLayer": 1,
-            "cullingDistance": [
-              0.03,
-              0.03
-            ],
-            "textureCollection": "outfit_5",
-            "thumbnailOverrides": [
-              "legs/shorts/Shorts-icon0.png",
-              "legs/shorts/Shorts-icon1.png",
-              "legs/shorts/Shorts-icon2.png",
-              "legs/shorts/Shorts-icon3.png",
-              "legs/shorts/Shorts-icon4.png",
-              "legs/shorts/Shorts-icon5.png",
-              "legs/shorts/Shorts-icon6.png"
-            ]
-          },
-          {
-            "id": "shortsandsweats",
-            "name": "Shortsandsweats",
-            "directory": "legs/shortsandsweats.vrm",
-            "thumbnail": "_textureCollections/legs/shortsandsweats.png",
+            "id": "ninjagloves",
+            "name": "Ninjagloves",
+            "directory": "accessories/ninjagloves.vrm",
+            "thumbnail": "_textureCollections/accessories/ninjagloves.png",
             "cullingLayer": 1,
             "cullingDistance": [
               0.03,
@@ -3653,160 +4108,18 @@
             ],
             "textureCollection": "outfit_8",
             "thumbnailOverrides": [
-              "legs/shortsandsweats/Shortsandsweats-icon0.png",
-              "legs/shortsandsweats/Shortsandsweats-icon1.png",
-              "legs/shortsandsweats/Shortsandsweats-icon2.png",
-              "legs/shortsandsweats/Shortsandsweats-icon3.png",
-              "legs/shortsandsweats/Shortsandsweats-icon4.png",
-              "legs/shortsandsweats/Shortsandsweats-icon5.png",
-              "legs/shortsandsweats/Shortsandsweats-icon6.png"
-            ]
-          },
-          {
-            "id": "streetpants",
-            "name": "Streetpants",
-            "directory": "legs/streetpants.vrm",
-            "thumbnail": "_textureCollections/legs/streetpants.png",
-            "cullingLayer": 1,
-            "cullingDistance": [
-              0.03,
-              0.03
-            ],
-            "textureCollection": "outfit_9",
-            "thumbnailOverrides": [
-              "legs/streetpants/Streetpants-icon0.png",
-              "legs/streetpants/Streetpants-icon1.png",
-              "legs/streetpants/Streetpants-icon2.png",
-              "legs/streetpants/Streetpants-icon3.png",
-              "legs/streetpants/Streetpants-icon4.png",
-              "legs/streetpants/Streetpants-icon5.png",
-              "legs/streetpants/Streetpants-icon6.png"
-            ]
-          },
-          {
-            "id": "suitpants",
-            "name": "Suitpants",
-            "directory": "legs/suitpants.vrm",
-            "thumbnail": "_textureCollections/legs/suitpants.png",
-            "cullingLayer": 1,
-            "cullingDistance": [
-              0.03,
-              0.03
-            ],
-            "textureCollection": "outfit_6",
-            "thumbnailOverrides": [
-              "legs/suitpants/Suitpants-icon0.png",
-              "legs/suitpants/Suitpants-icon1.png",
-              "legs/suitpants/Suitpants-icon2.png",
-              "legs/suitpants/Suitpants-icon3.png",
-              "legs/suitpants/Suitpants-icon4.png",
-              "legs/suitpants/Suitpants-icon5.png",
-              "legs/suitpants/Suitpants-icon6.png"
-            ]
-          },
-          {
-            "id": "tightjeans",
-            "name": "Tightjeans",
-            "directory": "legs/tightjeans.vrm",
-            "thumbnail": "_textureCollections/legs/tightjeans.png",
-            "cullingLayer": 1,
-            "cullingDistance": [
-              0.03,
-              0.03
-            ],
-            "textureCollection": "outfit_4",
-            "thumbnailOverrides": [
-              "legs/tightjeans/Tightjeans-icon0.png",
-              "legs/tightjeans/Tightjeans-icon1.png",
-              "legs/tightjeans/Tightjeans-icon2.png",
-              "legs/tightjeans/Tightjeans-icon3.png",
-              "legs/tightjeans/Tightjeans-icon4.png",
-              "legs/tightjeans/Tightjeans-icon5.png",
-              "legs/tightjeans/Tightjeans-icon6.png"
-            ]
-          },
-          {
-            "id": "workingpants",
-            "name": "Working Pants",
-            "directory": "legs/workingpants.vrm",
-            "thumbnail": "_textureCollections/legs/workingpants.png",
-            "cullingLayer": 1,
-            "cullingDistance": [
-              0.03,
-              0.03
-            ],
-            "textureCollection": "outfit_7",
-            "thumbnailOverrides": [
-              "legs/workingpants/Working Pants-icon0.png",
-              "legs/workingpants/Working Pants-icon1.png",
-              "legs/workingpants/Working Pants-icon2.png",
-              "legs/workingpants/Working Pants-icon3.png",
-              "legs/workingpants/Working Pants-icon4.png",
-              "legs/workingpants/Working Pants-icon5.png",
-              "legs/workingpants/Working Pants-icon6.png"
-            ]
-          }
-        ]
-      },
-      {
-        "trait": "outer",
-        "name": "outer",
-        "restrictedTypes": [
-          "hoodie",
-          "solo"
-        ],
-        "icon": "jacket.png",
-        "icon-gradient": "jacket.svg",
-        "type": "mesh",
-        "cameraTarget": {
-          "distance": 1.5,
-          "height": 1
-        },
-        "collection": [
-          {
-            "id": "longjacket",
-            "name": "Longjacket",
-            "directory": "outer/longjacket.vrm",
-            "thumbnail": "_textureCollections/outer/longjacket.png",
-            "cullingLayer": 2,
-            "cullingDistance": [
-              0.03,
-              0.03
-            ],
-            "textureCollection": "outfit_4",
-            "thumbnailOverrides": [
-              "outer/longjacket/Longjacket-icon0.png",
-              "outer/longjacket/Longjacket-icon1.png",
-              "outer/longjacket/Longjacket-icon2.png",
-              "outer/longjacket/Longjacket-icon3.png",
-              "outer/longjacket/Longjacket-icon4.png",
-              "outer/longjacket/Longjacket-icon5.png",
-              "outer/longjacket/Longjacket-icon6.png"
-            ]
-          },
-          {
-            "id": "robe",
-            "name": "Robe",
-            "directory": "outer/robe.vrm",
-            "thumbnail": "_textureCollections/outer/robe.png",
-            "cullingLayer": 2,
-            "cullingDistance": [
-              0.03,
-              0.03
-            ],
-            "textureCollection": "outfit_5",
-            "thumbnailOverrides": [
-              "outer/robe/Robe-icon0.png",
-              "outer/robe/Robe-icon1.png",
-              "outer/robe/Robe-icon2.png",
-              "outer/robe/Robe-icon3.png",
-              "outer/robe/Robe-icon4.png",
-              "outer/robe/Robe-icon5.png",
-              "outer/robe/Robe-icon6.png"
+              "accessories/ninjagloves/Ninjagloves-icon0.png",
+              "accessories/ninjagloves/Ninjagloves-icon1.png",
+              "accessories/ninjagloves/Ninjagloves-icon2.png",
+              "accessories/ninjagloves/Ninjagloves-icon3.png",
+              "accessories/ninjagloves/Ninjagloves-icon4.png",
+              "accessories/ninjagloves/Ninjagloves-icon5.png",
+              "accessories/ninjagloves/Ninjagloves-icon6.png"
             ]
           }
         ]
       }
+
     ],
     "textureCollections":[
       {   
@@ -4392,6 +4705,172 @@
             "name": "outfit_9_6",
             "directory": "_textureCollections/outfit_9/outfit_9_6.png",
             "thumbnail": "_textureCollections/outfit_9/outfit_9_6.png"
+          }
+        ]
+      },
+      {
+        "trait": "eyes color",
+        "type": "texture",
+        "collection":[
+          {
+            "name":"Fire Eyes",
+            "id":"fireeyes",
+            "directory":["_textureCollections/eyes/IMG_2857.png"]
+          },
+          {
+            "name":"Grey Eyes",
+            "id":"greyeyes",
+            "directory":["_textureCollections/eyes/IMG_2858.png"]
+          },
+          {
+            "name":"Leaf Eyes",
+            "id":"leafeyes",
+            "directory":["_textureCollections/eyes/IMG_2859.png"]
+          },
+          {
+            "name":"Black Eyes",
+            "id":"blackeyes",
+            "directory":["_textureCollections/eyes/IMG_2860.png"]
+          },
+          {
+            "name":"Orange Eyes",
+            "id":"orangeeyes",
+            "directory":["_textureCollections/eyes/IMG_2861.png"]
+          },
+          {
+            "name":"Amber Eyes",
+            "id":"ambereyes",
+            "directory":["_textureCollections/eyes/IMG_2862.png"]
+          },
+          {
+            "name":"Yellow Eyes",
+            "id":"yelloweyes",
+            "directory":["_textureCollections/eyes/IMG_2863.png"]
+          },
+          {
+            "name":"White Eyes",
+            "id":"whiteeyes",
+            "directory":["_textureCollections/eyes/IMG_2864.png"]
+          },
+          {
+            "name":"Wood Eyes",
+            "id":"woodeyes",
+            "directory":["_textureCollections/eyes/IMG_2865.png"]
+          },
+          {
+            "name":"Chocolate Eyes",
+            "id":"chocolateeyes",
+            "directory":["_textureCollections/eyes/IMG_2866.png"]
+          },
+          {
+            "name":"Sky Eyes",
+            "id":"skyeyes",
+            "directory":["_textureCollections/eyes/IMG_2867.png"]
+          },
+          {
+            "name":"Teal Eyes",
+            "id":"tealeyes",
+            "directory":["_textureCollections/eyes/IMG_2868.png"]
+          },
+          {
+            "name":"Ocean Eyes",
+            "id":"oceaneyes",
+            "directory":["_textureCollections/eyes/IMG_2869.png"]
+          },
+          {
+            "name":"Cyan Eyes",
+            "id":"cyaneyes",
+            "directory":["_textureCollections/eyes/IMG_2870.png"]
+          },
+          {
+            "name":"Deep Blue Eyes",
+            "id":"deepblueeyes",
+            "directory":["_textureCollections/eyes/IMG_2871.png"]
+          },
+          {
+            "name":"Blue Eyes",
+            "id":"blueeyes",
+            "directory":["_textureCollections/eyes/IMG_2872.png"]
+          },
+          {
+            "name":"Dark Blue Eyes",
+            "id":"darkblueeyes",
+            "directory":["_textureCollections/eyes/IMG_2874.png"]
+          },
+          {
+            "name":"Lavender Eyes",
+            "id":"lavendereyes",
+            "directory":["_textureCollections/eyes/IMG_2875.png"]
+          },
+          {
+            "name":"Purple Eyes",
+            "id":"purpleeyes",
+            "directory":["_textureCollections/eyes/IMG_2876.png"]
+          },
+          {
+            "name":"Dark Purple Eyes",
+            "id":"darkpurpleeyes",
+            "directory":["_textureCollections/eyes/IMG_2877.png"]
+          },
+          {
+            "name":"Lilac Eyes",
+            "id":"lilaceyes",
+            "directory":["_textureCollections/eyes/IMG_2878.png"]
+          },
+          {
+            "name":"Scarlet Eyes",
+            "id":"scarleteyes",
+            "directory":["_textureCollections/eyes/IMG_2879.png"]
+          },
+          {
+            "name":"Red Eyes",
+            "id":"redeyes",
+            "directory":["_textureCollections/eyes/IMG_2880.png"]
+          },
+          {
+            "name":"Pink Eyes",
+            "id":"pinkeyes",
+            "directory":["_textureCollections/eyes/IMG_2881.png"]
+          },
+          {
+            "name":"Light Pink Eyes",
+            "id":"lightpinkeyes",
+            "directory":["_textureCollections/eyes/IMG_2882.png"]
+          },
+          {
+            "name":"Dark Grey Eyes",
+            "id":"darkgreyeyes",
+            "directory":["_textureCollections/eyes/IMG_2883.png"]
+          },
+          {
+            "name":"Latte Eyes",
+            "id":"latteeyes",
+            "directory":["_textureCollections/eyes/IMG_2884.png"]
+          },
+          {
+            "name":"Clay Eyes",
+            "id":"clayeyes",
+            "directory":["_textureCollections/eyes/IMG_2885.png"]
+          },
+          {
+            "name":"Lime Eyes",
+            "id":"limeeyes",
+            "directory":["_textureCollections/eyes/IMG_2886.png"]
+          },
+          {
+            "name":"Kelly Eyes",
+            "id":"kellyeyes",
+            "directory":["_textureCollections/eyes/IMG_2887.png"]
+          },
+          {
+            "name":"Sacramento Eyes",
+            "id":"sacramentoeyes",
+            "directory":["_textureCollections/eyes/IMG_2888.png"]
+          },
+          {
+            "name":"Emerald Eyes",
+            "id":"emeraldeyes",
+            "directory":["_textureCollections/eyes/IMG_2889.png"]
           }
         ]
       }
