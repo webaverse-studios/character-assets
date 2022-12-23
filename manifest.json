@@ -171,7 +171,7 @@
           "directory": "body/drophunter.vrm",
           "thumbnail": "_textureCollections/body/drophunter.png",
           "cullingLayer":0,
-          "textureTargets":["Body", "Headbaked"],
+          "meshTargets":["body_geo", "head_geobaked(copy)"],
           "textureCollection": "skin color",
           "thumbnailOverrides": [
             "body/skin/original.png",
@@ -3445,7 +3445,7 @@
           "thumbnail": "_textureCollections/body/neurohacker.png",
           "cullingModel": ["Body"],
           "cullingLayer":0,
-          "textureTargets":["Body", "Head002"],
+          "meshTargets":["Body", "Head002"],
           "textureCollection": "skin color",
           "thumbnailOverrides": [
             "body/skin/original.png",
