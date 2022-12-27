@@ -2,27 +2,13 @@
   {
     "id": "0",
     "name": "Drophunter",
-    "file": "./3d/models/drophunter.vrm",
     "thumbnail": "_textureCollections/./3d/icons/female-body-1.png",
     "format": "vrm",
-    "bodyTargets": [
-      "Body",
-      "Headbaked"
-    ],
-    "cullingModel": [
-      "body_geo"
-    ],
-    "offset": [
-      0,
-      -0.18,
-      0
-    ],
-    "EyeTargets": [
-      "Headbaked_2",
-      "Headbaked_1"
-    ],
-    "traitsDirectory": "https://webaverse-studios.github.io/character-assets/drophunter/",
-    "thumbnailsDirectory": "https://webaverse-studios.github.io/character-assets/drophunter/",
+    "primaryTrait":"body",
+    "randomTraits":["body", "head", "eyes", "chest", "legs", "feet"],
+
+    "traitsDirectory": "./character-assets/drophunter/",
+    "thumbnailsDirectory": "./character-assets/drophunter/",
     "animationPath": "./3d/animations/idle_drophunter.fbx",
     "traitIconsDirectory": "./3d/icons/",
     "typeRestrictions": {
@@ -30,6 +16,23 @@
         "boots"
       ]
     },
+    "offset": [0,-0.18,0],
+
+
+    "file": "./3d/models/drophunter.vrm",
+    "bodyTargets": [
+      "Body",
+      "Headbaked"
+    ],
+    "cullingModel": [
+      "body_geo"
+    ],
+    
+    "EyeTargets": [
+      "Headbaked_2",
+      "Headbaked_1"
+    ],
+    
     "traits": [
       {
         "trait": "head",
@@ -164,6 +167,7 @@
           "distance": 3.4,
           "height": 0.8
         },
+        "required":true,
         "collection": [
           {
           "id": "0",
@@ -172,6 +176,7 @@
           "thumbnail": "_textureCollections/body/drophunter.png",
           "cullingLayer":0,
           "meshTargets":["body_geo", "head_geobaked(copy)"],
+          "cullingModel": ["body_geo"],
           "textureCollection": "skin color",
           "thumbnailOverrides": [
             "body/skin/original.png",
@@ -211,6 +216,7 @@
           "distance": 1.2,
           "height": 1.35
         },
+        "required":true,
         "collection": [
           {
             "id": "regulareyes",
@@ -2989,7 +2995,6 @@
     "colorCollections":[
       {
         "trait": "Basic Colors",
-        "type": "texture",
         "collection": [
           {
             "name":"Emerald",
