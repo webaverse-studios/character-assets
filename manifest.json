@@ -7,8 +7,8 @@
     "primaryTrait":"body",
     "randomTraits":["body", "head", "eyes", "chest", "legs", "feet"],
 
-    "traitsDirectory": "./character-assets/drophunter/",
-    "thumbnailsDirectory": "./character-assets/drophunter/",
+    "traitsDirectory": "https://webaverse-studios.github.io/character-assets/drophunter/",
+    "thumbnailsDirectory": "https://webaverse-studios.github.io/character-assets/drophunter/",
     "animationPath": "./3d/animations/idle_drophunter.fbx",
     "traitIconsDirectory": "./3d/icons/",
     "typeRestrictions": {
