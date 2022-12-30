@@ -27,20 +27,6 @@
     },
 
     "offset": [0,-0.18,0],
-
-
-    "file": "./3d/models/drophunter.vrm",
-    "bodyTargets": [
-      "Body",
-      "Headbaked"
-    ],
-    "cullingModel": [
-      "body_geo"
-    ],
-    "EyeTargets": [
-      "Headbaked_2",
-      "Headbaked_1"
-    ],
     
     "traits": [
       {
@@ -3231,9 +3217,6 @@
       0,
       -0.14,
       0
-    ],
-    "cullingModel": [
-      "Body"
     ],
     "traitsDirectory": "https://webaverse-studios.github.io/character-assets/neurohacker/",
     "thumbnailsDirectory": "https://webaverse-studios.github.io/character-assets/neurohacker/",
