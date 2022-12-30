@@ -4,18 +4,28 @@
     "name": "Drophunter",
     "thumbnail": "_textureCollections/./3d/icons/female-body-1.png",
     "format": "vrm",
-    "primaryTrait":"body",
-    "randomTraits":["body", "head", "eyes", "chest", "legs", "feet"],
+    "requiredTraits":["body", "eyes"],
+    "randomTraits":["body", "head", "eyes", "chest", "feet", "legs", "outer"],
+    "defaultCullingLayer": -1,
+    "defaultCullingDistance": [
+      0.03,
+      0.03
+    ],
 
-    "traitsDirectory": "https://webaverse-studios.github.io/character-assets/drophunter/",
-    "thumbnailsDirectory": "https://webaverse-studios.github.io/character-assets/drophunter/",
+    "traitsDirectory": "./character-assets/drophunter/",
+    "thumbnailsDirectory": "./character-assets/drophunter/",
     "animationPath": "./3d/animations/idle_drophunter.fbx",
     "traitIconsDirectory": "./3d/icons/",
-    "typeRestrictions": {
-      "pants": [
-        "boots"
-      ]
+    "traitRestrictions":{
+      "outer":{
+        "restrictedTraits":[],
+        "restrictedTypes":["hoodie","solo"]
+      }
     },
+    "typeRestrictions":{
+        "boots":["pants"]
+    },
+
     "offset": [0,-0.18,0],
 
 
@@ -27,7 +37,6 @@
     "cullingModel": [
       "body_geo"
     ],
-    
     "EyeTargets": [
       "Headbaked_2",
       "Headbaked_1"
@@ -163,6 +172,11 @@
         "icon": "skin-color.png",
         "type": "mesh",
         "icon-gradient": "accessories-gradient.svg",
+        "cullingLayer":0,
+        "cullingDistance":[
+          0.01,
+          0.01
+        ],
         "cameraTarget": {
           "distance": 3.4,
           "height": 0.8
@@ -174,7 +188,6 @@
           "name": "Fitness body",
           "directory": "body/drophunter.vrm",
           "thumbnail": "_textureCollections/body/drophunter.png",
-          "cullingLayer":0,
           "meshTargets":["body_geo", "head_geobaked(copy)"],
           "cullingModel": ["body_geo"],
           "textureCollection": "skin color",
@@ -276,10 +289,6 @@
         "trait": "outer",
         "type": "mesh",
         "name": "outer",
-        "restrictedTypes": [
-          "hoodie",
-          "solo"
-        ],
         "icon": "jacket.png",
         "icon-gradient": "jacket.svg",
         "cameraTarget": {
@@ -292,6 +301,7 @@
             "name": "Half Jacket",
             "directory": "outer/halfjacket.vrm",
             "thumbnail": "_textureCollections/outer/halfjacket.png",
+            "cullingLayer":4,
             "cullingDistance": [
               0.03,
               0.03
@@ -312,6 +322,7 @@
             "name": "Jacket",
             "directory": "outer/jacket.vrm",
             "thumbnail": "_textureCollections/outer/jacket.png",
+            "cullingLayer":4,
             "cullingDistance": [
               0.03,
               0.03
@@ -332,6 +343,7 @@
             "name": "Short Jacket",
             "directory": "outer/shortjacket.vrm",
             "thumbnail": "_textureCollections/outer/shortjacket.png",
+            "cullingLayer":4,
             "cullingDistance": [
               0.03,
               0.03
@@ -355,6 +367,11 @@
         "name": "chest",
         "icon": "torso.png",
         "icon-gradient": "chest-gradient.svg",
+        "cullingLayer": 1,
+        "cullingDistance": [
+          0.01,
+          0.03
+        ],
         "cameraTarget": {
           "distance": 1.5,
           "height": 1
@@ -365,11 +382,6 @@
             "name": "Croptop",
             "directory": "chest/croptop.vrm",
             "thumbnail": "_textureCollections/chest/croptop.png",
-            "cullingLayer": 3,
-            "cullingDistance": [
-              0.03,
-              0.03
-            ],
             "textureCollection": "Top Outfit 6",
             "thumbnailOverrides": [
               "chest/croptop/Croptop-icon0.png",
@@ -384,15 +396,11 @@
           {
             "id": "hoodie",
             "name": "Hoodie",
+            "cullingLayer": 3,
             "directory": "chest/hoodie.vrm",
             "thumbnail": "_textureCollections/chest/hoodie.png",
             "type": [
               "hoodie"
-            ],
-            "cullingLayer": 3,
-            "cullingDistance": [
-              0.03,
-              0.03
             ],
             "textureCollection": "Jacket Outfit 10",
             "thumbnailOverrides": [
@@ -410,12 +418,8 @@
             "name": "Jumpsuit Top",
             "directory": "chest/jumpsuittop.vrm",
             "thumbnail": "_textureCollections/chest/jumpsuittop.png",
-            "cullingLayer": 3,
-            "cullingDistance": [
-              0.03,
-              0.03
-            ],
             "textureCollection": "Topsuit Outfit 9",
+            "cullingLayer": 2,
             "thumbnailOverrides": [
               "chest/jumpsuittop/Jumpsuit Top-icon0.png",
               "chest/jumpsuittop/Jumpsuit Top-icon1.png",
@@ -431,12 +435,8 @@
             "name": "Light Shirt",
             "directory": "chest/lightshirt.vrm",
             "thumbnail": "_textureCollections/chest/lightshirt.png",
-            "cullingLayer": 3,
-            "cullingDistance": [
-              0.03,
-              0.03
-            ],
             "textureCollection": "Top Outfit 8",
+            "cullingDistance":[0.06,0.06],
             "thumbnailOverrides": [
               "chest/lightshirt/Light Shirt-icon0.png",
               "chest/lightshirt/Light Shirt-icon1.png",
@@ -452,12 +452,8 @@
             "name": "Shirt",
             "directory": "chest/shirt.vrm",
             "thumbnail": "_textureCollections/chest/shirt.png",
-            "cullingLayer": 3,
-            "cullingDistance": [
-              0.03,
-              0.03
-            ],
             "textureCollection": "Shirt Outfit 3",
+            "cullingLayer": 3,
             "thumbnailOverrides": [
               "chest/shirt/Shirt-icon0.png",
               "chest/shirt/Shirt-icon1.png",
@@ -471,13 +467,9 @@
           {
             "id": "sweater",
             "name": "Sweater",
+            "cullingLayer":3,
             "directory": "chest/sweater.vrm",
             "thumbnail": "_textureCollections/chest/sweater.png",
-            "cullingLayer": 3,
-            "cullingDistance": [
-              0.03,
-              0.03
-            ],
             "textureCollection": "Sweater Outfit 4",
             "thumbnailOverrides": [
               "chest/sweater/Sweater-icon0.png",
@@ -494,11 +486,6 @@
             "name": "Tanktop",
             "directory": "chest/tanktop.vrm",
             "thumbnail": "_textureCollections/chest/tanktop.png",
-            "cullingLayer": 3,
-            "cullingDistance": [
-              0.03,
-              0.03
-            ],
             "textureCollection": "Tanktop Outfit 4",
             "thumbnailOverrides": [
               "chest/tanktop/Tanktop-icon0.png",
@@ -515,7 +502,6 @@
             "name": "Tucked Shirt",
             "directory": "chest/tuckedshirt.vrm",
             "thumbnail": "_textureCollections/chest/tuckedshirt.png",
-            "cullingLayer": 3,
             "cullingDistance": [
               0.02,
               0.03
@@ -539,6 +525,7 @@
             "type": [
               "solo"
             ],
+            "cullingLayer":4,
             "cullingDistance": [
               0.03,
               0.03
@@ -562,6 +549,7 @@
             "type": [
               "solo"
             ],
+            "cullingLayer":4,
             "cullingDistance": [
               0.03,
               0.03
@@ -586,6 +574,7 @@
         "icon": "legs.png",
         "icon-gradient": "chest-gradient.svg",
         "id": 4,
+        "cullingLayer": 2,
         "cameraTarget": {
           "distance": 2,
           "height": 0.5
@@ -596,14 +585,10 @@
             "name": "Cargo Pants",
             "directory": "legs/cargopants.vrm",
             "thumbnail": "_textureCollections/legs/cargopants.png",
-            "cullingLayer": 2,
             "type": [
               "pants"
             ],
-            "cullingDistance": [
-              0.06,
-              0.06
-            ],
+
             "textureCollection": "Pants Outfit 8",
             "thumbnailOverrides": [
               "legs/cargopants/Cargo Pants-icon0.png",
@@ -620,13 +605,8 @@
             "name": "Double Belt Pants",
             "directory": "legs/doublebeltpants.vrm",
             "thumbnail": "_textureCollections/legs/doublebeltpants.png",
-            "cullingLayer": 2,
             "type": [
               "pants"
-            ],
-            "cullingDistance": [
-              0.06,
-              0.06
             ],
             "textureCollection": "Pants Outfit 6",
             "thumbnailOverrides": [
@@ -644,13 +624,8 @@
             "name": "Jumpsuit Pants",
             "directory": "legs/jumpsuitpants.vrm",
             "thumbnail": "_textureCollections/legs/jumpsuitpants.png",
-            "cullingLayer": 2,
             "type": [
               "pants"
-            ],
-            "cullingDistance": [
-              0.03,
-              0.03
             ],
             "textureCollection": "Pants Outfit 9",
             "thumbnailOverrides": [
@@ -668,13 +643,8 @@
             "name": "Above Knee Shorts",
             "directory": "legs/abovekneeshorts.vrm",
             "thumbnail": "_textureCollections/legs/abovekneeshorts.png",
-            "cullingLayer": 2,
             "type": [
               "shorts"
-            ],
-            "cullingDistance": [
-              0.03,
-              0.03
             ],
             "textureCollection": "Shorts Outfit 10",
             "thumbnailOverrides": [
@@ -692,13 +662,8 @@
             "name": "Casual Shorts",
             "directory": "legs/casualshorts.vrm",
             "thumbnail": "_textureCollections/legs/casualshorts.png",
-            "cullingLayer": 2,
             "type": [
               "shorts"
-            ],
-            "cullingDistance": [
-              0.03,
-              0.03
             ],
             "textureCollection": "Shorts Outfit 7",
             "thumbnailOverrides": [
@@ -716,13 +681,8 @@
             "name": "Skirt",
             "directory": "legs/skirt.vrm",
             "thumbnail": "_textureCollections/legs/skirt.png",
-            "cullingLayer": 2,
             "type": [
               "shorts"
-            ],
-            "cullingDistance": [
-              0.03,
-              0.03
             ],
             "textureCollection": "Skirt Outfit 3",
             "thumbnailOverrides": [
@@ -740,13 +700,8 @@
             "name": "Sport Shorts",
             "directory": "legs/sportshorts.vrm",
             "thumbnail": "_textureCollections/legs/sportshorts.png",
-            "cullingLayer": 2,
             "type": [
               "shorts"
-            ],
-            "cullingDistance": [
-              0.03,
-              0.03
             ],
             "textureCollection": "Short Outfit 4",
             "thumbnailOverrides": [
@@ -764,13 +719,8 @@
             "name": "Sport Shorts With Ankle Bands",
             "directory": "legs/sportshortswithanklebands.vrm",
             "thumbnail": "_textureCollections/legs/sportshortswithanklebands.png",
-            "cullingLayer": 2,
             "type": [
               "shorts"
-            ],
-            "cullingDistance": [
-              0.03,
-              0.03
             ],
             "textureCollection": "Shorts Outfit 5",
             "thumbnailOverrides": [
@@ -788,13 +738,8 @@
             "name": "Waist Shorts",
             "directory": "legs/waistshorts.vrm",
             "thumbnail": "_textureCollections/legs/waistshorts.png",
-            "cullingLayer": 2,
             "type": [
               "shorts"
-            ],
-            "cullingDistance": [
-              0.03,
-              0.03
             ],
             "textureCollection": "Shorts Outfit 1",
             "thumbnailOverrides": [
@@ -3544,10 +3489,6 @@
       {
         "trait": "outer",
         "name": "outer",
-        "restrictedTypes": [
-          "hoodie",
-          "solo"
-        ],
         "icon": "jacket.png",
         "icon-gradient": "jacket.svg",
         "type": "mesh",
@@ -3561,7 +3502,7 @@
             "name": "Longjacket",
             "directory": "outer/longjacket.vrm",
             "thumbnail": "_textureCollections/outer/longjacket.png",
-            "cullingLayer": 2,
+            "cullingLayer": 4,
             "cullingDistance": [
               0.03,
               0.03
@@ -3582,7 +3523,7 @@
             "name": "Robe",
             "directory": "outer/robe.vrm",
             "thumbnail": "_textureCollections/outer/robe.png",
-            "cullingLayer": 2,
+            "cullingLayer": 4,
             "cullingDistance": [
               0.03,
               0.03
