@@ -3220,6 +3220,8 @@
     "name": "Neurohacker",
     "file": "./3d/models/neurohacker.vrm",
     "thumbnail": "_textureCollections/./3d/icons/male-body-1.png",
+    "requiredTraits":["body", "eyes"],
+    "randomTraits":["body", "head", "eyes", "chest", "feet", "legs", "outer"],
     "format": "vrm",
     "offset": [
       0,
