@@ -3218,25 +3218,22 @@
   {
     "id": "1",
     "name": "Neurohacker",
-    "file": "./3d/models/neurohacker.vrm",
     "thumbnail": "_textureCollections/./3d/icons/male-body-1.png",
     "requiredTraits":["body", "eyes"],
     "randomTraits":["body", "head", "eyes", "chest", "feet", "legs", "outer"],
     "format": "vrm",
+    "defaultCullingLayer": -1,
+    "defaultCullingDistance": [
+      0.03,
+      0.03
+    ],
     "offset": [
       0,
       -0.14,
       0
     ],
-    "bodyTargets": [
-      "Body",
-      "Head002"
-    ],
     "cullingModel": [
       "Body"
-    ],
-    "EyeTargets": [
-      "Head006"
     ],
     "traitsDirectory": "https://webaverse-studios.github.io/character-assets/neurohacker/",
     "thumbnailsDirectory": "https://webaverse-studios.github.io/character-assets/neurohacker/",
@@ -3389,6 +3386,8 @@
           "distance": 3.4,
           "height": 0.8
         },
+        "cullingLayer":0,
+        "cullingDistance":[0.01,0.03],
         "collection": [
           {
           "id": "0",
@@ -3397,7 +3396,7 @@
           "thumbnail": "_textureCollections/body/neurohacker.png",
           "cullingModel": ["Body"],
           "cullingLayer":0,
-          "meshTargets":["Body", "Head002"],
+          "meshTargets":["Body", "Headbaked(copy)", "Headbaked(copy)_1"],
           "textureCollection": "skin color",
           "thumbnailOverrides": [
             "body/skin/original.png",
@@ -4372,102 +4371,182 @@
           {
             "name":"Original Skin",
             "id":"originalskin",
-            "directory":["_textureCollections/skin/Anime_Proj_base_NoClothes_skin_BaseColor_alt.png","_textureCollections/skin/Anime_Proj_base_NoClothes_Face_BaseColor_alt.png"]
+            "directory":[
+              "_textureCollections/skin/Anime_Proj_base_NoClothes_skin_BaseColor_alt.png",
+              "_textureCollections/skin/Anime_Proj_base_NoClothes_Face_BaseColor_alt.png",
+              "_textureCollections/skin/original_mouth.png"
+            ]
           },
           {
             "name":"Original Arm Sleeve",
             "id":"originalarmsleeve",
-            "directory":["_textureCollections/skin/ArmSleeves_Original.png","_textureCollections/skin/Anime_Proj_base_NoClothes_Face_BaseColor_alt.png"]
+            "directory":[
+              "_textureCollections/skin/ArmSleeves_Original.png",
+              "_textureCollections/skin/Anime_Proj_base_NoClothes_Face_BaseColor_alt.png",
+              "_textureCollections/skin/original_mouth.png"
+            ]
           },
           {
             "name":"Original Knee High",
             "id":"originalkneehigh",
-            "directory":["_textureCollections/skin/KneeHighs_Original.png","_textureCollections/skin/Anime_Proj_base_NoClothes_Face_BaseColor_alt.png"]
+            "directory":[
+              "_textureCollections/skin/KneeHighs_Original.png",
+              "_textureCollections/skin/Anime_Proj_base_NoClothes_Face_BaseColor_alt.png",
+              "_textureCollections/skin/original_mouth.png"
+            ]
           },
           {
             "name":"Original Thigh High",
             "id":"originalthighhigh",
-            "directory":["_textureCollections/skin/ThighHighs_Original.png","_textureCollections/skin/Anime_Proj_base_NoClothes_Face_BaseColor_alt.png"]
+            "directory":[
+              "_textureCollections/skin/ThighHighs_Original.png",
+              "_textureCollections/skin/Anime_Proj_base_NoClothes_Face_BaseColor_alt.png",
+              "_textureCollections/skin/original_mouth.png"
+            ]
           },
           {
             "name":"Tone1 Skin",
             "id":"tone1skin",
-            "directory":["_textureCollections/skin/Anime_Proj_base_NoClothes_skin_BaseColor1.png","_textureCollections/skin/Anime_Proj_base_NoClothes_Face_BaseColor1.png"]
+            "directory":[
+              "_textureCollections/skin/Anime_Proj_base_NoClothes_skin_BaseColor1.png",
+              "_textureCollections/skin/Anime_Proj_base_NoClothes_Face_BaseColor1.png",
+              "_textureCollections/skin/skin1_mouth.png"
+            ]
           },
           {
             "name":"Tone1 Arm Sleeve",
             "id":"tone1armsleeve",
-            "directory":["_textureCollections/skin/ArmSleeves_Tone_1.png","_textureCollections/skin/Anime_Proj_base_NoClothes_Face_BaseColor1.png"]
+            "directory":[
+              "_textureCollections/skin/ArmSleeves_Tone_1.png",
+              "_textureCollections/skin/Anime_Proj_base_NoClothes_Face_BaseColor1.png",
+              "_textureCollections/skin/skin1_mouth.png"
+            ]
           },
           {
             "name":"Tone1 Knee High",
             "id":"tone1kneehigh",
-            "directory":["_textureCollections/skin/KneeHighs_Tone_1.png","_textureCollections/skin/Anime_Proj_base_NoClothes_Face_BaseColor1.png"]
+            "directory":[
+              "_textureCollections/skin/KneeHighs_Tone_1.png",
+              "_textureCollections/skin/Anime_Proj_base_NoClothes_Face_BaseColor1.png",
+              "_textureCollections/skin/skin1_mouth.png"
+            ]
           },
           {
             "name":"Tone1 Thigh High",
             "id":"tone1thighhigh",
-            "directory":["_textureCollections/skin/ThighHighs_Tone_1.png","_textureCollections/skin/Anime_Proj_base_NoClothes_Face_BaseColor1.png"]
+            "directory":[
+              "_textureCollections/skin/ThighHighs_Tone_1.png",
+              "_textureCollections/skin/Anime_Proj_base_NoClothes_Face_BaseColor1.png",
+              "_textureCollections/skin/skin1_mouth.png"
+            ]
           },
           {
             "name":"Tone2 Skin",
             "id":"tone2skin",
-            "directory":["_textureCollections/skin/Anime_Proj_base_NoClothes_skin_BaseColor2.png","_textureCollections/skin/Anime_Proj_base_NoClothes_Face_BaseColor2.png"]
+            "directory":[
+              "_textureCollections/skin/Anime_Proj_base_NoClothes_skin_BaseColor2.png",
+              "_textureCollections/skin/Anime_Proj_base_NoClothes_Face_BaseColor2.png",
+              "_textureCollections/skin/skin2_mouth.png"
+            ]
           },
           {
             "name":"Tone2 Arm Sleeve",
             "id":"tone2armsleeve",
-            "directory":["_textureCollections/skin/ArmSleeves_Tone_2.png","_textureCollections/skin/Anime_Proj_base_NoClothes_Face_BaseColor2.png"]
+            "directory":[
+              "_textureCollections/skin/ArmSleeves_Tone_2.png",
+              "_textureCollections/skin/Anime_Proj_base_NoClothes_Face_BaseColor2.png",
+              "_textureCollections/skin/skin2_mouth.png"
+            ]
           },
           {
             "name":"Tone2 Knee High",
             "id":"tone2kneehigh",
-            "directory":["_textureCollections/skin/KneeHighs_Tone_2.png","_textureCollections/skin/Anime_Proj_base_NoClothes_Face_BaseColor2.png"]
+            "directory":[
+              "_textureCollections/skin/KneeHighs_Tone_2.png",
+              "_textureCollections/skin/Anime_Proj_base_NoClothes_Face_BaseColor2.png",
+              "_textureCollections/skin/skin2_mouth.png"
+            ]
           },
           {
             "name":"Tone2 Thigh High",
             "id":"tone2thighhigh",
-            "directory":["_textureCollections/skin/ThighHighs_Tone_2.png","_textureCollections/skin/Anime_Proj_base_NoClothes_Face_BaseColor2.png"]
+            "directory":[
+              "_textureCollections/skin/ThighHighs_Tone_2.png",
+              "_textureCollections/skin/Anime_Proj_base_NoClothes_Face_BaseColor2.png",
+              "_textureCollections/skin/skin2_mouth.png"
+            ]
           },
           {
             "name":"Tone3 Skin",
             "id":"tone3skin",
-            "directory":["_textureCollections/skin/Anime_Proj_base_NoClothes_skin_BaseColor3.png","_textureCollections/skin/Anime_Proj_base_NoClothes_Face_BaseColor3.png"]
+            "directory":[
+              "_textureCollections/skin/Anime_Proj_base_NoClothes_skin_BaseColor3.png",
+              "_textureCollections/skin/Anime_Proj_base_NoClothes_Face_BaseColor3.png",
+              "_textureCollections/skin/skin3_mouth.png"
+            ]
           },
           {
             "name":"Tone3 Arm Sleeve",
             "id":"tone3armsleeve",
-            "directory":["_textureCollections/skin/ArmSleeves_Tone_3.png","_textureCollections/skin/Anime_Proj_base_NoClothes_Face_BaseColor3.png"]
+            "directory":[
+              "_textureCollections/skin/ArmSleeves_Tone_3.png",
+              "_textureCollections/skin/Anime_Proj_base_NoClothes_Face_BaseColor3.png",
+              "_textureCollections/skin/skin3_mouth.png"
+            ]
           },
           {
             "name":"Tone3 Knee High",
             "id":"tone3kneehigh",
-            "directory":["_textureCollections/skin/KneeHighs_Tone_3.png","_textureCollections/skin/Anime_Proj_base_NoClothes_Face_BaseColor3.png"]
+            "directory":[
+              "_textureCollections/skin/KneeHighs_Tone_3.png",
+              "_textureCollections/skin/Anime_Proj_base_NoClothes_Face_BaseColor3.png",
+              "_textureCollections/skin/skin3_mouth.png"
+            ]
           },
           {
             "name":"Tone3 Thigh High",
             "id":"tone3thighhigh",
-            "directory":["_textureCollections/skin/ThighHighs_Tone_3.png","_textureCollections/skin/Anime_Proj_base_NoClothes_Face_BaseColor3.png"]
+            "directory":[
+              "_textureCollections/skin/ThighHighs_Tone_3.png",
+              "_textureCollections/skin/Anime_Proj_base_NoClothes_Face_BaseColor3.png",
+              "_textureCollections/skin/skin3_mouth.png"
+            ]
           },
           {
             "name":"Tone4 Skin",
             "id":"tone4skin",
-            "directory":["_textureCollections/skin/Anime_Proj_base_NoClothes_skin_BaseColor4.png","_textureCollections/skin/Anime_Proj_base_NoClothes_Face_BaseColor4.png"]
+            "directory":[
+              "_textureCollections/skin/Anime_Proj_base_NoClothes_skin_BaseColor4.png",
+              "_textureCollections/skin/Anime_Proj_base_NoClothes_Face_BaseColor4.png",
+              "_textureCollections/skin/skin4_mouth.png"
+            ]
           },
           {
             "name":"Tone4 Arm Sleeve",
             "id":"tone4armsleeve",
-            "directory":["_textureCollections/skin/ArmSleeves_Tone_4.png","_textureCollections/skin/Anime_Proj_base_NoClothes_Face_BaseColor4.png"]
+            "directory":[
+              "_textureCollections/skin/ArmSleeves_Tone_4.png",
+              "_textureCollections/skin/Anime_Proj_base_NoClothes_Face_BaseColor4.png",
+              "_textureCollections/skin/skin4_mouth.png"
+            ]
           },
           {
             "name":"Tone4 Knee High",
             "id":"tone4kneehigh",
-            "directory":["_textureCollections/skin/KneeHighs_Tone_4.png","_textureCollections/skin/Anime_Proj_base_NoClothes_Face_BaseColor4.png"]
+            "directory":[
+              "_textureCollections/skin/KneeHighs_Tone_4.png",
+              "_textureCollections/skin/Anime_Proj_base_NoClothes_Face_BaseColor4.png",
+              "_textureCollections/skin/skin4_mouth.png"
+            ]
           },
           {
             "name":"Tone4 Thigh High",
             "id":"tone4thighhigh",
-            "directory":["_textureCollections/skin/ThighHighs_Tone_4.png","_textureCollections/skin/Anime_Proj_base_NoClothes_Face_BaseColor4.png"]
+            "directory":[
+              "_textureCollections/skin/ThighHighs_Tone_4.png",
+              "_textureCollections/skin/Anime_Proj_base_NoClothes_Face_BaseColor4.png",
+              "_textureCollections/skin/skin4_mouth.png"
+            ]
           }  
         ]
       },
