@@ -287,11 +287,7 @@
             "name": "Half Jacket",
             "directory": "outer/halfjacket.vrm",
             "thumbnail": "_textureCollections/outer/halfjacket.png",
-            "cullingLayer":4,
-            "cullingDistance": [
-              0.03,
-              0.03
-            ],
+            "cullingLayer":-1,
             "textureCollection": "Jacket Outfit 9",
             "thumbnailOverrides": [
               "outer/halfjacket/Half Jacket-icon0.png",
