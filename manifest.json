@@ -160,8 +160,8 @@
         "icon-gradient": "accessories-gradient.svg",
         "cullingLayer":0,
         "cullingDistance":[
-          0.01,
-          0.01
+          0.02,
+          0.001
         ],
         "cameraTarget": {
           "distance": 3.4,
@@ -3214,6 +3214,15 @@
       -0.14,
       0
     ],
+    "traitRestrictions":{
+      "outer":{
+        "restrictedTraits":[],
+        "restrictedTypes":["hoodie","solo"]
+      }
+    },
+    "typeRestrictions":{
+        "boots":["pants"]
+    },
     "traitsDirectory": "https://webaverse-studios.github.io/character-assets/neurohacker/",
     "thumbnailsDirectory": "https://webaverse-studios.github.io/character-assets/neurohacker/",
     "animationPath": "./3d/animations/idle_neurohacker.fbx",
@@ -3366,7 +3375,7 @@
           "height": 0.8
         },
         "cullingLayer":0,
-        "cullingDistance":[0.01,0.03],
+        "cullingDistance":[0.02,0.001],
         "collection": [
           {
           "id": "0",
@@ -3531,17 +3540,17 @@
           "distance": 1.5,
           "height": 1
         },
+        "cullingLayer": 2,
+          "cullingDistance": [
+            0.01,
+            0.01
+          ],
         "collection": [
           {
             "id": "combatvest",
             "name": "Combat Vest",
             "directory": "chest/combatvest.vrm",
             "thumbnail": "_textureCollections/chest/combatvest.png",
-            "cullingLayer": 2,
-            "cullingDistance": [
-              0.03,
-              0.03
-            ],
             "textureCollection": "outfit_3",
             "thumbnailOverrides": [
               "chest/combatvest/Combat Vest-icon0.png",
@@ -3558,11 +3567,6 @@
             "name": "Logo Tee",
             "directory": "chest/logotee.vrm",
             "thumbnail": "_textureCollections/chest/logotee.png",
-            "cullingLayer": 2,
-            "cullingDistance": [
-              0.03,
-              0.03
-            ],
             "textureCollection": "outfit_4",
             "thumbnailOverrides": [
               "chest/logotee/Logo Tee-icon0.png",
@@ -3580,10 +3584,6 @@
             "directory": "chest/simpleshirt.vrm",
             "thumbnail": "_textureCollections/chest/simpleshirt.png",
             "cullingLayer": 1,
-            "cullingDistance": [
-              0.03,
-              0.03
-            ],
             "textureCollection": "outfit_7",
             "thumbnailOverrides": [
               "chest/simpleshirt/Simple Shirt-icon0.png",
@@ -3600,11 +3600,6 @@
             "name": "Slottedshirt",
             "directory": "chest/slottedshirt.vrm",
             "thumbnail": "_textureCollections/chest/slottedshirt.png",
-            "cullingLayer": 2,
-            "cullingDistance": [
-              0.03,
-              0.03
-            ],
             "textureCollection": "outfit_2",
             "thumbnailOverrides": [
               "chest/slottedshirt/Slottedshirt-icon0.png",
@@ -3621,11 +3616,6 @@
             "name": "Sweater",
             "directory": "chest/sweater.vrm",
             "thumbnail": "_textureCollections/chest/sweater.png",
-            "cullingLayer": 1,
-            "cullingDistance": [
-              0.03,
-              0.03
-            ],
             "textureCollection": "outfit_5",
             "thumbnailOverrides": [
               "chest/sweater/Sweater-icon0.png",
@@ -3645,10 +3635,6 @@
             "cullingLayer": 1,
             "type": [
               "solo"
-            ],
-            "cullingDistance": [
-              0.03,
-              0.03
             ],
             "textureCollection": "outfit_8",
             "thumbnailOverrides": [
@@ -3670,10 +3656,6 @@
             "type": [
               "solo"
             ],
-            "cullingDistance": [
-              0.03,
-              0.03
-            ],
             "textureCollection": "outfit_10",
             "thumbnailOverrides": [
               "chest/dressrobe/Dressrobe-icon0.png",
@@ -3693,10 +3675,6 @@
             "cullingLayer": 3,
             "type": [
               "solo"
-            ],
-            "cullingDistance": [
-              0.03,
-              0.03
             ],
             "textureCollection": "outfit_6",
             "thumbnailOverrides": [
@@ -3718,10 +3696,6 @@
             "type": [
               "solo"
             ],
-            "cullingDistance": [
-              0.03,
-              0.03
-            ],
             "textureCollection": "outfit_1",
             "thumbnailOverrides": [
               "chest/fulljacket/Fulljacket-icon0.png",
@@ -3741,10 +3715,6 @@
             "cullingLayer": 3,
             "type": [
               "solo"
-            ],
-            "cullingDistance": [
-              0.03,
-              0.03
             ],
             "textureCollection": "outfit_9",
             "thumbnailOverrides": [
