@@ -175,7 +175,7 @@
           "directory": "body/drophunter.vrm",
           "thumbnail": "_textureCollections/body/drophunter.png",
           "meshTargets":["body_geo", "head_geobaked(copy)"],
-          "cullingModel": ["body_geo"],
+          "cullingIgnore": ["head_geobaked(copy)","head_geobaked(copy)_1"],
           "textureCollection": "skin color",
           "thumbnailOverrides": [
             "body/skin/original.png",
@@ -3382,7 +3382,7 @@
           "name": "Fitness body",
           "directory": "body/neurohacker.vrm",
           "thumbnail": "_textureCollections/body/neurohacker.png",
-          "cullingModel": ["Body"],
+          "cullingIgnore":["Headbaked(copy)","Headbaked(copy)_1"],
           "cullingLayer":0,
           "meshTargets":["Body", "Headbaked(copy)", "Headbaked(copy)_1"],
           "textureCollection": "skin color",
