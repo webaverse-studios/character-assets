@@ -6,7 +6,9 @@
     "format": "vrm",
     "requiredTraits":["body", "eyes"],
     "randomTraits":["body", "head", "eyes", "chest", "feet", "legs", "outer"],
+    "lipSyncTraits":["body"],
     "defaultCullingLayer": -1,
+    "lipSyncTrait":"body",
     "defaultCullingDistance": [
       0.03,
       0.03
@@ -160,7 +162,7 @@
         "icon-gradient": "accessories-gradient.svg",
         "cullingLayer":0,
         "cullingDistance":[
-          0.02,
+          0.03,
           0.001
         ],
         "cameraTarget": {
@@ -172,6 +174,7 @@
           {
           "id": "0",
           "name": "Fitness body",
+          "lipSyncMeshes": ["head_geobaked(copy)"],
           "directory": "body/drophunter.vrm",
           "thumbnail": "_textureCollections/body/drophunter.png",
           "meshTargets":["body_geo", "head_geobaked(copy)"],
@@ -3203,6 +3206,7 @@
     "thumbnail": "_textureCollections/./3d/icons/male-body-1.png",
     "requiredTraits":["body", "eyes"],
     "randomTraits":["body", "head", "eyes", "chest", "feet", "legs", "outer"],
+    "lipSyncTraits":["body"],
     "format": "vrm",
     "defaultCullingLayer": -1,
     "defaultCullingDistance": [
@@ -3375,13 +3379,14 @@
           "height": 0.8
         },
         "cullingLayer":0,
-        "cullingDistance":[0.02,0.001],
+        "cullingDistance":[0.03,0.001],
         "collection": [
           {
           "id": "0",
           "name": "Fitness body",
           "directory": "body/neurohacker.vrm",
           "thumbnail": "_textureCollections/body/neurohacker.png",
+          "lipSyncMeshes": ["Headbaked(copy)","Headbaked(copy)_1"],
           "cullingIgnore":["Headbaked(copy)","Headbaked(copy)_1"],
           "cullingLayer":0,
           "meshTargets":["Body", "Headbaked(copy)", "Headbaked(copy)_1"],
