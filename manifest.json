@@ -13,8 +13,8 @@
       0.03
     ],
 
-    "traitsDirectory": "./character-assets/drophunter/",
-    "thumbnailsDirectory": "./character-assets/drophunter/",
+    "traitsDirectory": "https://webaverse-studios.github.io/character-assets/drophunter/",
+    "thumbnailsDirectory": "https://webaverse-studios.github.io/character-assets/drophunter/",
     "animationPath": "./3d/animations/idle_drophunter.fbx",
     "traitIconsDirectory": "./3d/icons/",
     "traitRestrictions":{
@@ -3226,8 +3226,8 @@
     "typeRestrictions":{
         "boots":["pants"]
     },
-    "traitsDirectory": "./character-assets/neurohacker/",
-    "thumbnailsDirectory": "./character-assets/neurohacker/",
+    "traitsDirectory": "https://webaverse-studios.github.io/character-assets/neurohacker/",
+    "thumbnailsDirectory": "https://webaverse-studios.github.io/character-assets/neurohacker/",
     "animationPath": "./3d/animations/idle_neurohacker.fbx",
     "traitIconsDirectory": "./3d/icons/",
     "traits": [
