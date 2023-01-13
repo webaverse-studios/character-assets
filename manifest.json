@@ -7,7 +7,7 @@
     "requiredTraits":["body", "eyes"],
     "randomTraits":["body", "head", "eyes", "chest", "feet", "legs", "outer"],
     "lipSyncTraits":["body"],
-    " ":["body","eyes"],
+    "blinkerTraits":["body","eyes"],
     "defaultCullingLayer": -1,
     "defaultCullingDistance": [
       0.03,
