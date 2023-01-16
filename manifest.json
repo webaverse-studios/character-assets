@@ -2,7 +2,7 @@
   {
     "id": "0",
     "name": "Drophunter",
-    "thumbnail": "./3d/icons/female-body-1.png",
+    "thumbnail": "https://webaverse-studios.github.io/character-assets/drophunter/drophunter_icon.png",
     "format": "vrm",
     "requiredTraits":["body", "eyes"],
     "randomTraits":["body", "head", "eyes", "chest", "feet", "legs", "outer"],
@@ -3202,7 +3202,7 @@
   {
     "id": "1",
     "name": "Neurohacker",
-    "thumbnail": "./3d/icons/male-body-1.png",
+    "thumbnail": "https://webaverse-studios.github.io/character-assets/drophunter/neurohacker_icon.png",
     "requiredTraits":["body", "eyes"],
     "randomTraits":["body", "head", "eyes", "chest", "feet", "legs", "outer"],
     "lipSyncTraits":["body"],
