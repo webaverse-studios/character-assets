@@ -21,7 +21,7 @@
     "traitRestrictions":{
       "outer":{
         "restrictedTraits":[],
-        "restrictedTypes":["hoodie","solo"]
+        "restrictedTypes":["hoodie","solo", "accessory_top"]
       }
     },
     "typeRestrictions":{
@@ -3221,7 +3221,7 @@
     "traitRestrictions":{
       "outer":{
         "restrictedTraits":[],
-        "restrictedTypes":["hoodie","solo"]
+        "restrictedTypes":["hoodie","solo", "accessory_top"]
       }
     },
     "typeRestrictions":{
@@ -4179,6 +4179,7 @@
               0.03,
               0.03
             ],
+            "type":["accessory_top"],
             "textureCollection": "outfit_2",
             "thumbnailOverrides": [
               "accessories/bandolier/Bandolier-icon0.png",
@@ -4219,6 +4220,7 @@
               0.03,
               0.03
             ],
+            "type":["accessory_top"],
             "textureCollection": "outfit_7",
             "thumbnailOverrides": [
               "accessories/chestrig/Chestrig-icon0.png",
