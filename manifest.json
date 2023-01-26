@@ -18,6 +18,7 @@
     "thumbnailsDirectory": "https://webaverse-studios.github.io/character-assets/drophunter/",
     "animationPath": "./3d/animations/idle_drophunter.fbx",
     "traitIconsDirectory": "./3d/icons/",
+    "traitIconsDirectorySvg": "./assets/icons/",
     "traitRestrictions":{
       "outer":{
         "restrictedTraits":[],
@@ -36,6 +37,7 @@
         "type": "mesh",
         "name": "head",
         "icon": "hairStyle.png",
+        "iconSvg": "head.svg",
         "icon-gradient": "hairStyle.svg",
         "cameraTarget": {
           "distance": 0.75,
@@ -158,6 +160,7 @@
         "trait": "body",
         "name": "body",
         "icon": "skin-color.png",
+        "iconSvg": "skin.svg",
         "type": "mesh",
         "icon-gradient": "accessories-gradient.svg",
         "cullingLayer":0,
@@ -212,6 +215,7 @@
         "trait": "eyes",
         "name": "eyes",
         "icon": "eye.png",
+        "iconSvg": "eyes.svg",
         "type": "mesh",
         "cameraTarget": {
           "distance": 1.2,
@@ -278,6 +282,7 @@
         "type": "mesh",
         "name": "outer",
         "icon": "jacket.png",
+        "iconSvg": "outer.svg",
         "icon-gradient": "jacket.svg",
         "cameraTarget": {
           "distance": 1.5,
@@ -350,6 +355,7 @@
         "type": "mesh",
         "name": "chest",
         "icon": "torso.png",
+        "iconSvg": "chest.svg",
         "icon-gradient": "chest-gradient.svg",
         "cullingLayer": 1,
         "cullingDistance": [
@@ -556,6 +562,7 @@
         "type": "mesh",
         "name": "legs",
         "icon": "legs.png",
+        "iconSvg": "legs.svg",
         "icon-gradient": "chest-gradient.svg",
         "id": 4,
         "cullingLayer": 2,
@@ -743,6 +750,7 @@
         "type": "mesh",
         "name": "feet",
         "icon": "shoes.png",
+        "iconSvg": "feet.svg",
         "icon-gradient": "foot-gradient.svg",
         "id": 5,
         "cameraTarget": {
@@ -996,6 +1004,7 @@
         "trait": "accessories",
         "name": "accessories",
         "icon": "accessories.png",
+        "iconSvg": "accessories.svg",
         "type": "mesh",
         "id": 3,
         "icon-gradient": "accessories-gradient.svg",
@@ -3237,6 +3246,7 @@
         "type": "mesh",
         "name": "head",
         "icon": "hairStyle.png",
+        "iconSvg": "head.svg",
         "icon-gradient": "head-gradient.svg",
         "cameraTarget": {
           "distance": 1.2,
@@ -3372,6 +3382,7 @@
         "trait": "body",
         "name": "body",
         "icon": "skin-color.png",
+        "iconSvg": "skin.svg",
         "type": "mesh",
         "icon-gradient": "accessories-gradient.svg",
         "cameraTarget": {
@@ -3423,6 +3434,7 @@
         "trait": "eyes",
         "name": "eyes",
         "icon": "eye.png",
+        "iconSvg": "eyes.svg",
         "type": "mesh",
         "cameraTarget": {
           "distance": 1.2,
@@ -3483,6 +3495,7 @@
         "trait": "outer",
         "name": "outer",
         "icon": "jacket.png",
+        "iconSvg": "outer.svg",
         "icon-gradient": "jacket.svg",
         "type": "mesh",
         "cameraTarget": {
@@ -3539,6 +3552,7 @@
         "type": "mesh",
         "name": "chest",
         "icon": "torso.png",
+        "iconSvg": "chest.svg",
         "icon-gradient": "chest-gradient.svg",
         "cameraTarget": {
           "distance": 1.5,
@@ -3738,6 +3752,7 @@
         "type": "mesh",
         "name": "legs",
         "icon": "legs.png",
+        "iconSvg": "legs.svg",
         "icon-gradient": "chest-gradient.svg",
         "id": 4,
         "cameraTarget": {
@@ -3941,6 +3956,7 @@
         "name": "feet",
         "type": "mesh",
         "icon": "shoes.png",
+        "iconSvg": "feet.svg",
         "cameraTarget": {
           "distance": 1.3,
           "height": 0.2
@@ -4163,6 +4179,7 @@
         "type": "mesh",
         "name": "accessories",
         "icon": "accessories.png",
+        "iconSvg": "accessories.svg",
         "id": 3,
         "icon-gradient": "accessories-gradient.svg",
         "cameraTarget": {
