@@ -181,29 +181,29 @@
           "textureCollection": "skin color",
           "thumbnailOverrides": [
             "body/skin/original.png",
-            "body/skin/original.png",
-            "body/skin/original.png",
-            "body/skin/original.png",
+            "body/skin/original-gloves.png",
+            "body/skin/original-socks.png",
+            "body/skin/original-long-socks.png",
 
             "body/skin/skin1.png",
-            "body/skin/skin1.png",
-            "body/skin/skin1.png",
-            "body/skin/skin1.png",
+            "body/skin/skin1-gloves.png",
+            "body/skin/skin1-socks.png",
+            "body/skin/skin1-long-socks.png",
 
             "body/skin/skin2.png",
-            "body/skin/skin2.png",
-            "body/skin/skin2.png",
-            "body/skin/skin2.png",
+            "body/skin/skin2-gloves.png",
+            "body/skin/skin2-socks.png",
+            "body/skin/skin2-long-socks.png",
 
             "body/skin/skin3.png",
-            "body/skin/skin3.png",
-            "body/skin/skin3.png",
-            "body/skin/skin3.png",
+            "body/skin/skin3-gloves.png",
+            "body/skin/skin3-socks.png",
+            "body/skin/skin3-long-socks.png",
 
             "body/skin/skin4.png",
-            "body/skin/skin4.png",
-            "body/skin/skin4.png",
-            "body/skin/skin4.png"
+            "body/skin/skin4-gloves.png",
+            "body/skin/skin4-socks.png",
+            "body/skin/skin4-long-socks.png"
             ]
           }  
         ]
@@ -3392,29 +3392,29 @@
           "textureCollection": "skin color",
           "thumbnailOverrides": [
             "body/skin/original.png",
-            "body/skin/original.png",
-            "body/skin/original.png",
-            "body/skin/original.png",
+            "body/skin/original-gloves.png",
+            "body/skin/original-socks.png",
+            "body/skin/original-long-socks.png",
 
             "body/skin/skin1.png",
-            "body/skin/skin1.png",
-            "body/skin/skin1.png",
-            "body/skin/skin1.png",
+            "body/skin/skin1-gloves.png",
+            "body/skin/skin1-socks.png",
+            "body/skin/skin1-long-socks.png",
 
             "body/skin/skin2.png",
-            "body/skin/skin2.png",
-            "body/skin/skin2.png",
-            "body/skin/skin2.png",
+            "body/skin/skin2-gloves.png",
+            "body/skin/skin2-socks.png",
+            "body/skin/skin2-long-socks.png",
 
             "body/skin/skin3.png",
-            "body/skin/skin3.png",
-            "body/skin/skin3.png",
-            "body/skin/skin3.png",
+            "body/skin/skin3-gloves.png",
+            "body/skin/skin3-socks.png",
+            "body/skin/skin3-long-socks.png",
 
             "body/skin/skin4.png",
-            "body/skin/skin4.png",
-            "body/skin/skin4.png",
-            "body/skin/skin4.png"
+            "body/skin/skin4-gloves.png",
+            "body/skin/skin4-socks.png",
+            "body/skin/skin4-long-socks.png"
             ]
           }  
         ]
