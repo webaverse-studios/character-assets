@@ -3240,6 +3240,7 @@
     "thumbnailsDirectory": "https://webaverse-studios.github.io/character-assets/neurohacker/",
     "animationPath": "./3d/animations/idle_neurohacker.fbx",
     "traitIconsDirectory": "./3d/icons/",
+    "traitIconsDirectorySvg": "./assets/icons/",
     "traits": [
       {
         "trait": "head",
