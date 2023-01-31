@@ -332,7 +332,7 @@
             "name": "Short Jacket",
             "directory": "outer/shortjacket.vrm",
             "thumbnail": "_textureCollections/outer/shortjacket.png",
-            "cullingLayer":4,
+            "cullingLayer":-1,
             "cullingDistance": [
               0.03,
               0.03
