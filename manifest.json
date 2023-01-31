@@ -165,7 +165,7 @@
         "icon-gradient": "accessories-gradient.svg",
         "cullingLayer":0,
         "cullingDistance":[
-          0.03,
+          0.01,
           0.001
         ],
         "cameraTarget": {
