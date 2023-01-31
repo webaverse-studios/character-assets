@@ -2937,7 +2937,8 @@
           {
             "name":"Emerald",
             "id":"emerald",
-            "value":["#7BFFBA"]
+            "value":["#7BFFBA"],
+            "iconSaturation":0.2
           },
           {
             "name":"Sacramento",
@@ -2977,12 +2978,14 @@
           {
             "name":"Pink",
             "id":"pink",
-            "value":["#FFB4B6"]
+            "value":["#FFB4B6"],
+            "iconSaturation":0.2
           },
           {
             "name":"Red",
             "id":"red",
-            "value":["#FF5559"]
+            "value":["#FF5559"],
+            "iconSaturation":0.5
           },
           {
             "name":"Scarlet",
@@ -3002,12 +3005,14 @@
           {
             "name":"Lavender",
             "id":"lavender",
-            "value":["#FFB3F3"]
+            "value":["#FFB3F3"],
+            "iconSaturation":0.2
           },
           {
             "name":"Lilac",
             "id":"lilac",
-            "value":["#FF49E1"]
+            "value":["#FF49E1"],
+            "iconSaturation":0.8
           },
           {
             "name":"Violet",
@@ -3022,12 +3027,14 @@
           {
             "name":"Periwinkle",
             "id":"periwinkle",
-            "value":["#ECCAFF"]
+            "value":["#ECCAFF"],
+            "iconSaturation":0.2
           },
           {
             "name":"Purple",
             "id":"purple",
-            "value":["#AF25FF"]
+            "value":["#AF25FF"],
+            "iconSaturation":0.6
           },
           {
             "name":"Mauve",
@@ -3042,12 +3049,14 @@
           {
             "name":"Amethyst",
             "id":"amethyst",
-            "value":["#6F3AC0"]
+            "value":["#6F3AC0"],
+            "iconSaturation":0.5
           },
           {
             "name":"Iris",
             "id":"iris",
-            "value":["#D1B3FF"]
+            "value":["#D1B3FF"],
+            "iconSaturation":0.2
           },
           {
             "name":"Heather",
@@ -3072,12 +3081,14 @@
           {
             "name":"Cerulean",
             "id":"cerulean",
-            "value":["#5193FF"]
+            "value":["#5193FF"],
+            "iconSaturation":0.2
           },
           {
             "name":"Berry",
             "id":"berry",
-            "value":["#003D9F"]
+            "value":["#003D9F"],
+            "iconSaturation":0.8
           },
           {
             "name":"Indigo",
@@ -3102,22 +3113,19 @@
           {
             "name":"Arctic",
             "id":"arctic",
-            "value":["#89FFFE"]
+            "value":["#89FFFE"],
+            "iconSaturation":0.5
           },
           {
             "name":"Sky",
             "id":"sky",
-            "value":["#CDFFFF"]
+            "value":["#CDFFFF"],
+            "iconSaturation":0.2
           },
           {
             "name":"Peanut",
             "id":"peanut",
             "value":["#7C613D"]
-          },
-          {
-            "name":"Coffee",
-            "id":"coffee",
-            "value":["#634B2C"]
           },
           {
             "name":"Mocha",
@@ -3160,19 +3168,9 @@
             "value":["#D7D1B9"]
           },
           {
-            "name":"Sand",
-            "id":"sand",
-            "value":["#F2EDDA"]
-          },
-          {
             "name":"Yellow",
             "id":"yellow",
             "value":["#E4B600"]
-          },
-          {
-            "name":"Amber",
-            "id":"amber",
-            "value":["#FFCB00"]
           },
           {
             "name":"Orange",
@@ -3197,7 +3195,8 @@
           {
             "name":"Light Orange",
             "id":"lightorange",
-            "value":["#FFC676"]
+            "value":["#FFC676"],
+            "iconSaturation":0.2
           },
           {
             "name":"Fire",
@@ -3236,8 +3235,8 @@
     "typeRestrictions":{
         "boots":["pants"]
     },
-    "traitsDirectory": "https://webaverse-studios.github.io/character-assets/neurohacker/",
-    "thumbnailsDirectory": "https://webaverse-studios.github.io/character-assets/neurohacker/",
+    "traitsDirectory": "./character-assets/neurohacker/",
+    "thumbnailsDirectory": "./character-assets/neurohacker/",
     "animationPath": "./3d/animations/idle_neurohacker.fbx",
     "traitIconsDirectory": "./3d/icons/",
     "traitIconsDirectorySvg": "./assets/icons/",
