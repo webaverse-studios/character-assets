@@ -26,7 +26,7 @@
       }
     },
     "typeRestrictions":{
-        "boots":["pants"]
+        "pants":["boots", "accessory_bottom"]
     },
 
     "offset": [0,0.02,0],
@@ -1037,6 +1037,7 @@
             "id": "legstrapandcompress",
             "name": "Leg Strap And Compress",
             "directory": "accessories/legstrapandcompress.vrm",
+            "type":["accessory_bottom"],
             "thumbnail": "_textureCollections/accessories/legstrapandcompress.png",
             "cullingDistance": [
               0.03,
@@ -3219,7 +3220,7 @@
       }
     },
     "typeRestrictions":{
-        "boots":["pants"]
+      "pants":["boots", "accessory_bottom"]
     },
     "traitsDirectory": "https://webaverse-studios.github.io/character-assets/neurohacker/",
     "thumbnailsDirectory": "https://webaverse-studios.github.io/character-assets/neurohacker/",
