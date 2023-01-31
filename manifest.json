@@ -2937,8 +2937,7 @@
           {
             "name":"Emerald",
             "id":"emerald",
-            "value":["#7BFFBA"],
-            "iconSaturation":0.2
+            "value":["#7BFFBA"]
           },
           {
             "name":"Sacramento",
@@ -2978,14 +2977,12 @@
           {
             "name":"Pink",
             "id":"pink",
-            "value":["#FFB4B6"],
-            "iconSaturation":0.2
+            "value":["#FFB4B6"]
           },
           {
             "name":"Red",
             "id":"red",
-            "value":["#FF5559"],
-            "iconSaturation":0.5
+            "value":["#FF5559"]
           },
           {
             "name":"Scarlet",
@@ -3005,14 +3002,12 @@
           {
             "name":"Lavender",
             "id":"lavender",
-            "value":["#FFB3F3"],
-            "iconSaturation":0.2
+            "value":["#FFB3F3"]
           },
           {
             "name":"Lilac",
             "id":"lilac",
-            "value":["#FF49E1"],
-            "iconSaturation":0.8
+            "value":["#FF49E1"]
           },
           {
             "name":"Violet",
@@ -3027,14 +3022,12 @@
           {
             "name":"Periwinkle",
             "id":"periwinkle",
-            "value":["#ECCAFF"],
-            "iconSaturation":0.2
+            "value":["#ECCAFF"]
           },
           {
             "name":"Purple",
             "id":"purple",
-            "value":["#AF25FF"],
-            "iconSaturation":0.6
+            "value":["#AF25FF"]
           },
           {
             "name":"Mauve",
@@ -3049,14 +3042,12 @@
           {
             "name":"Amethyst",
             "id":"amethyst",
-            "value":["#6F3AC0"],
-            "iconSaturation":0.5
+            "value":["#6F3AC0"]
           },
           {
             "name":"Iris",
             "id":"iris",
-            "value":["#D1B3FF"],
-            "iconSaturation":0.2
+            "value":["#D1B3FF"]
           },
           {
             "name":"Heather",
@@ -3081,14 +3072,12 @@
           {
             "name":"Cerulean",
             "id":"cerulean",
-            "value":["#5193FF"],
-            "iconSaturation":0.2
+            "value":["#5193FF"]
           },
           {
             "name":"Berry",
             "id":"berry",
-            "value":["#003D9F"],
-            "iconSaturation":0.8
+            "value":["#003D9F"]
           },
           {
             "name":"Indigo",
@@ -3113,14 +3102,12 @@
           {
             "name":"Arctic",
             "id":"arctic",
-            "value":["#89FFFE"],
-            "iconSaturation":0.5
+            "value":["#89FFFE"]
           },
           {
             "name":"Sky",
             "id":"sky",
-            "value":["#CDFFFF"],
-            "iconSaturation":0.2
+            "value":["#CDFFFF"]
           },
           {
             "name":"Peanut",
@@ -3195,8 +3182,7 @@
           {
             "name":"Light Orange",
             "id":"lightorange",
-            "value":["#FFC676"],
-            "iconSaturation":0.2
+            "value":["#FFC676"]
           },
           {
             "name":"Fire",
@@ -3235,8 +3221,8 @@
     "typeRestrictions":{
         "boots":["pants"]
     },
-    "traitsDirectory": "./character-assets/neurohacker/",
-    "thumbnailsDirectory": "./character-assets/neurohacker/",
+    "traitsDirectory": "https://webaverse-studios.github.io/character-assets/neurohacker/",
+    "thumbnailsDirectory": "https://webaverse-studios.github.io/character-assets/neurohacker/",
     "animationPath": "./3d/animations/idle_neurohacker.fbx",
     "traitIconsDirectory": "./3d/icons/",
     "traitIconsDirectorySvg": "./assets/icons/",
