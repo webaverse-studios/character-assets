@@ -284,6 +284,7 @@
         "icon": "jacket.png",
         "iconSvg": "outer.svg",
         "icon-gradient": "jacket.svg",
+        "cullingLayer": 4,
         "cameraTarget": {
           "distance": 1.5,
           "height": 1
